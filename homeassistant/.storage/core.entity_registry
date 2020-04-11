@@ -1,0 +1,88 @@
+{
+    "data": {
+        "entities": [
+            {
+                "capabilities": {},
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.updater",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Updater",
+                "platform": "updater",
+                "supported_features": 0,
+                "unique_id": "updater",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": {},
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.mohan_gupta",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Mohan Gupta",
+                "platform": "person",
+                "supported_features": 0,
+                "unique_id": "mohan_gupta",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": {},
+                "config_entry_id": "f3550585a9cd4ef8b8bc2f361a5f81ca",
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.melbpc",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "MelbPC",
+                "platform": "met",
+                "supported_features": 0,
+                "unique_id": "home",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": {},
+                "config_entry_id": "d98fa8a9709a478f9af9ef44bab205f0",
+                "device_class": null,
+                "device_id": "fe1244f53b254e0ba0ea6805a1635da1",
+                "disabled_by": null,
+                "entity_id": "media_player.rumpus_room_speaker",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Rumpus room Speaker",
+                "platform": "cast",
+                "supported_features": 21389,
+                "unique_id": "5139de46-e13b-e0a3-2084-4d3d51311807",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": "9990ca60772c419faeb61b52f62f32f8",
+                "device_class": null,
+                "device_id": "56b2dfa48562416abfb666b1ad2005b1",
+                "disabled_by": null,
+                "entity_id": "sensor.hacs",
+                "icon": null,
+                "name": null,
+                "original_icon": "hacs:hacs",
+                "original_name": "hacs",
+                "platform": "hacs",
+                "supported_features": 0,
+                "unique_id": "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd",
+                "unit_of_measurement": "pending update(s)"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

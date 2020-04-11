@@ -1,0 +1,48 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": "4ab150f83492413587203e652b91d8d5",
+                "config_entries": [
+                    "d98fa8a9709a478f9af9ef44bab205f0"
+                ],
+                "connections": [],
+                "id": "fe1244f53b254e0ba0ea6805a1635da1",
+                "identifiers": [
+                    [
+                        "cast",
+                        "5139de46e13be0a320844d3d51311807"
+                    ]
+                ],
+                "manufacturer": "Unknown manufacturer",
+                "model": "Google Home Mini",
+                "name": "Rumpus room Speaker",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "9990ca60772c419faeb61b52f62f32f8"
+                ],
+                "connections": [],
+                "id": "56b2dfa48562416abfb666b1ad2005b1",
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "name_by_user": null,
+                "sw_version": "0.23.2",
+                "via_device_id": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

@@ -1,0 +1,28 @@
+{
+    "data": {
+        "items": [
+            {
+                "id": "cd684193484a4a7a95a0c8c64cc2d871",
+                "type": "module",
+                "url": "/hacsfiles/bom-weather-card/bom-weather-card.js"
+            },
+            {
+                "id": "54ba62fb07f640c2972f0634720706f6",
+                "type": "css",
+                "url": "/local/custom-lovelace/mohan.css"
+            },
+            {
+                "id": "859ae736b4c54034af1d95df6c577d49",
+                "type": "module",
+                "url": "/hacsfiles/lovelace-card-mod/card-mod.js"
+            },
+            {
+                "id": "89a98132c0914c0ba1876afcb0bee602",
+                "type": "module",
+                "url": "/hacsfiles/button-card/button-card.js"
+            }
+        ]
+    },
+    "key": "lovelace_resources",
+    "version": 1
+}

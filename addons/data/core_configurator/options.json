@@ -1,0 +1,11 @@
+{
+  "dirsfirst": false,
+  "enforce_basepath": true,
+  "ignore_pattern": [
+    "__pycache__",
+    ".cloud",
+    ".storage",
+    "deps"
+  ],
+  "ssh_keys": []
+}

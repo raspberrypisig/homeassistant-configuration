@@ -1,0 +1,11 @@
+{
+  "debug_block": false,
+  "addons_custom_list": [
+    "https://github.com/hassio-addons/repository"
+  ],
+  "wait_boot": 5,
+  "debug": false,
+  "logging": "info",
+  "timezone": "Australia/Sydney",
+  "last_boot": "2020-04-11T22:02:35"
+}

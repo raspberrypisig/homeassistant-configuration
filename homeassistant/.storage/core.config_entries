@@ -1,0 +1,78 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "f3550585a9cd4ef8b8bc2f361a5f81ca",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "user_id": "d8d7fa22471540e580827a0c62dba0ab"
+                },
+                "domain": "cast",
+                "entry_id": "d98fa8a9709a478f9af9ef44bab205f0",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Google Cast",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "appdaemon": true,
+                    "netdaemon": true,
+                    "sidepanel_icon": "mdi:alpha-c-box",
+                    "sidepanel_title": "HACS",
+                    "token": "ba1123d3f1460a862b90bf6da330482799d1eb41"
+                },
+                "domain": "hacs",
+                "entry_id": "9990ca60772c419faeb61b52f62f32f8",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "broker": "broker.hivemq.com",
+                    "discovery": false,
+                    "port": 1883
+                },
+                "domain": "mqtt",
+                "entry_id": "1b3ea95c74e74071bb11e97ecc51b840",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "broker.hivemq.com",
+                "unique_id": null,
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

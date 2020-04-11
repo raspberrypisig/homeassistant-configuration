@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "last_seen": "2020-04-11T22:34:35.010595+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Update BOM Icons",
+                    "last_triggered": "2020-04-11T22:04:34.339283+00:00"
+                },
+                "context": {
+                    "id": "598ba16623f9449cb8ff38972f518f22",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.update_bom_icons",
+                "last_changed": "2020-04-11T22:04:21.582563+00:00",
+                "last_updated": "2020-04-11T22:04:34.339664+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-04-11T22:34:35.010595+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Mohan Gupta",
+                    "id": "mohan_gupta",
+                    "user_id": "e448bf45727e44f996c590d74b5c95e2"
+                },
+                "context": {
+                    "id": "fd2924ae15624265b9b36c4de80d9482",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.mohan_gupta",
+                "last_changed": "2020-04-11T22:04:21.583417+00:00",
+                "last_updated": "2020-04-11T22:04:34.034605+00:00",
+                "state": "unknown"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

@@ -1,0 +1,26 @@
+{
+    "data": {
+        "items": [
+            {
+                "icon": "mdi:star",
+                "id": "lovelace_mohansdashboard",
+                "mode": "storage",
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "MohansDashboard",
+                "url_path": "lovelace-mohansdashboard"
+            },
+            {
+                "icon": "mdi:cast-audio",
+                "id": "lovelace_googlehomemini",
+                "mode": "storage",
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "GoogleHomeMini",
+                "url_path": "lovelace-googlehomemini"
+            }
+        ]
+    },
+    "key": "lovelace_dashboards",
+    "version": 1
+}

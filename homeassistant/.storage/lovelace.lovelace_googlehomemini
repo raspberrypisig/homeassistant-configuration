@@ -1,0 +1,21 @@
+{
+    "data": {
+        "config": {
+            "title": "Google Home Mini",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "media_player.rumpus_room_speaker",
+                            "type": "media-control"
+                        }
+                    ],
+                    "title": "Home"
+                }
+            ]
+        }
+    },
+    "key": "lovelace.lovelace_googlehomemini",
+    "version": 1
+}

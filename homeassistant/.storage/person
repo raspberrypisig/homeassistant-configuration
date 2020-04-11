@@ -1,0 +1,14 @@
+{
+    "data": {
+        "items": [
+            {
+                "device_trackers": [],
+                "id": "mohan_gupta",
+                "name": "Mohan Gupta",
+                "user_id": "e448bf45727e44f996c590d74b5c95e2"
+            }
+        ]
+    },
+    "key": "person",
+    "version": 2
+}
