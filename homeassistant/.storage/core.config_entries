@@ -70,6 +70,38 @@
                 "title": "broker.hivemq.com",
                 "unique_id": null,
                 "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "country": "Australia"
+                },
+                "domain": "coronavirus",
+                "entry_id": "08c05486f1444376ad12405d4c781a96",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Australia",
+                "unique_id": "Australia",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "country": "__worldwide"
+                },
+                "domain": "coronavirus",
+                "entry_id": "c1b9a7d0e0154998858c384c3dc47e43",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Worldwide",
+                "unique_id": "__worldwide",
+                "version": 1
             }
         ]
     },
