@@ -102,6 +102,38 @@
                 "title": "Worldwide",
                 "unique_id": "__worldwide",
                 "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "country": "US"
+                },
+                "domain": "coronavirus",
+                "entry_id": "0afb283758214ac7b06af5c61b32a45a",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "US",
+                "unique_id": "US",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "country": "United Kingdom"
+                },
+                "domain": "coronavirus",
+                "entry_id": "9ab655914fc24ca68950d674cc8ffd50",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "United Kingdom",
+                "unique_id": "United Kingdom",
+                "version": 1
             }
         ]
     },

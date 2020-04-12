@@ -153,6 +153,101 @@
                     ],
                     "path": "tv",
                     "title": "TV"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "cards": [
+                                {
+                                    "cards": [
+                                        {
+                                            "entities": [
+                                                {
+                                                    "entity": "sensor.australia_coronavirus_confirmed"
+                                                },
+                                                {
+                                                    "entity": "sensor.australia_coronavirus_current"
+                                                },
+                                                {
+                                                    "entity": "sensor.australia_coronavirus_deaths"
+                                                },
+                                                {
+                                                    "entity": "sensor.australia_coronavirus_recovered"
+                                                }
+                                            ],
+                                            "title": "Australia",
+                                            "type": "entities"
+                                        },
+                                        {
+                                            "entities": [
+                                                {
+                                                    "entity": "sensor.worldwide_coronavirus_confirmed"
+                                                },
+                                                {
+                                                    "entity": "sensor.worldwide_coronavirus_current"
+                                                },
+                                                {
+                                                    "entity": "sensor.worldwide_coronavirus_deaths"
+                                                },
+                                                {
+                                                    "entity": "sensor.worldwide_coronavirus_recovered"
+                                                }
+                                            ],
+                                            "title": "Worldwide",
+                                            "type": "entities"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entities": [
+                                                {
+                                                    "entity": "sensor.us_coronavirus_confirmed"
+                                                },
+                                                {
+                                                    "entity": "sensor.us_coronavirus_current"
+                                                },
+                                                {
+                                                    "entity": "sensor.us_coronavirus_deaths"
+                                                },
+                                                {
+                                                    "entity": "sensor.us_coronavirus_recovered"
+                                                }
+                                            ],
+                                            "title": "US",
+                                            "type": "entities"
+                                        },
+                                        {
+                                            "entities": [
+                                                {
+                                                    "entity": "sensor.united_kingdom_coronavirus_confirmed"
+                                                },
+                                                {
+                                                    "entity": "sensor.united_kingdom_coronavirus_current"
+                                                },
+                                                {
+                                                    "entity": "sensor.united_kingdom_coronavirus_deaths"
+                                                },
+                                                {
+                                                    "entity": "sensor.united_kingdom_coronavirus_recovered"
+                                                }
+                                            ],
+                                            "title": "UK",
+                                            "type": "entities"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "panel": true,
+                    "path": "caronavirus",
+                    "title": "CoronaVirus"
                 }
             ]
         }

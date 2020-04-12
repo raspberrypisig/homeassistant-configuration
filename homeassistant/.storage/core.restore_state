@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2020-04-12T02:48:04.008253+00:00",
+            "last_seen": "2020-04-12T03:18:05.014190+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Update BOM Icons",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "last_seen": "2020-04-12T02:48:04.008253+00:00",
+            "last_seen": "2020-04-12T03:18:05.014190+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
