@@ -706,7 +706,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "199dee7b3bae2c074d2a8fb153d2efae92730dd4d7dc98781e5293c33702865a6ed68bae225208468eb4695a72491dfffe3b46659663c2c5"
+      "access_token": "94fdc3100ef3b702e2de9320e8081b6dc79bd4fbee9de0b4c6a498df9540ab8ca7ec04892def9ae26688e5ba635e96269c8bb74ee785eba5"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -735,7 +735,7 @@
       "auto_update": false,
       "ingress_panel": true,
       "uuid": "20c5b7c9aa1d4220a2c9ec9ccd7b505b",
-      "access_token": "8c96330105fa3d3baf8d2ede9ba7b349d786331f110639c4ad3b2d844b66d6634474ac3bc322a985951310bbbb2ad6c04bdbbd8c18cd2ab3"
+      "access_token": "f409e359fa6db66ce1dcba3f2ae66effeb3161b7162855845eca8290b4afbe375405aef5fe387cc733a709b6e103cdc031cbeab6ef349a04"
     },
     "core_configurator": {
       "options": {},
@@ -746,7 +746,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "83949405a84fc57e07b3b598feaac66b679ee635ed5cca737f8f93699334a3646b66088eb5125e5bb5024f65cea72e6b3ef212c2b383ac40"
+      "access_token": "1756d8fc281883b2bd5de17092b110b419998f064840db1e6ac9c16f59ee312d6d08a62dacb5ec15d1a2ce936368307aed33349f7677aa77"
     },
     "a0d7b954_grocy": {
       "options": {
@@ -783,7 +783,7 @@
       "ingress_token": "7dhoYz50eAemfFgxbkS3uFe8oZZqftS2LR0Mfvh997Y",
       "uuid": "3035c43fc60e4e4cba0085f864cafefc",
       "auto_update": false,
-      "access_token": "384e8c83656361db78f6b7349525b6b1bfd9c237d7c12cc49df377d0995d075433f72dec9c5940a8d5a8df87a7365fd97a268295f78df381"
+      "access_token": "5c625cb0bf35e16e9e3eab220a899afcca3fb447d3ba4432eac4898d23d4e6e690c1e539f2597730328a9ae575d391dd02db2ae36fd2ae5c"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -796,7 +796,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "e1e79c0f0270516859d734cd191fdad414f7a4da7729d69f4c561942129898848f85f849d734b4c63c4fc8406b5b9b006302e71363ffba1b"
+      "access_token": "e977eb752a5d75d8a64dfc695f9dff7540e68159a707b8e78da607c9f24a52eb411409d32f903d337acdb4617beffee3eb46c96de7acedac"
     },
     "a0d7b954_grafana": {
       "options": {},

@@ -60,6 +60,26 @@
                 "name_by_user": null,
                 "sw_version": null,
                 "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "b925f190fbef4f68a88a987c3941a76c"
+                ],
+                "connections": [],
+                "id": "627804abf751413d898af7f19f671bec",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "4ccdbcb4166148ae86399f5848ac9c71"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 6",
+                "name": "Aruna Gupta\u2019s iPhone",
+                "name_by_user": null,
+                "sw_version": "12.4.5",
+                "via_device_id": null
             }
         ]
     },

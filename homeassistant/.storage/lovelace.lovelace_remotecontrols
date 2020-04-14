@@ -10,11 +10,12 @@
                             "elements": [
                                 {
                                     "entity": "person.mohan_gupta",
-                                    "icon": "mdi:blank",
+                                    "icon": "mdi:power",
                                     "state_color": false,
                                     "style": {
-                                        "left": "69%",
-                                        "top": "6%"
+                                        "left": "56%",
+                                        "position": "absolute",
+                                        "top": "7%"
                                     },
                                     "tap_action": {
                                         "action": "call-service",
@@ -29,17 +30,56 @@
                                 },
                                 {
                                     "entity": "person.mohan_gupta",
-                                    "icon": "mdi:blank",
+                                    "icon": "mdi:home",
                                     "state_color": false,
                                     "style": {
-                                        "left": "62%",
-                                        "top": "6%"
+                                        "left": "49%",
+                                        "position": "absolute",
+                                        "top": "59%"
                                     },
                                     "tap_action": {
                                         "action": "call-service",
                                         "service": "mqtt.publish",
                                         "service_data": {
-                                            "payload": "{\"Protocol\":\"SONY\",\"Bits\":12,\"Data\":\"0xA90\",\"DataLSB\":\"0x5009\",\"Repeat\":0}          ",
+                                            "payload": "{\"Protocol\":\"SONY\",\"Bits\":12,\"Data\":\"0x070\",\"DataLSB\":\"0x00E\",\"Repeat\":0}",
+                                            "topic": "cmnd/tasmotair/irsend"
+                                        }
+                                    },
+                                    "title": null,
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "icon": "mdi:arrow-up",
+                                    "state_color": false,
+                                    "style": {
+                                        "left": "49%",
+                                        "top": "40%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "{\"Protocol\":\"SONY\",\"Bits\":12,\"Data\":\"0x2F0\",\"DataLSB\":\"0x400F\",\"Repeat\":0}",
+                                            "topic": "cmnd/tasmotair/irsend"
+                                        }
+                                    },
+                                    "title": null,
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "icon": "mdi:location-enter",
+                                    "state_color": false,
+                                    "style": {
+                                        "left": "49%",
+                                        "top": "50%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "{\"Protocol\":\"SONY\",\"Bits\":12,\"Data\":\"0x070\",\"DataLSB\":\"0x00E\",\"Repeat\":0}",
                                             "topic": "cmnd/tasmotair/irsend"
                                         }
                                     },
@@ -51,8 +91,58 @@
                             "type": "picture-elements"
                         }
                     ],
+                    "panel": false,
                     "path": "sony-tv",
                     "title": "Sony TV"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "elements": [
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "icon": "mdi:location-enter",
+                                    "style": {
+                                        "left": "50%",
+                                        "position": "absolute",
+                                        "top": "50%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "{\"Vendor\":\"DAIKIN\",\"Model\":1,\"Power\":\"On\",\"Mode\":\"Auto\",\"Celsius\":\"On\",\"Temp\":24,\"FanSpeed\":\"Medium\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"Off\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                                            "topic": "cmnd/tasmotair/irhvac"
+                                        }
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "icon": "mdi:location-exit",
+                                    "style": {
+                                        "left": "50%",
+                                        "position": "absolute",
+                                        "top": "57%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "{\"Vendor\":\"DAIKIN\",\"Model\":-1,\"Power\":\"Off\",\"Mode\":\"Off\",\"Celsius\":\"On\",\"Temp\":18,\"FanSpeed\":\"Auto\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"Off\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                                            "topic": "cmnd/tasmotair/irhvac"
+                                        }
+                                    },
+                                    "type": "state-icon"
+                                }
+                            ],
+                            "image": "http://192.168.20.84:8123/local/daikin.jpg",
+                            "type": "picture-elements"
+                        }
+                    ],
+                    "path": "daikin",
+                    "title": "DAIKIN"
                 }
             ]
         }

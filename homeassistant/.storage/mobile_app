@@ -1,0 +1,105 @@
+{
+    "data": {
+        "binary_sensor": {},
+        "deleted_ids": [],
+        "sensor": {
+            "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-40",
+                "name": "Battery Level",
+                "state": 47,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e"
+            },
+            "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 47
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-40",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e"
+            },
+            "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-star",
+                "name": "BSSID",
+                "state": "c0:fd:84:a0:d8:e7",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e"
+            },
+            "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e_connectivity_connection_type": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "Connection Type",
+                "state": "Wi-Fi",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e"
+            },
+            "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "voda AU",
+                    "Current Radio Technology": "Long-Term Evolution (LTE)",
+                    "ISO Country Code": "au",
+                    "Mobile Country Code": "505",
+                    "Mobile Network Code": "03"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "voda AU",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e"
+            },
+            "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "SSID",
+                "state": "mycrib",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e"
+            },
+            "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e_geocoded_location": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Unknown",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e"
+            },
+            "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Background Fetch",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e"
+            }
+        }
+    },
+    "key": "mobile_app",
+    "version": 1
+}

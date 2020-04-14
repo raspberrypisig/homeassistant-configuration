@@ -152,6 +152,38 @@
                 "title": "MohanGupta",
                 "unique_id": "MohanGupta",
                 "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "cYnPXb-zfDw:APA91bGfZD-OPiYM_1572A-ftbAJ78bS2ldPagLosuSozh7wctSSXTMXV5E4Tbr3RK-61BfyzIssLyXSre70uL8bMdV_EU0d60uT3-HIjTsQ_2-VO-iCs2SBsvifq8WV43Aer0rqFSXK",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "4ccdbcb4166148ae86399f5848ac9c71",
+                    "device_name": "Aruna Gupta\u2019s iPhone",
+                    "manufacturer": "Apple",
+                    "model": "iPhone 6",
+                    "os_name": "iOS",
+                    "os_version": "12.4.5",
+                    "secret": "66712adaf1c217d26cc60f0e793c25d21a240630d1e312165bbbc42b7495afe2",
+                    "supports_encryption": true,
+                    "user_id": "e448bf45727e44f996c590d74b5c95e2",
+                    "webhook_id": "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e"
+                },
+                "domain": "mobile_app",
+                "entry_id": "b925f190fbef4f68a88a987c3941a76c",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Aruna Gupta\u2019s iPhone",
+                "unique_id": null,
+                "version": 1
             }
         ]
     },
