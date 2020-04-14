@@ -271,6 +271,412 @@
       "hassio_role": "default",
       "repository": "core",
       "location": "/data/addons/core/configurator"
+    },
+    "a0d7b954_grocy": {
+      "name": "Grocy",
+      "version": "0.7.1",
+      "slug": "grocy",
+      "description": "ERP beyond your fridge! A groceries & household management solution for your home",
+      "url": "https://github.com/hassio-addons/addon-grocy",
+      "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
+      "ingress": true,
+      "ingress_port": 1337,
+      "panel_icon": "mdi:cart",
+      "startup": "system",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+      ],
+      "boot": "auto",
+      "hassio_api": true,
+      "hassio_role": "default",
+      "map": [
+        "ssl"
+      ],
+      "ports": {
+        "80/tcp": null
+      },
+      "ports_description": {
+        "80/tcp": "Web interface (Not required for Ingress)"
+      },
+      "options": {
+        "culture": "en",
+        "currency": "USD",
+        "entry_page": "stock",
+        "features": {
+          "batteries": true,
+          "calendar": true,
+          "chores": true,
+          "equipment": true,
+          "recipes": true,
+          "shoppinglist": true,
+          "stock": true,
+          "tasks": true
+        },
+        "tweaks": {
+          "chores_assignment": true,
+          "multiple_shopping_lists": true,
+          "stock_best_before_date_tracking": true,
+          "stock_location_tracking": true,
+          "stock_price_tracking": true,
+          "stock_product_freezing": true,
+          "stock_product_opened_tracking": true
+        },
+        "ssl": true,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem"
+      },
+      "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+        "culture": "list(da|de|en|en_GB|es|fr|hu|it|nl|no|pl|ru|sv_SE|tr)",
+        "currency": "match(^[A-Z]{3}$)",
+        "entry_page": "list(stock|shoppinglist|recipes|chores|tasks|batteries|equipment|calendar|mealplan)",
+        "features": {
+          "batteries": "bool",
+          "calendar": "bool",
+          "chores": "bool",
+          "equipment": "bool",
+          "recipes": "bool",
+          "shoppinglist": "bool",
+          "stock": "bool",
+          "tasks": "bool"
+        },
+        "tweaks": {
+          "calendar_first_day_of_week": "int(0,6)?",
+          "chores_assignment": "bool",
+          "meal_plan_first_day_of_week": "int(0,6)?",
+          "multiple_shopping_lists": "bool",
+          "stock_best_before_date_tracking": "bool",
+          "stock_location_tracking": "bool",
+          "stock_price_tracking": "bool",
+          "stock_product_freezing": "bool",
+          "stock_product_opened_tracking": "bool"
+        },
+        "ssl": "bool",
+        "certfile": "str",
+        "keyfile": "str"
+      },
+      "image": "hassioaddons/grocy-{arch}",
+      "stdin": false,
+      "homeassistant_api": false,
+      "udev": false,
+      "panel_admin": true,
+      "timeout": 10,
+      "auto_uart": false,
+      "legacy": false,
+      "full_access": false,
+      "devicetree": false,
+      "advanced": false,
+      "auth_api": false,
+      "kernel_modules": false,
+      "init": true,
+      "video": false,
+      "gpio": false,
+      "audio": false,
+      "host_pid": false,
+      "docker_api": false,
+      "host_dbus": false,
+      "stage": "stable",
+      "host_network": false,
+      "host_ipc": false,
+      "apparmor": true,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/grocy"
+    },
+    "15ef4d2f_esphome": {
+      "arch": [
+        "amd64",
+        "i386",
+        "armv7",
+        "aarch64"
+      ],
+      "auth_api": true,
+      "auto_uart": true,
+      "boot": "auto",
+      "description": "ESPHome Hass.io add-on for intelligently managing all your ESP8266/ESP32 devices.",
+      "hassio_api": true,
+      "hassio_role": "default",
+      "homeassistant_api": false,
+      "host_network": true,
+      "image": "esphome/esphome-hassio-{arch}",
+      "ingress": true,
+      "ingress_port": 0,
+      "map": [
+        "ssl:ro",
+        "config:rw"
+      ],
+      "name": "ESPHome",
+      "options": {},
+      "panel_icon": "mdi:chip",
+      "ports": {
+        "6052/tcp": null
+      },
+      "ports_description": {
+        "6052/tcp": "Web interface (Not required for Hass.io Ingress)"
+      },
+      "schema": {
+        "certfile": "str?",
+        "esphome_version": "str?",
+        "keyfile": "str?",
+        "leave_front_door_open": "bool?",
+        "relative_url": "str?",
+        "ssl": "bool?",
+        "status_use_ping": "bool?",
+        "streamer_mode": "bool?"
+      },
+      "slug": "esphome",
+      "startup": "application",
+      "url": "https://esphome.io/",
+      "version": "1.14.3",
+      "webui": "http://[HOST]:[PORT:6052]",
+      "stdin": false,
+      "udev": false,
+      "panel_admin": true,
+      "timeout": 10,
+      "legacy": false,
+      "full_access": false,
+      "devicetree": false,
+      "advanced": false,
+      "kernel_modules": false,
+      "init": true,
+      "video": false,
+      "gpio": false,
+      "audio": false,
+      "host_pid": false,
+      "docker_api": false,
+      "host_dbus": false,
+      "stage": "stable",
+      "host_ipc": false,
+      "apparmor": true,
+      "repository": "15ef4d2f",
+      "location": "/data/addons/git/15ef4d2f/esphome"
+    },
+    "a0d7b954_grafana": {
+      "name": "Grafana",
+      "version": "4.2.1",
+      "slug": "grafana",
+      "description": "The open platform for beautiful analytics and monitoring",
+      "url": "https://github.com/hassio-addons/addon-grafana",
+      "startup": "services",
+      "ingress": true,
+      "ingress_port": 1337,
+      "panel_icon": "mdi:chart-timeline",
+      "panel_title": "Grafana",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armv7"
+      ],
+      "boot": "auto",
+      "hassio_api": true,
+      "hassio_role": "default",
+      "map": [
+        "ssl"
+      ],
+      "options": {
+        "plugins": [],
+        "env_vars": [],
+        "ssl": true,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem"
+      },
+      "ports": {
+        "80/tcp": null
+      },
+      "ports_description": {
+        "80/tcp": "Not required for Ingress"
+      },
+      "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+        "plugins": [
+          "str"
+        ],
+        "certfile": "str",
+        "keyfile": "str",
+        "ssl": "bool",
+        "grafana_ingress_user": "str?",
+        "env_vars": [
+          {
+            "name": "match(^GF_([A-Z0-9_])+$)",
+            "value": "str"
+          }
+        ]
+      },
+      "image": "hassioaddons/grafana-{arch}",
+      "host_ipc": false,
+      "stage": "stable",
+      "audio": false,
+      "host_pid": false,
+      "apparmor": true,
+      "panel_admin": true,
+      "host_network": false,
+      "udev": false,
+      "kernel_modules": false,
+      "devicetree": false,
+      "video": false,
+      "timeout": 10,
+      "docker_api": false,
+      "legacy": false,
+      "stdin": false,
+      "full_access": false,
+      "init": true,
+      "auto_uart": false,
+      "gpio": false,
+      "homeassistant_api": false,
+      "host_dbus": false,
+      "auth_api": false,
+      "advanced": false,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/grafana"
+    },
+    "a0d7b954_aircast": {
+      "name": "AirCast",
+      "version": "2.3.0",
+      "slug": "aircast",
+      "description": "AirPlay capabilities for your Chromecast devices.",
+      "url": "https://github.com/hassio-addons/addon-aircast",
+      "startup": "services",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armv7",
+        "i386"
+      ],
+      "boot": "auto",
+      "hassio_api": true,
+      "hassio_role": "default",
+      "host_network": true,
+      "map": [
+        "config:rw"
+      ],
+      "options": {
+        "address": "",
+        "latency_rtp": 0,
+        "latency_http": 0,
+        "drift": false
+      },
+      "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+        "address": "str",
+        "latency_rtp": "int",
+        "latency_http": "int",
+        "drift": "bool"
+      },
+      "image": "hassioaddons/aircast-{arch}",
+      "ingress_port": 8099,
+      "host_ipc": false,
+      "stage": "stable",
+      "audio": false,
+      "host_pid": false,
+      "apparmor": true,
+      "panel_admin": true,
+      "udev": false,
+      "kernel_modules": false,
+      "devicetree": false,
+      "video": false,
+      "timeout": 10,
+      "docker_api": false,
+      "panel_icon": "mdi:puzzle",
+      "legacy": false,
+      "stdin": false,
+      "full_access": false,
+      "init": true,
+      "ingress": false,
+      "auto_uart": false,
+      "gpio": false,
+      "homeassistant_api": false,
+      "host_dbus": false,
+      "auth_api": false,
+      "advanced": false,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/aircast"
+    },
+    "a0d7b954_motioneye": {
+      "name": "motionEye",
+      "version": "0.8.0",
+      "slug": "motioneye",
+      "description": "Simple, elegant and feature-rich CCTV/NVR for your cameras",
+      "url": "https://github.com/hassio-addons/addon-motioneye",
+      "webui": "[PROTO:ssl]://[HOST]:[PORT:8765]",
+      "startup": "application",
+      "ingress": true,
+      "ingress_port": 0,
+      "panel_icon": "mdi:cctv",
+      "homeassistant": "0.92.0b2",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+      ],
+      "init": false,
+      "ports": {
+        "80/tcp": null
+      },
+      "ports_description": {
+        "80/tcp": "Web interface (Not required for Ingress)"
+      },
+      "boot": "auto",
+      "hassio_api": true,
+      "hassio_role": "default",
+      "host_network": true,
+      "apparmor": false,
+      "video": true,
+      "privileged": [
+        "DAC_READ_SEARCH",
+        "SYS_ADMIN"
+      ],
+      "map": [
+        "share:rw",
+        "ssl"
+      ],
+      "options": {
+        "motion_webcontrol": false,
+        "ssl": true,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "action_buttons": []
+      },
+      "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+        "motion_webcontrol": "bool",
+        "ssl": "bool",
+        "certfile": "str",
+        "keyfile": "str",
+        "action_buttons": [
+          {
+            "type": "list(lock|unlock|light_on|light_off|alarm_on|alarm_off|up|right|down|left|zoom_in|zoom_out|preset1|preset2|preset3|preset4|preset5|preset6|preset7|preset8|preset9)?",
+            "camera": "int?",
+            "command": "str?"
+          }
+        ]
+      },
+      "image": "hassioaddons/motioneye",
+      "host_ipc": false,
+      "stage": "stable",
+      "audio": false,
+      "host_pid": false,
+      "panel_admin": true,
+      "udev": false,
+      "kernel_modules": false,
+      "devicetree": false,
+      "timeout": 10,
+      "docker_api": false,
+      "legacy": false,
+      "stdin": false,
+      "full_access": false,
+      "auto_uart": false,
+      "gpio": false,
+      "homeassistant_api": false,
+      "host_dbus": false,
+      "auth_api": false,
+      "advanced": false,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/motioneye"
     }
   },
   "user": {
@@ -300,7 +706,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "42c20ca7b648127b9fbbe51d96dfd44162fd25d38758e2a488e0d209d1eae09baa2ba676855830e02d3017bec6a8397aa3fc3dbae8950819"
+      "access_token": "199dee7b3bae2c074d2a8fb153d2efae92730dd4d7dc98781e5293c33702865a6ed68bae225208468eb4695a72491dfffe3b46659663c2c5"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -329,7 +735,7 @@
       "auto_update": false,
       "ingress_panel": true,
       "uuid": "20c5b7c9aa1d4220a2c9ec9ccd7b505b",
-      "access_token": "37f3aa5eaf19ba13b4864a04bfa0bd57f2aa62833baeffe9bd280396efa9cf46a1efd075c9e5915c2b2841f1eec339bfd3c721ac8522c49f"
+      "access_token": "8c96330105fa3d3baf8d2ede9ba7b349d786331f110639c4ad3b2d844b66d6634474ac3bc322a985951310bbbb2ad6c04bdbbd8c18cd2ab3"
     },
     "core_configurator": {
       "options": {},
@@ -340,7 +746,90 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "6dea97a5cb260dac66ca2f5b5db00c0d46548972d110110495a314198a6762969c15a9cb9ab80c3c769ccb8f1a644d9e29870b39445c75b7"
+      "access_token": "83949405a84fc57e07b3b598feaac66b679ee635ed5cca737f8f93699334a3646b66088eb5125e5bb5024f65cea72e6b3ef212c2b383ac40"
+    },
+    "a0d7b954_grocy": {
+      "options": {
+        "culture": "en",
+        "currency": "AUD",
+        "entry_page": "stock",
+        "features": {
+          "batteries": true,
+          "calendar": true,
+          "chores": true,
+          "equipment": true,
+          "recipes": true,
+          "shoppinglist": true,
+          "stock": true,
+          "tasks": true
+        },
+        "tweaks": {
+          "chores_assignment": true,
+          "multiple_shopping_lists": true,
+          "stock_best_before_date_tracking": true,
+          "stock_location_tracking": true,
+          "stock_price_tracking": true,
+          "stock_product_freezing": true,
+          "stock_product_opened_tracking": true
+        },
+        "ssl": false,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem"
+      },
+      "version": "0.7.1",
+      "image": "hassioaddons/grocy-armv7",
+      "protected": true,
+      "ingress_panel": true,
+      "ingress_token": "7dhoYz50eAemfFgxbkS3uFe8oZZqftS2LR0Mfvh997Y",
+      "uuid": "3035c43fc60e4e4cba0085f864cafefc",
+      "auto_update": false,
+      "access_token": "384e8c83656361db78f6b7349525b6b1bfd9c237d7c12cc49df377d0995d075433f72dec9c5940a8d5a8df87a7365fd97a268295f78df381"
+    },
+    "15ef4d2f_esphome": {
+      "options": {
+        "ssl": false
+      },
+      "version": "1.14.3",
+      "image": "esphome/esphome-hassio-armv7",
+      "protected": true,
+      "ingress_panel": true,
+      "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
+      "uuid": "eb373975c2a342eab9de7985d4c34596",
+      "auto_update": false,
+      "access_token": "e1e79c0f0270516859d734cd191fdad414f7a4da7729d69f4c561942129898848f85f849d734b4c63c4fc8406b5b9b006302e71363ffba1b"
+    },
+    "a0d7b954_grafana": {
+      "options": {},
+      "version": "4.2.1",
+      "image": "hassioaddons/grafana-armv7",
+      "auto_update": false,
+      "ingress_panel": false,
+      "ingress_token": "CjVrsRnIZf-A1js_ehL-BSGtFOYoxdkpizYu_TPK4iQ",
+      "protected": true,
+      "uuid": "cd1ae65faaa9458f9032b6fdda26aab6",
+      "boot": "manual"
+    },
+    "a0d7b954_aircast": {
+      "options": {},
+      "version": "2.3.0",
+      "image": "hassioaddons/aircast-armv7",
+      "auto_update": false,
+      "ingress_panel": false,
+      "ingress_token": "EPYKZ96yl7330IZ7VhdE0fe-HO3rGmUxRRgewZo1CPw",
+      "protected": true,
+      "uuid": "de26c5f9fb21452d9c3ef9ea66d339be",
+      "boot": "manual"
+    },
+    "a0d7b954_motioneye": {
+      "options": {},
+      "version": "0.8.0",
+      "image": "hassioaddons/motioneye",
+      "auto_update": false,
+      "ingress_panel": false,
+      "ingress_token": "QLT4BEf50VYegus7LjocZCkzseRl07ALY4neleJhfvM",
+      "protected": true,
+      "uuid": "980c71296a7d41ab864a052782b8086b",
+      "boot": "manual"
     }
   }
 }

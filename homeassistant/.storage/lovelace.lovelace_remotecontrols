@@ -1,0 +1,62 @@
+{
+    "data": {
+        "config": {
+            "title": " ",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "elements": [
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "icon": "mdi:blank",
+                                    "state_color": false,
+                                    "style": {
+                                        "left": "69%",
+                                        "top": "6%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "{\"Protocol\":\"SONY\",\"Bits\":12,\"Data\":\"0xA90\",\"DataLSB\":\"0x5009\",\"Repeat\":0}",
+                                            "topic": "cmnd/tasmotair/irsend"
+                                        }
+                                    },
+                                    "title": null,
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "icon": "mdi:blank",
+                                    "state_color": false,
+                                    "style": {
+                                        "left": "62%",
+                                        "top": "6%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "{\"Protocol\":\"SONY\",\"Bits\":12,\"Data\":\"0xA90\",\"DataLSB\":\"0x5009\",\"Repeat\":0}          ",
+                                            "topic": "cmnd/tasmotair/irsend"
+                                        }
+                                    },
+                                    "title": null,
+                                    "type": "state-icon"
+                                }
+                            ],
+                            "image": "http://192.168.20.84:8123/local/sonytvremote.jpg",
+                            "type": "picture-elements"
+                        }
+                    ],
+                    "path": "sony-tv",
+                    "title": "Sony TV"
+                }
+            ]
+        }
+    },
+    "key": "lovelace.lovelace_remotecontrols",
+    "version": 1
+}

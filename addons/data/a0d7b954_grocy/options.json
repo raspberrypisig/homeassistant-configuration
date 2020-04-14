@@ -1,0 +1,27 @@
+{
+  "culture": "en",
+  "currency": "AUD",
+  "entry_page": "stock",
+  "features": {
+    "batteries": true,
+    "calendar": true,
+    "chores": true,
+    "equipment": true,
+    "recipes": true,
+    "shoppinglist": true,
+    "stock": true,
+    "tasks": true
+  },
+  "tweaks": {
+    "chores_assignment": true,
+    "multiple_shopping_lists": true,
+    "stock_best_before_date_tracking": true,
+    "stock_location_tracking": true,
+    "stock_price_tracking": true,
+    "stock_product_freezing": true,
+    "stock_product_opened_tracking": true
+  },
+  "ssl": false,
+  "certfile": "fullchain.pem",
+  "keyfile": "privkey.pem"
+}

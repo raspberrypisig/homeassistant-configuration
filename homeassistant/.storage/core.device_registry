@@ -40,6 +40,26 @@
                 "name_by_user": null,
                 "sw_version": "0.23.2",
                 "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "8e6e6ed749854c4d84357f14ad6ef607"
+                ],
+                "connections": [],
+                "id": "c58bfabe6afe4174b90e0232e9dab0d9",
+                "identifiers": [
+                    [
+                        "garmin_connect",
+                        "MohanGupta"
+                    ]
+                ],
+                "manufacturer": "Garmin Connect",
+                "model": null,
+                "name": "Garmin Connect",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
             }
         ]
     },
