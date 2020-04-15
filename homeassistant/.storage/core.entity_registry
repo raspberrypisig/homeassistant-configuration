@@ -1626,7 +1626,7 @@
                 "entity_id": "sensor.aruna_guptas_iphone_battery_level",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-40",
+                "original_icon": "mdi:battery-80",
                 "original_name": "Aruna Gupta\u2019s iPhone Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -1642,7 +1642,7 @@
                 "entity_id": "sensor.aruna_guptas_iphone_battery_state",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-40",
+                "original_icon": "mdi:battery-80",
                 "original_name": "Aruna Gupta\u2019s iPhone Battery State",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -1746,7 +1746,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
                 "device_class": null,
                 "device_id": "856dbae4c8224cd88fdb13726dd32029",
@@ -1762,7 +1762,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
                 "device_class": "battery",
                 "device_id": "856dbae4c8224cd88fdb13726dd32029",
@@ -1778,7 +1778,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
                 "device_class": "battery",
                 "device_id": "856dbae4c8224cd88fdb13726dd32029",
@@ -1794,7 +1794,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
                 "device_class": null,
                 "device_id": "856dbae4c8224cd88fdb13726dd32029",
@@ -1810,7 +1810,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
                 "device_class": null,
                 "device_id": "856dbae4c8224cd88fdb13726dd32029",
@@ -1826,7 +1826,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
                 "device_class": null,
                 "device_id": "856dbae4c8224cd88fdb13726dd32029",
@@ -1842,7 +1842,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
                 "device_class": null,
                 "device_id": "856dbae4c8224cd88fdb13726dd32029",
@@ -1858,7 +1858,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
                 "device_class": null,
                 "device_id": "856dbae4c8224cd88fdb13726dd32029",
