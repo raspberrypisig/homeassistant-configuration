@@ -3,7 +3,7 @@
 172.30.32.1 homeassistant homeassistant.local.hass.io home-assistant home-assistant.local.hass.io
 172.30.32.3 dns dns.local.hass.io
 172.30.33.0 a0d7b954-grocy a0d7b954-grocy.local.hass.io
-172.30.32.1 core-samba core-samba.local.hass.io
 172.30.32.1 a0d7b954-nodered a0d7b954-nodered.local.hass.io
 172.30.32.1 15ef4d2f-esphome 15ef4d2f-esphome.local.hass.io
 172.30.33.1 core-configurator core-configurator.local.hass.io
+172.30.32.1 core-samba core-samba.local.hass.io

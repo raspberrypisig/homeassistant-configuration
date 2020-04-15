@@ -2,7 +2,7 @@
   "system": {
     "core_samba": {
       "name": "Samba share",
-      "version": "9.0",
+      "version": "9.1.0",
       "slug": "samba",
       "description": "Expose Home Assistant folders with SMB/CIFS",
       "url": "https://github.com/home-assistant/hassio-addons/tree/master/samba",
@@ -15,6 +15,7 @@
       ],
       "startup": "services",
       "boot": "auto",
+      "init": false,
       "host_network": true,
       "map": [
         "config:rw",
@@ -31,7 +32,8 @@
         "allow_hosts": [
           "10.0.0.0/8",
           "172.16.0.0/12",
-          "192.168.0.0/16"
+          "192.168.0.0/16",
+          "fe80::/10"
         ],
         "veto_files": [
           "._*",
@@ -54,33 +56,32 @@
         ]
       },
       "image": "homeassistant/{arch}-addon-samba",
-      "audio": false,
+      "panel_icon": "mdi:puzzle",
+      "gpio": false,
+      "kernel_modules": false,
+      "host_dbus": false,
+      "ingress": false,
+      "host_pid": false,
+      "stage": "stable",
+      "ingress_port": 8099,
+      "timeout": 10,
+      "full_access": false,
+      "auth_api": false,
+      "auto_uart": false,
+      "hassio_role": "default",
+      "homeassistant_api": false,
+      "stdin": false,
+      "docker_api": false,
       "advanced": false,
       "devicetree": false,
-      "auto_uart": false,
-      "gpio": false,
-      "host_ipc": false,
       "legacy": false,
-      "panel_icon": "mdi:puzzle",
-      "hassio_role": "default",
-      "ingress_port": 8099,
-      "apparmor": true,
-      "init": true,
-      "auth_api": false,
       "video": false,
-      "panel_admin": true,
-      "full_access": false,
-      "homeassistant_api": false,
-      "ingress": false,
-      "stage": "stable",
-      "kernel_modules": false,
-      "timeout": 10,
-      "stdin": false,
-      "host_dbus": false,
-      "host_pid": false,
-      "docker_api": false,
-      "hassio_api": false,
+      "audio": false,
       "udev": false,
+      "hassio_api": false,
+      "panel_admin": true,
+      "apparmor": true,
+      "host_ipc": false,
       "repository": "core",
       "location": "/data/addons/core/samba"
     },
@@ -775,7 +776,7 @@
       "options": {
         "workgroup": "WORKGROUP",
         "username": "homeassistant",
-        "password": "boo",
+        "password": "raspberry",
         "interface": "",
         "allow_hosts": [
           "10.0.0.0/8",
@@ -790,14 +791,14 @@
           ".Trashes"
         ]
       },
-      "version": "9.0",
+      "version": "9.1.0",
       "image": "homeassistant/armv7-addon-samba",
       "ingress_token": "XbDe5mgXX6j1aetvuGChcCvckuJGiD2DVGJOMkQzHwY",
       "protected": true,
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "b9530b6b0eb394b34d4ce38ff48a4b30ce5d995d641d598a1bca9cbf05512a9243681d758ca99258b35dd2999ff441074d8d51a497e49fed"
+      "access_token": "c9e06ff417dc987a00f96f552e46ed5c646bc139e9ceee5147049ea0e80005e7889ac1e4f0d6e82f17c4eb573ce459123f9383bd5d072ece"
     },
     "a0d7b954_nodered": {
       "options": {

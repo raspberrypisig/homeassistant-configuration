@@ -143,6 +143,61 @@
                     ],
                     "path": "daikin",
                     "title": "DAIKIN"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "elements": [
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "hold-action": null,
+                                    "icon": "mdi:power",
+                                    "state_color": false,
+                                    "style": {
+                                        "left": "46.5%",
+                                        "position": "absolute",
+                                        "top": "19.5%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "0,2206,790,732,816,732,816,732,1578,732,1578,732,842,706,842,704,844,704,844,704,842,730,818,730,818,730,816,730,818,730,1578,730,844,704",
+                                            "topic": "cmnd/tasmotair/irsend"
+                                        }
+                                    },
+                                    "title": null,
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "hold-action": null,
+                                    "icon": "mdi:google-photos",
+                                    "state_color": false,
+                                    "style": {
+                                        "left": "57.5%",
+                                        "position": "absolute",
+                                        "top": "30.5%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "0,2204,788,734,814,734,814,732,1602,706,1602,706,842,706,842,706,842,732,1576,732,816,732,1576,732,816,732,1578,732,816,732,1576,732,842,706",
+                                            "topic": "cmnd/tasmotair/irsend"
+                                        }
+                                    },
+                                    "title": null,
+                                    "type": "state-icon"
+                                }
+                            ],
+                            "image": "http://192.168.20.84:8123/local/dyson-hotandcool.jpg",
+                            "type": "picture-elements"
+                        }
+                    ],
+                    "path": "dyson-hotcool",
+                    "title": "Dyson Hot+Cool"
                 }
             ]
         }
