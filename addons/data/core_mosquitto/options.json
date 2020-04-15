@@ -1,0 +1,11 @@
+{
+  "logins": [],
+  "anonymous": true,
+  "customize": {
+    "active": false,
+    "folder": "mosquitto"
+  },
+  "certfile": "fullchain.pem",
+  "keyfile": "privkey.pem",
+  "require_certificate": false
+}

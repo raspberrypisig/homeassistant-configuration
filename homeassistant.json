@@ -7,8 +7,8 @@
   "uuid": "e3bd7a09bdbc442298dc929da5c1adfa",
   "audio_input": null,
   "ssl": false,
-  "version": "0.108.3",
-  "access_token": "13224df920af14583eae12b24e257a852df61fdc67e262bfbcecf8328695871c15ab9ae486c2493a0547d74afce76b61d71d8acad794648c",
+  "version": "0.108.4",
+  "access_token": "72b94d51bc44c11e76ad2e7e41c0643ab9f1ff597378d6d7418920321cfacd6bd01caef3b7530f4e2a4e6625bf296aa6baf80be22cd81ff6",
   "refresh_token": "072ffb7e1fb5b98f2915872299da16b87a7df7acd9ff21d7691774752918a2197306c9412e5c65d10655e0f585b77fb47ce13c322dd01ade021238c8f962f414",
   "image": "homeassistant/raspberrypi3-homeassistant"
 }

@@ -677,6 +677,97 @@
       "advanced": false,
       "repository": "a0d7b954",
       "location": "/data/addons/git/a0d7b954/motioneye"
+    },
+    "core_mosquitto": {
+      "name": "Mosquitto broker",
+      "version": "5.1",
+      "slug": "mosquitto",
+      "description": "An Open Source MQTT broker",
+      "url": "https://github.com/home-assistant/hassio-addons/tree/master/mosquitto",
+      "arch": [
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
+      ],
+      "startup": "system",
+      "boot": "auto",
+      "map": [
+        "ssl",
+        "share"
+      ],
+      "discovery": [
+        "mqtt"
+      ],
+      "services": [
+        "mqtt:provide"
+      ],
+      "auth_api": true,
+      "ports": {
+        "1883/tcp": 1883,
+        "1884/tcp": 1884,
+        "8883/tcp": 8883,
+        "8884/tcp": 8884
+      },
+      "options": {
+        "logins": [],
+        "anonymous": false,
+        "customize": {
+          "active": false,
+          "folder": "mosquitto"
+        },
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "require_certificate": false
+      },
+      "schema": {
+        "logins": [
+          {
+            "username": "str",
+            "password": "str"
+          }
+        ],
+        "anonymous": "bool",
+        "customize": {
+          "active": "bool",
+          "folder": "str"
+        },
+        "cafile": "str?",
+        "certfile": "str",
+        "keyfile": "str",
+        "require_certificate": "bool"
+      },
+      "image": "homeassistant/{arch}-addon-mosquitto",
+      "panel_icon": "mdi:puzzle",
+      "gpio": false,
+      "kernel_modules": false,
+      "host_dbus": false,
+      "ingress": false,
+      "host_pid": false,
+      "stage": "stable",
+      "ingress_port": 8099,
+      "timeout": 10,
+      "full_access": false,
+      "auto_uart": false,
+      "hassio_role": "default",
+      "homeassistant_api": false,
+      "stdin": false,
+      "docker_api": false,
+      "advanced": false,
+      "devicetree": false,
+      "legacy": false,
+      "init": true,
+      "video": false,
+      "audio": false,
+      "udev": false,
+      "hassio_api": false,
+      "panel_admin": true,
+      "apparmor": true,
+      "host_network": false,
+      "host_ipc": false,
+      "repository": "core",
+      "location": "/data/addons/core/mosquitto"
     }
   },
   "user": {
@@ -706,7 +797,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "94fdc3100ef3b702e2de9320e8081b6dc79bd4fbee9de0b4c6a498df9540ab8ca7ec04892def9ae26688e5ba635e96269c8bb74ee785eba5"
+      "access_token": "b9530b6b0eb394b34d4ce38ff48a4b30ce5d995d641d598a1bca9cbf05512a9243681d758ca99258b35dd2999ff441074d8d51a497e49fed"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -735,7 +826,7 @@
       "auto_update": false,
       "ingress_panel": true,
       "uuid": "20c5b7c9aa1d4220a2c9ec9ccd7b505b",
-      "access_token": "f409e359fa6db66ce1dcba3f2ae66effeb3161b7162855845eca8290b4afbe375405aef5fe387cc733a709b6e103cdc031cbeab6ef349a04"
+      "access_token": "e28b0d77ba34a44f9b9ca94d21b95f188887ccae76056527e89335d5d568f5b2d6e6462a7baef89673161634c43510e996b50608251bbc1b"
     },
     "core_configurator": {
       "options": {},
@@ -746,7 +837,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "1756d8fc281883b2bd5de17092b110b419998f064840db1e6ac9c16f59ee312d6d08a62dacb5ec15d1a2ce936368307aed33349f7677aa77"
+      "access_token": "71ba664f2425f58bd42580131ae956bbaca0e8e01dfcdb0cc54c7620489e321ce8f0e597895b8e0e763c545672cf79e4fdeacacd5546b693"
     },
     "a0d7b954_grocy": {
       "options": {
@@ -783,7 +874,7 @@
       "ingress_token": "7dhoYz50eAemfFgxbkS3uFe8oZZqftS2LR0Mfvh997Y",
       "uuid": "3035c43fc60e4e4cba0085f864cafefc",
       "auto_update": false,
-      "access_token": "5c625cb0bf35e16e9e3eab220a899afcca3fb447d3ba4432eac4898d23d4e6e690c1e539f2597730328a9ae575d391dd02db2ae36fd2ae5c"
+      "access_token": "6c39f75e40edcafd0e7cdc2485faadc028c681d97ec30ad1b3a6ec2c0401d65205588578ca4ee3b828072c79d2ebc38af3c5ff11194bf9fa"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -796,7 +887,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "e977eb752a5d75d8a64dfc695f9dff7540e68159a707b8e78da607c9f24a52eb411409d32f903d337acdb4617beffee3eb46c96de7acedac"
+      "access_token": "955956f09705ee529b7b7e93d6c09486db8db4518aad5ce92d8182ae21eade612cf0eaf03d88098f08a33108aa535e886c80bd52dc7bdfe4"
     },
     "a0d7b954_grafana": {
       "options": {},
@@ -830,6 +921,27 @@
       "protected": true,
       "uuid": "980c71296a7d41ab864a052782b8086b",
       "boot": "manual"
+    },
+    "core_mosquitto": {
+      "options": {
+        "logins": [],
+        "anonymous": true,
+        "customize": {
+          "active": false,
+          "folder": "mosquitto"
+        },
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "require_certificate": false
+      },
+      "version": "5.1",
+      "image": "homeassistant/armv7-addon-mosquitto",
+      "auto_update": false,
+      "ingress_token": "-dXIJmjAuJLdUTPV0Fm96RV4kISu9ZRm2Ui4THKkof8",
+      "uuid": "884ccdcad07744debcf6160a9e66ca77",
+      "protected": true,
+      "ingress_panel": false,
+      "access_token": "84acb8e013456c49dc679eee00adb856374a1f3633dc480dcd87410f18423df43fef6e8b37eb9b271dcfcc3e9d0888c3d0e1137f043eb888"
     }
   }
 }

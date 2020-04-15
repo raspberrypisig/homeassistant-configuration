@@ -54,24 +54,6 @@
                 "version": 1
             },
             {
-                "connection_class": "local_push",
-                "data": {
-                    "broker": "broker.hivemq.com",
-                    "discovery": false,
-                    "port": 1883
-                },
-                "domain": "mqtt",
-                "entry_id": "1b3ea95c74e74071bb11e97ecc51b840",
-                "options": {},
-                "source": "user",
-                "system_options": {
-                    "disable_new_entities": false
-                },
-                "title": "broker.hivemq.com",
-                "unique_id": null,
-                "version": 1
-            },
-            {
                 "connection_class": "cloud_poll",
                 "data": {
                     "country": "Australia"
@@ -182,6 +164,24 @@
                     "disable_new_entities": false
                 },
                 "title": "Aruna Gupta\u2019s iPhone",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "broker": "localhost",
+                    "discovery": false,
+                    "port": 1883
+                },
+                "domain": "mqtt",
+                "entry_id": "ff2fa1ebc3df4450b16bdb73bf8cbd0b",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "localhost",
                 "unique_id": null,
                 "version": 1
             }

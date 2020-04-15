@@ -79,7 +79,7 @@
                                         "action": "call-service",
                                         "service": "mqtt.publish",
                                         "service_data": {
-                                            "payload": "{\"Protocol\":\"SONY\",\"Bits\":12,\"Data\":\"0x070\",\"DataLSB\":\"0x00E\",\"Repeat\":0}",
+                                            "payload": "{\"Protocol\":\"SONY\",\"Bits\":12,\"Data\":\"0xA70\",\"DataLSB\":\"0x500E\",\"Repeat\":0}",
                                             "topic": "cmnd/tasmotair/irsend"
                                         }
                                     },
