@@ -1602,7 +1602,7 @@
                 "unit_of_measurement": ""
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "b925f190fbef4f68a88a987c3941a76c",
                 "device_class": null,
                 "device_id": "627804abf751413d898af7f19f671bec",
@@ -1618,7 +1618,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "b925f190fbef4f68a88a987c3941a76c",
                 "device_class": "battery",
                 "device_id": "627804abf751413d898af7f19f671bec",
@@ -1634,7 +1634,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "b925f190fbef4f68a88a987c3941a76c",
                 "device_class": "battery",
                 "device_id": "627804abf751413d898af7f19f671bec",
@@ -1650,7 +1650,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "b925f190fbef4f68a88a987c3941a76c",
                 "device_class": null,
                 "device_id": "627804abf751413d898af7f19f671bec",
@@ -1666,7 +1666,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "b925f190fbef4f68a88a987c3941a76c",
                 "device_class": null,
                 "device_id": "627804abf751413d898af7f19f671bec",
@@ -1682,7 +1682,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "b925f190fbef4f68a88a987c3941a76c",
                 "device_class": null,
                 "device_id": "627804abf751413d898af7f19f671bec",
@@ -1698,7 +1698,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "b925f190fbef4f68a88a987c3941a76c",
                 "device_class": null,
                 "device_id": "627804abf751413d898af7f19f671bec",
@@ -1714,7 +1714,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "b925f190fbef4f68a88a987c3941a76c",
                 "device_class": null,
                 "device_id": "627804abf751413d898af7f19f671bec",
@@ -1730,7 +1730,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "b925f190fbef4f68a88a987c3941a76c",
                 "device_class": null,
                 "device_id": "627804abf751413d898af7f19f671bec",
@@ -1743,6 +1743,134 @@
                 "platform": "mobile_app",
                 "supported_features": 0,
                 "unique_id": "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e_last_update_trigger",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
+                "device_class": null,
+                "device_id": "856dbae4c8224cd88fdb13726dd32029",
+                "disabled_by": null,
+                "entity_id": "device_tracker.aruna_s_ipad",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Aruna's iPad",
+                "platform": "mobile_app",
+                "supported_features": 0,
+                "unique_id": "d54cb45a4c4c432baac48a1e33c979ad",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
+                "device_class": "battery",
+                "device_id": "856dbae4c8224cd88fdb13726dd32029",
+                "disabled_by": null,
+                "entity_id": "sensor.aruna_s_ipad_battery_level",
+                "icon": null,
+                "name": null,
+                "original_icon": "mdi:battery",
+                "original_name": "Aruna's iPad Battery Level",
+                "platform": "mobile_app",
+                "supported_features": 0,
+                "unique_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_battery_level",
+                "unit_of_measurement": "%"
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
+                "device_class": "battery",
+                "device_id": "856dbae4c8224cd88fdb13726dd32029",
+                "disabled_by": null,
+                "entity_id": "sensor.aruna_s_ipad_battery_state",
+                "icon": null,
+                "name": null,
+                "original_icon": "mdi:battery",
+                "original_name": "Aruna's iPad Battery State",
+                "platform": "mobile_app",
+                "supported_features": 0,
+                "unique_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_battery_state",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
+                "device_class": null,
+                "device_id": "856dbae4c8224cd88fdb13726dd32029",
+                "disabled_by": null,
+                "entity_id": "sensor.aruna_s_ipad_connection_type",
+                "icon": null,
+                "name": null,
+                "original_icon": "mdi:wifi",
+                "original_name": "Aruna's iPad Connection Type",
+                "platform": "mobile_app",
+                "supported_features": 0,
+                "unique_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_connectivity_connection_type",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
+                "device_class": null,
+                "device_id": "856dbae4c8224cd88fdb13726dd32029",
+                "disabled_by": null,
+                "entity_id": "sensor.aruna_s_ipad_bssid",
+                "icon": null,
+                "name": null,
+                "original_icon": "mdi:wifi-star",
+                "original_name": "Aruna's iPad BSSID",
+                "platform": "mobile_app",
+                "supported_features": 0,
+                "unique_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_connectivity_bssid",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
+                "device_class": null,
+                "device_id": "856dbae4c8224cd88fdb13726dd32029",
+                "disabled_by": null,
+                "entity_id": "sensor.aruna_s_ipad_ssid",
+                "icon": null,
+                "name": null,
+                "original_icon": "mdi:wifi",
+                "original_name": "Aruna's iPad SSID",
+                "platform": "mobile_app",
+                "supported_features": 0,
+                "unique_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_connectivity_ssid",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
+                "device_class": null,
+                "device_id": "856dbae4c8224cd88fdb13726dd32029",
+                "disabled_by": null,
+                "entity_id": "sensor.aruna_s_ipad_last_update_trigger",
+                "icon": null,
+                "name": null,
+                "original_icon": "mdi:cellphone-wireless",
+                "original_name": "Aruna's iPad Last Update Trigger",
+                "platform": "mobile_app",
+                "supported_features": 0,
+                "unique_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_last_update_trigger",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
+                "device_class": null,
+                "device_id": "856dbae4c8224cd88fdb13726dd32029",
+                "disabled_by": null,
+                "entity_id": "sensor.aruna_s_ipad_geocoded_location",
+                "icon": null,
+                "name": null,
+                "original_icon": "mdi:map",
+                "original_name": "Aruna's iPad Geocoded Location",
+                "platform": "mobile_app",
+                "supported_features": 0,
+                "unique_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_geocoded_location",
                 "unit_of_measurement": null
             }
         ]

@@ -80,6 +80,26 @@
                 "name_by_user": null,
                 "sw_version": "12.4.5",
                 "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "25a6f8cd5c644a7e82997d8e864b1224"
+                ],
+                "connections": [],
+                "id": "856dbae4c8224cd88fdb13726dd32029",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "d54cb45a4c4c432baac48a1e33c979ad"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad (4th generation)",
+                "name": "Aruna's iPad",
+                "name_by_user": null,
+                "sw_version": "10.3.3",
+                "via_device_id": null
             }
         ]
     },

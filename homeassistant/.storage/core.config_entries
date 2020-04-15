@@ -184,6 +184,38 @@
                 "title": "localhost",
                 "unique_id": null,
                 "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "cOEvSkW1jwo:APA91bGIcWNTeErBEDndiYVIDdlZe562QiNmqCv0piii5H0-wr8Rjn4TpnvQdetDMyIos_EDG1j6lvaVG8Ep2ObRFXMvH5pl84XfGo9YrLkLPAVzD_Cro_rGGPFgb3IR5e4lBGDeTqhG",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "d54cb45a4c4c432baac48a1e33c979ad",
+                    "device_name": "Aruna's iPad",
+                    "manufacturer": "Apple",
+                    "model": "iPad (4th generation)",
+                    "os_name": "iOS",
+                    "os_version": "10.3.3",
+                    "secret": "7d5d473722ebb81c92b0dd8a0e7bda8b59ee1ca4f07407ec8596a988c61099d1",
+                    "supports_encryption": true,
+                    "user_id": "e448bf45727e44f996c590d74b5c95e2",
+                    "webhook_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1"
+                },
+                "domain": "mobile_app",
+                "entry_id": "25a6f8cd5c644a7e82997d8e864b1224",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Aruna's iPad",
+                "unique_id": null,
+                "version": 1
             }
         ]
     },

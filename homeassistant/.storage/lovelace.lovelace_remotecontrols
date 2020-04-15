@@ -190,12 +190,118 @@
                                     },
                                     "title": null,
                                     "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "hold-action": null,
+                                    "icon": "mdi:arrow-up",
+                                    "state_color": false,
+                                    "style": {
+                                        "left": "46.5%",
+                                        "position": "absolute",
+                                        "top": "30.5%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "0,2204,788,734,814,732,816,732,1576,732,1578,732,842,706,842,706,842,706,842,732,1578,732,816,732,1578,732,816,732,1578,732,1578,730,818,730",
+                                            "topic": "cmnd/tasmotair/irsend"
+                                        }
+                                    },
+                                    "title": null,
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "hold-action": null,
+                                    "icon": "mdi:arrow-down",
+                                    "state_color": false,
+                                    "style": {
+                                        "left": "46.5%",
+                                        "position": "absolute",
+                                        "top": "43.5%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "0,2202,818,702,846,702,846,702,1608,702,1608,728,820,728,820,728,820,728,1582,728,1582,728,1582,728,1582,728,1608,702,1608,702,1608,702,846,700",
+                                            "topic": "cmnd/tasmotair/irsend"
+                                        }
+                                    },
+                                    "title": null,
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "hold-action": null,
+                                    "icon": "mdi:clock",
+                                    "state_color": false,
+                                    "style": {
+                                        "left": "46.5%",
+                                        "position": "absolute",
+                                        "top": "52.4%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "0,2204,790,730,818,730,818,730,1606,704,1606,704,844,704,844,702,844,730,818,730,818,730,1580,730,1580,730,818,728,818,730,1580,730,844,704",
+                                            "topic": "cmnd/tasmotair/irsend"
+                                        }
+                                    },
+                                    "title": null,
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "hold-action": null,
+                                    "icon": "mdi:panorama-horizontal",
+                                    "state_color": false,
+                                    "style": {
+                                        "left": "56.5%",
+                                        "position": "absolute",
+                                        "top": "62.4%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "0,2200,818,704,844,704,844,704,1604,704,1604,704,844,704,844,730,820,730,1580,730,816,728,1582,730,1580,728,844,702,1606,678,872,702,1604,698",
+                                            "topic": "cmnd/tasmotair/irsend"
+                                        }
+                                    },
+                                    "title": null,
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "hold-action": null,
+                                    "icon": "mdi:panorama-vertical",
+                                    "state_color": false,
+                                    "style": {
+                                        "left": "46.5%",
+                                        "position": "absolute",
+                                        "top": "62.4%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "0,2204,816,704,844,704,844,702,1606,730,1580,730,818,728,818,730,818,730,818,728,1580,728,848,700,846,702,1606,702,846,702,846,728,1580,728",
+                                            "topic": "cmnd/tasmotair/irsend"
+                                        }
+                                    },
+                                    "title": null,
+                                    "type": "state-icon"
                                 }
                             ],
                             "image": "http://192.168.20.84:8123/local/dyson-hotandcool.jpg",
                             "type": "picture-elements"
                         }
                     ],
+                    "panel": false,
                     "path": "dyson-hotcool",
                     "title": "Dyson Hot+Cool"
                 }

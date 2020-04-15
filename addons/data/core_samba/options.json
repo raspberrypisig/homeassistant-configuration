@@ -1,6 +1,6 @@
 {
   "workgroup": "WORKGROUP",
-  "username": "pi",
+  "username": "homeassistant",
   "password": "raspberry",
   "interface": "",
   "allow_hosts": [
