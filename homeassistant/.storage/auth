@@ -118,7 +118,7 @@
                 "created_at": "2020-04-10T00:14:24.122286+00:00",
                 "id": "23b23b09d5464239b75eb33dee483e8e",
                 "jwt_key": "0a048b866e52cbf96e0e2dcfe02669afc10291503a18182d886aaeadcc1dc43fc4dbc0ca8ed3598c0f56cddf3bbde4ab5c6021cbfa9ab4eccf2588e3640e47ae",
-                "last_used_at": "2020-04-15T02:14:00.961374+00:00",
+                "last_used_at": "2020-04-15T03:52:12.992009+00:00",
                 "last_used_ip": "192.168.20.68",
                 "token": "e584b55e1a5499b0d7f1238aec254a8fca780c0d83a49355faa290bee95adc5a096d2cc7ea840f63f6ca0094f1f77626493347d3318c477f39c2d14d86bf3844",
                 "token_type": "normal",
