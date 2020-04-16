@@ -1,3 +1,4 @@
 2020-04-16 17:30:10 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
 2020-04-16 17:30:24 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for bom_forecast which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
 2020-04-16 17:30:41 WARNING (MainThread) [homeassistant.setup] Setup of default_config is taking over 10 seconds.
+2020-04-16 21:07:02 ERROR (MainThread) [homeassistant.components.ipp] Error fetching ipp data: Invalid response from API: Timeout occurred while connecting to IPP server.

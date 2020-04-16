@@ -130,7 +130,43 @@
                                         "action": "call-service",
                                         "service": "mqtt.publish",
                                         "service_data": {
-                                            "payload": "{\"Vendor\":\"DAIKIN\",\"Model\":-1,\"Power\":\"Off\",\"Mode\":\"Off\",\"Celsius\":\"On\",\"Temp\":18,\"FanSpeed\":\"Auto\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"Off\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                                            "payload": "{\"Vendor\":\"DAIKIN\",\"Model\":1,\"Power\":\"Off\",\"Mode\":\"Off\",\"Celsius\":\"On\",\"Temp\":24,\"FanSpeed\":\"Auto\",\"SwingV\":\"Off\",\"SwingH\":\"Off\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"Off\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                                            "topic": "cmnd/tasmotair/irhvac"
+                                        }
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "icon": "mdi:car-tire-alert",
+                                    "style": {
+                                        "left": "75%",
+                                        "position": "absolute",
+                                        "top": "69%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "{\"Vendor\":\"DAIKIN\",\"Model\":1,\"Power\":\"On\",\"Mode\":\"Auto\",\"Celsius\":\"On\",\"Temp\":24,\"FanSpeed\":\"Auto\",\"SwingV\":\"Off\",\"SwingH\":\"Auto\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"Off\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                                            "topic": "cmnd/tasmotair/irhvac"
+                                        }
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "icon": "mdi:glass-stange",
+                                    "style": {
+                                        "left": "77%",
+                                        "position": "absolute",
+                                        "top": "62.5%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "{\"Vendor\":\"DAIKIN\",\"Model\":1,\"Power\":\"On\",\"Mode\":\"Auto\",\"Celsius\":\"On\",\"Temp\":24,\"FanSpeed\":\"Auto\",\"SwingV\":\"Center\",\"SwingH\":\"Center\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"Off\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
                                             "topic": "cmnd/tasmotair/irhvac"
                                         }
                                     },
