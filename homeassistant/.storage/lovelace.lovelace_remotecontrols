@@ -301,7 +301,7 @@
                             "type": "picture-elements"
                         }
                     ],
-                    "panel": false,
+                    "panel": true,
                     "path": "dyson-hotcool",
                     "title": "Dyson Hot+Cool"
                 }

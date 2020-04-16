@@ -2931,7 +2931,7 @@
             ],
             "category": "integration",
             "description": "Manage (Install, track, upgrade) and discover custom elements for Home Assistant.",
-            "downloads": 5049,
+            "downloads": 5660,
             "first_install": false,
             "full_name": "hacs/integration",
             "hide": false,
@@ -2939,7 +2939,7 @@
             "installed_commit": null,
             "last_commit": "f3264a8",
             "last_release_tag": "0.24.0",
-            "last_updated": "2020-04-15T06:49:22Z",
+            "last_updated": "2020-04-16T06:10:54Z",
             "name": "hacs",
             "new": false,
             "repository_manifest": {
@@ -2951,7 +2951,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 890,
+            "stars": 889,
             "topics": [
                 "community",
                 "hacs",

@@ -118,24 +118,6 @@
                 "version": 1
             },
             {
-                "connection_class": "cloud_poll",
-                "data": {
-                    "id": "MohanGupta",
-                    "password": "Kiac##44",
-                    "username": "mohangupta@live.com"
-                },
-                "domain": "garmin_connect",
-                "entry_id": "8e6e6ed749854c4d84357f14ad6ef607",
-                "options": {},
-                "source": "user",
-                "system_options": {
-                    "disable_new_entities": false
-                },
-                "title": "MohanGupta",
-                "unique_id": "MohanGupta",
-                "version": 1
-            },
-            {
                 "connection_class": "cloud_push",
                 "data": {
                     "app_data": {
