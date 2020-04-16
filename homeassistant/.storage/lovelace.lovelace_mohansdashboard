@@ -248,6 +248,29 @@
                     "panel": true,
                     "path": "caronavirus",
                     "title": "CoronaVirus"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.hp_envy_4500_series",
+                            "type": "entity"
+                        },
+                        {
+                            "entity": "sensor.hp_envy_4500_series_black_ink",
+                            "max": 100,
+                            "min": 0,
+                            "type": "gauge"
+                        },
+                        {
+                            "entity": "sensor.hp_envy_4500_series_tri_color_ink",
+                            "max": 100,
+                            "min": 0,
+                            "type": "gauge"
+                        }
+                    ],
+                    "path": "printer",
+                    "title": "Printer"
                 }
             ]
         }

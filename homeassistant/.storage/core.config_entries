@@ -198,6 +198,28 @@
                 "title": "Aruna's iPad",
                 "unique_id": null,
                 "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "base_path": "/ipp/print",
+                    "host": "192.168.20.18",
+                    "name": "HP1458D0FD7120",
+                    "port": 631,
+                    "ssl": false,
+                    "uuid": "1c852a4d-b800-1f08-abcd-1458d0fd7120",
+                    "verify_ssl": false
+                },
+                "domain": "ipp",
+                "entry_id": "1c66e83f7a144a6c871a92f8b44fb1ad",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "HP1458D0FD7120",
+                "unique_id": "1c852a4d-b800-1f08-abcd-1458d0fd7120",
+                "version": 1
             }
         ]
     },
