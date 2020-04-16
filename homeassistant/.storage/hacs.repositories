@@ -1030,7 +1030,7 @@
             "authors": [],
             "category": "plugin",
             "description": "\u2747\ufe0f Lovelace button-card for home assistant",
-            "downloads": 7673,
+            "downloads": null,
             "first_install": false,
             "full_name": "custom-cards/button-card",
             "hide": false,
@@ -2931,7 +2931,7 @@
             ],
             "category": "integration",
             "description": "Manage (Install, track, upgrade) and discover custom elements for Home Assistant.",
-            "downloads": 5868,
+            "downloads": 5914,
             "first_install": false,
             "full_name": "hacs/integration",
             "hide": false,
@@ -5632,6 +5632,70 @@
             "topics": [],
             "version_installed": null
         },
+        "194319685": {
+            "authors": [],
+            "category": "python_script",
+            "description": "Script that adds MQTT discovery support for Shellies devices",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "bieniu/ha-shellies-discovery",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "0.17.7",
+            "last_updated": null,
+            "name": "ha-shellies-discovery",
+            "new": true,
+            "repository_manifest": {
+                "filename": "shellies-discovery.zip",
+                "homeassistant": "0.95.0",
+                "name": "Shellies Discovery",
+                "zip_release": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 40,
+            "topics": [
+                "discovery",
+                "home-assistant",
+                "mqtt",
+                "python",
+                "python-script",
+                "shelly"
+            ],
+            "version_installed": null
+        },
+        "194381263": {
+            "authors": [],
+            "category": "python_script",
+            "description": "This script updates Z-Wave thermostat entity state and current temperature from external sensor",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "bieniu/ha-thermostat-update",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "0.3.5",
+            "last_updated": null,
+            "name": "ha-thermostat-update",
+            "new": true,
+            "repository_manifest": {
+                "name": "Thermostat Update"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 4,
+            "topics": [
+                "home-assistant",
+                "python",
+                "python-script",
+                "thermostat",
+                "z-wave"
+            ],
+            "version_installed": null
+        },
         "194545176": {
             "authors": [],
             "category": "appdaemon",
@@ -6558,6 +6622,36 @@
             "topics": [
                 "home-assistant",
                 "lovelace-ui"
+            ],
+            "version_installed": null
+        },
+        "198460710": {
+            "authors": [],
+            "category": "python_script",
+            "description": "A python script for Homeassistant that counts down the days to birthdays, anniversaries etc",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "mf-social/ps-date-countdown",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v4.1",
+            "last_updated": null,
+            "name": "ps-date-countdown",
+            "new": true,
+            "repository_manifest": {
+                "name": "Date Countdown"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 11,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "homeassistant",
+                "python",
+                "python-script"
             ],
             "version_installed": null
         },
@@ -11800,6 +11894,38 @@
             ],
             "version_installed": null
         },
+        "233093604": {
+            "authors": [],
+            "category": "python_script",
+            "description": "merge master/slave device trackers",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "kodi1/tracker_merge",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "last_updated": null,
+            "name": "tracker_merge",
+            "new": true,
+            "repository_manifest": {
+                "country": "NO",
+                "name": "kodi1/tracker_merge",
+                "render_readme": "true"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "python",
+                "python-script",
+                "tracking"
+            ],
+            "version_installed": null
+        },
         "233389688": {
             "authors": [],
             "category": "appdaemon",
@@ -13713,6 +13839,36 @@
             ],
             "version_installed": null
         },
+        "240900380": {
+            "authors": [],
+            "category": "python_script",
+            "description": "Python script to handle state and attributes of existing sensors and entities",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "pmazz/ps_hassio_entities",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v1.1.0",
+            "last_updated": null,
+            "name": "ps_hassio_entities",
+            "new": true,
+            "repository_manifest": {
+                "name": "Entities Script",
+                "render_readme": "true"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 5,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "python",
+                "python-script"
+            ],
+            "version_installed": null
+        },
         "240906060": {
             "authors": [],
             "category": "plugin",
@@ -14140,6 +14296,41 @@
                 "hacs",
                 "home-assistant",
                 "netdaemon"
+            ],
+            "version_installed": null
+        },
+        "246406566": {
+            "authors": [],
+            "category": "python_script",
+            "description": "Python script to update climate devices",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "Santobert/HA-UpdateClimate",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v1.0.3",
+            "last_updated": null,
+            "name": "HA-UpdateClimate",
+            "new": true,
+            "repository_manifest": {
+                "domains": "climate",
+                "homeassistant": "0.47.0",
+                "name": "UpdateClimate",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "climate",
+                "hacs",
+                "home-assistant",
+                "hvac",
+                "preset",
+                "python-script",
+                "scheduler"
             ],
             "version_installed": null
         },

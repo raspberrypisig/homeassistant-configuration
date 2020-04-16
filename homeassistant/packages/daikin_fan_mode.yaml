@@ -1,0 +1,9 @@
+counter:
+  daikin_fan_mode:
+    name: daikin.fan_mode
+    initial: 0
+    step: 1
+    restore: false
+    minimum: 0
+    maximum: 4
+    

@@ -362,7 +362,7 @@
                 "entity_id": "sensor.aruna_guptas_iphone_battery_level",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-80",
+                "original_icon": "mdi:battery-50",
                 "original_name": "Aruna Gupta\u2019s iPhone Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -378,7 +378,7 @@
                 "entity_id": "sensor.aruna_guptas_iphone_battery_state",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-80",
+                "original_icon": "mdi:battery-50",
                 "original_name": "Aruna Gupta\u2019s iPhone Battery State",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -610,7 +610,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1c66e83f7a144a6c871a92f8b44fb1ad",
                 "device_class": "timestamp",
                 "device_id": "b6dbd0907c89420886fd5390f9bb5ea1",
@@ -626,7 +626,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1c66e83f7a144a6c871a92f8b44fb1ad",
                 "device_class": null,
                 "device_id": "b6dbd0907c89420886fd5390f9bb5ea1",
@@ -642,7 +642,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1c66e83f7a144a6c871a92f8b44fb1ad",
                 "device_class": null,
                 "device_id": "b6dbd0907c89420886fd5390f9bb5ea1",
@@ -658,7 +658,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1c66e83f7a144a6c871a92f8b44fb1ad",
                 "device_class": null,
                 "device_id": "b6dbd0907c89420886fd5390f9bb5ea1",
@@ -671,6 +671,22 @@
                 "platform": "ipp",
                 "supported_features": 0,
                 "unique_id": "1c852a4d-b800-1f08-abcd-1458d0fd7120_printer",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "counter.daikin_fan_mode",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "daikin.fan_mode",
+                "platform": "counter",
+                "supported_features": 0,
+                "unique_id": "daikin_fan_mode",
                 "unit_of_measurement": null
             }
         ]

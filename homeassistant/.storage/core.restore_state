@@ -1,25 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2020-04-16T11:18:59.009970+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Update BOM Icons",
-                    "last_triggered": "2020-04-16T07:55:32.112531+00:00"
-                },
-                "context": {
-                    "id": "80cac8f1ebc44d2988a22a7c41981b35",
-                    "parent_id": "059271e840914932b12039e36ebdec55",
-                    "user_id": null
-                },
-                "entity_id": "automation.update_bom_icons",
-                "last_changed": "2020-04-16T07:30:26.550296+00:00",
-                "last_updated": "2020-04-16T07:55:32.112880+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2020-04-16T11:18:59.009970+00:00",
+            "last_seen": "2020-04-16T12:10:25.013652+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -28,49 +10,89 @@
                     "user_id": "e448bf45727e44f996c590d74b5c95e2"
                 },
                 "context": {
-                    "id": "d51ff381926840ec8cd3ba6dcc1572a7",
+                    "id": "fd0042c2b14c44bca75912daf2b93bcc",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.mohan_gupta",
-                "last_changed": "2020-04-16T07:30:26.551401+00:00",
-                "last_updated": "2020-04-16T07:33:45.695567+00:00",
+                "last_changed": "2020-04-16T11:55:11.283919+00:00",
+                "last_updated": "2020-04-16T11:55:24.372611+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2020-04-16T11:18:59.009970+00:00",
+            "last_seen": "2020-04-16T12:10:25.013652+00:00",
+            "state": {
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "daikin.fan_mode",
+                    "initial": 0,
+                    "maximum": 4,
+                    "minimum": 0,
+                    "step": 1
+                },
+                "context": {
+                    "id": "5cff01851d1f4dbe873dc8732dc047bc",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "counter.daikin_fan_mode",
+                "last_changed": "2020-04-16T12:07:55.833449+00:00",
+                "last_updated": "2020-04-16T12:07:55.833449+00:00",
+                "state": "2"
+            }
+        },
+        {
+            "last_seen": "2020-04-16T12:10:25.013652+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Update BOM Icons",
+                    "last_triggered": "2020-04-16T11:55:24.593185+00:00"
+                },
+                "context": {
+                    "id": "885bec491fcf44ee9e3c285a5d75bfea",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.update_bom_icons",
+                "last_changed": "2020-04-16T11:55:11.336328+00:00",
+                "last_updated": "2020-04-16T11:55:24.593474+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-04-16T12:10:25.013652+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Aruna Gupta\u2019s iPhone",
                     "source_type": "gps"
                 },
                 "context": {
-                    "id": "22fe5dc6e1ff42d5836b2c11a6dbe4e7",
+                    "id": "8e0a05c222384eebb838809880ee018a",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.aruna_guptas_iphone",
-                "last_changed": "2020-04-16T07:30:31.728652+00:00",
-                "last_updated": "2020-04-16T07:30:31.728652+00:00",
+                "last_changed": "2020-04-16T11:55:15.394516+00:00",
+                "last_updated": "2020-04-16T11:55:15.394516+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2020-04-16T11:18:59.009970+00:00",
+            "last_seen": "2020-04-16T12:10:25.013652+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Aruna's iPad",
                     "source_type": "gps"
                 },
                 "context": {
-                    "id": "ad5b947f011440b2bbaf30559812e899",
+                    "id": "e2e38a42b93b4c3ead173d990c29dcd8",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.aruna_s_ipad",
-                "last_changed": "2020-04-16T07:30:31.729775+00:00",
-                "last_updated": "2020-04-16T07:30:31.729775+00:00",
+                "last_changed": "2020-04-16T11:55:15.395354+00:00",
+                "last_updated": "2020-04-16T11:55:15.395354+00:00",
                 "state": "unknown"
             }
         }
