@@ -1,0 +1,47 @@
+esphome:
+  name: mirabella_rgbw
+  platform: ESP8266
+  board: esp01_1m
+
+wifi:
+  ssid: "mycrib"
+  password: "peachspeak38"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Mirabella Rgbw Fallback Hotspot"
+    password: "ZeapO1IOzRb0"
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+
+output:
+  - platform: esp8266_pwm
+    id: output_red
+    pin: GPIO4
+  - platform: esp8266_pwm
+    id: output_green
+    pin: GPIO12
+  - platform: esp8266_pwm
+    id: output_blue
+    pin: GPIO14
+  - platform: esp8266_pwm
+    id: output_white
+    pin: GPIO5
+
+light:
+  - platform: rgbw
+    name: "rgbw_e27_01"
+    id: light1
+    red: output_red
+    green: output_green
+    blue: output_blue
+    white: output_white
+    restore_mode: ALWAYS_ON

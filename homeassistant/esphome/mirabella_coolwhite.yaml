@@ -1,0 +1,35 @@
+esphome:
+  name: mirabella_coolwhite
+  platform: ESP8266
+  board: esp01_1m
+
+wifi:
+  ssid: "mycrib"
+  password: "peachspeak38"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Mirabella Coolwhite"
+    password: "tCJlwCfq2k6W"
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+
+output:
+  - platform: esp8266_pwm
+    id: output1
+    pin: GPIO5
+
+light:
+  - platform: monochromatic
+    name: "Mirabella_2 Light"
+    restore_mode: ALWAYS_ON
+    output: output1
+    id: light1  

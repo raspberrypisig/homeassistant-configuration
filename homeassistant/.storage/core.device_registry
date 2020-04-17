@@ -100,6 +100,46 @@
                 "name_by_user": null,
                 "sw_version": null,
                 "via_device_id": null
+            },
+            {
+                "area_id": "a874d80ec45047bab65e0af6315fd77d",
+                "config_entries": [
+                    "5ae10f812c07440da8b57e5b9a2b0fae"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "a4:cf:12:c0:6e:3c"
+                    ]
+                ],
+                "id": "475dbb0e702e42fc80395df51c020ea5",
+                "identifiers": [],
+                "manufacturer": "espressif",
+                "model": "PLATFORMIO_ESP01_1M",
+                "name": "mirabella_rgbw",
+                "name_by_user": null,
+                "sw_version": "1.14.3 (Apr 17 2020, 00:42:26)",
+                "via_device_id": null
+            },
+            {
+                "area_id": "c0ac7dc1890a4cd18e8f3d3643357412",
+                "config_entries": [
+                    "5718f16c872a407f813615d33e31d8b5"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "bc:dd:c2:9d:a1:c1"
+                    ]
+                ],
+                "id": "c7d0e263a78349629070344b443b2947",
+                "identifiers": [],
+                "manufacturer": "espressif",
+                "model": "PLATFORMIO_ESP01_1M",
+                "name": "mirabella_coolwhite",
+                "name_by_user": null,
+                "sw_version": "1.14.3 (Apr 17 2020, 00:14:21)",
+                "via_device_id": null
             }
         ]
     },

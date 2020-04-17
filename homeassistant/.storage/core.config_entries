@@ -220,6 +220,42 @@
                 "title": "HP1458D0FD7120",
                 "unique_id": "1c852a4d-b800-1f08-abcd-1458d0fd7120",
                 "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "host": "mirabella_rgbw.local",
+                    "password": "",
+                    "port": 6053
+                },
+                "domain": "esphome",
+                "entry_id": "5ae10f812c07440da8b57e5b9a2b0fae",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "mirabella_rgbw",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "host": "mirabella_coolwhite.local",
+                    "password": "",
+                    "port": 6053
+                },
+                "domain": "esphome",
+                "entry_id": "5718f16c872a407f813615d33e31d8b5",
+                "options": {},
+                "source": "zeroconf",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "mirabella_coolwhite",
+                "unique_id": null,
+                "version": 1
             }
         ]
     },

@@ -1,0 +1,31 @@
+{
+    "data": {
+        "device_info": {
+            "compilation_time": "Apr 17 2020, 00:14:21",
+            "esphome_version": "1.14.3",
+            "has_deep_sleep": false,
+            "mac_address": "BC:DD:C2:9D:A1:C1",
+            "model": "PLATFORMIO_ESP01_1M",
+            "name": "mirabella_coolwhite",
+            "uses_password": false
+        },
+        "light": [
+            {
+                "effects": [],
+                "key": 2820037813,
+                "max_mireds": 0.0,
+                "min_mireds": 0.0,
+                "name": "Mirabella_1 Light",
+                "object_id": "mirabella_1_light",
+                "supports_brightness": true,
+                "supports_color_temperature": false,
+                "supports_rgb": false,
+                "supports_white_value": false,
+                "unique_id": "mirabella_coolwhitelightmirabella_1_light"
+            }
+        ],
+        "services": []
+    },
+    "key": "esphome.5718f16c872a407f813615d33e31d8b5",
+    "version": 1
+}

@@ -674,7 +674,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": null,
                 "device_class": null,
                 "device_id": null,
@@ -687,6 +687,38 @@
                 "platform": "counter",
                 "supported_features": 0,
                 "unique_id": "daikin_fan_mode",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": {},
+                "config_entry_id": "5ae10f812c07440da8b57e5b9a2b0fae",
+                "device_class": null,
+                "device_id": "475dbb0e702e42fc80395df51c020ea5",
+                "disabled_by": null,
+                "entity_id": "light.rgbw_e27_01",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "rgbw_e27_01",
+                "platform": "esphome",
+                "supported_features": 185,
+                "unique_id": "mirabella_rgbwlightrgbw_e27_01",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": {},
+                "config_entry_id": "5718f16c872a407f813615d33e31d8b5",
+                "device_class": null,
+                "device_id": "c7d0e263a78349629070344b443b2947",
+                "disabled_by": null,
+                "entity_id": "light.mirabella_1_light",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "Mirabella_1 Light",
+                "platform": "esphome",
+                "supported_features": 41,
+                "unique_id": "mirabella_coolwhitelightmirabella_1_light",
                 "unit_of_measurement": null
             }
         ]

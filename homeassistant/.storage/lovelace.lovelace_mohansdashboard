@@ -271,6 +271,21 @@
                     ],
                     "path": "printer",
                     "title": "Printer"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "light.rgbw_e27_01",
+                            "type": "light"
+                        },
+                        {
+                            "entity": "light.mirabella_1_light",
+                            "type": "light"
+                        }
+                    ],
+                    "path": "rgbw-light",
+                    "title": "RGBW Light"
                 }
             ]
         }
