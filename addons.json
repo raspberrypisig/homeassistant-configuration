@@ -87,7 +87,7 @@
     },
     "a0d7b954_nodered": {
       "name": "Node-RED",
-      "version": "6.1.4",
+      "version": "6.2.0",
       "slug": "nodered",
       "description": "Flow-based programming for the Internet of Things",
       "url": "https://github.com/hassio-addons/addon-node-red",
@@ -96,6 +96,7 @@
       "ingress_port": 0,
       "panel_icon": "mdi:sitemap",
       "startup": "application",
+      "init": false,
       "homeassistant": "0.92.0b2",
       "arch": [
         "aarch64",
@@ -178,23 +179,22 @@
         "leave_front_door_open": "bool?"
       },
       "image": "hassioaddons/node-red-{arch}",
-      "audio": false,
-      "advanced": false,
-      "devicetree": false,
-      "host_ipc": false,
-      "legacy": false,
-      "init": true,
       "video": false,
-      "panel_admin": true,
-      "full_access": false,
-      "stage": "stable",
       "kernel_modules": false,
-      "timeout": 10,
-      "stdin": false,
-      "host_dbus": false,
-      "host_pid": false,
-      "docker_api": false,
       "udev": false,
+      "stdin": false,
+      "host_pid": false,
+      "audio": false,
+      "stage": "stable",
+      "devicetree": false,
+      "advanced": false,
+      "host_ipc": false,
+      "host_dbus": false,
+      "panel_admin": true,
+      "legacy": false,
+      "timeout": 10,
+      "docker_api": false,
+      "full_access": false,
       "repository": "a0d7b954",
       "location": "/data/addons/git/a0d7b954/node-red"
     },
@@ -769,6 +769,137 @@
       "host_ipc": false,
       "repository": "core",
       "location": "/data/addons/core/mosquitto"
+    },
+    "core_check_config": {
+      "name": "Check Home Assistant configuration",
+      "version": "3.2.0",
+      "slug": "check_config",
+      "description": "Check current Home Assistant configuration against a new version",
+      "url": "https://github.com/home-assistant/hassio-addons/tree/master/check_config",
+      "arch": [
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
+      ],
+      "udev": true,
+      "startup": "once",
+      "boot": "manual",
+      "init": false,
+      "map": [
+        "config",
+        "ssl"
+      ],
+      "options": {
+        "version": "latest"
+      },
+      "schema": {
+        "version": "str"
+      },
+      "image": "homeassistant/{arch}-addon-check_config",
+      "video": false,
+      "kernel_modules": false,
+      "homeassistant_api": false,
+      "stdin": false,
+      "panel_icon": "mdi:puzzle",
+      "host_network": false,
+      "hassio_api": false,
+      "hassio_role": "default",
+      "host_pid": false,
+      "auto_uart": false,
+      "auth_api": false,
+      "audio": false,
+      "stage": "stable",
+      "devicetree": false,
+      "advanced": false,
+      "ingress_port": 8099,
+      "host_ipc": false,
+      "host_dbus": false,
+      "panel_admin": true,
+      "legacy": false,
+      "timeout": 10,
+      "docker_api": false,
+      "apparmor": true,
+      "ingress": false,
+      "full_access": false,
+      "gpio": false,
+      "repository": "core",
+      "location": "/data/addons/core/check_config"
+    },
+    "a0d7b954_zerotier": {
+      "name": "ZeroTier One",
+      "version": "0.7.0",
+      "slug": "zerotier",
+      "description": "Radically simplify your network with a virtual networking layer that works the same everywhere",
+      "url": "https://github.com/hassio-addons/addon-zerotier",
+      "startup": "services",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+      ],
+      "ports": {
+        "9993/tcp": 9993
+      },
+      "ports_description": {
+        "9993/tcp": "ZeroTier's primary port"
+      },
+      "boot": "auto",
+      "hassio_api": true,
+      "hassio_role": "default",
+      "homeassistant_api": false,
+      "host_network": true,
+      "privileged": [
+        "NET_ADMIN",
+        "SYS_ADMIN"
+      ],
+      "devices": [
+        "/dev/net/tun:/dev/net/tun:rwm"
+      ],
+      "map": [
+        "ssl:rw"
+      ],
+      "options": {
+        "networks": [],
+        "api_auth_token": ""
+      },
+      "schema": {
+        "networks": [
+          "match(^!secret [a-zA-Z0-9_\\-]+$|[0-9a-z]{16})"
+        ],
+        "api_auth_token": "str",
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?"
+      },
+      "image": "hassioaddons/zerotier-{arch}",
+      "video": false,
+      "kernel_modules": false,
+      "udev": false,
+      "stdin": false,
+      "panel_icon": "mdi:puzzle",
+      "host_pid": false,
+      "auto_uart": false,
+      "auth_api": false,
+      "audio": false,
+      "init": true,
+      "stage": "stable",
+      "devicetree": false,
+      "advanced": false,
+      "ingress_port": 8099,
+      "host_ipc": false,
+      "host_dbus": false,
+      "panel_admin": true,
+      "legacy": false,
+      "timeout": 10,
+      "docker_api": false,
+      "apparmor": true,
+      "ingress": false,
+      "full_access": false,
+      "gpio": false,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/zerotier"
     }
   },
   "user": {
@@ -798,7 +929,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "f8f67743131b0573d56778e4e38bf52a1c1eae1ac938aff2eccfe5c91ea8546f47855c0515d42dfb83730aecef63c5435f3976916c8d52b8"
+      "access_token": "3fa97b6ae0091de4080a8b5a36a6a5c77c7c6108e19a1aeb1c8bbf0b59b7f5000c481e80883b2bb185d0c89b9ab4c1452ad77fcac2b2b147"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -820,14 +951,17 @@
         "npm_packages": [],
         "init_commands": []
       },
-      "version": "6.1.4",
+      "version": "6.2.0",
       "image": "hassioaddons/node-red-armv7",
       "ingress_token": "a6bpeiu8GHNTgysa60kaNQp_HxdKGDpXIlArPYcBEnA",
       "protected": true,
       "auto_update": false,
       "ingress_panel": true,
       "uuid": "20c5b7c9aa1d4220a2c9ec9ccd7b505b",
-      "access_token": "9f2c2dc9b610fdd7e3d442f307275429ea93527595bd0695a77f57fe91c18c3c69f6c61216a0f27842ec14c9a07509aac2c2bfa324d0ffd5"
+      "access_token": "6b83b49fc8d0590c8b1973eaf4afaa626cac20a94ceb47fbd98dd45c12555db59ef28177d224f77691ae5aae2536a9d7cb8419f4fb1ae8fc",
+      "network": {
+        "80/tcp": 1880
+      }
     },
     "core_configurator": {
       "options": {},
@@ -838,7 +972,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "2be7cfdbeb69479c530d1f7c9baeabf774183921f14f3b89ea00fb9be4d519e9666a9191b0eaf49a4c68e40b09ea1693f922baacc27c78a2"
+      "access_token": "77b9e54e517dfd74febb6316b49e9e51e57267293bccb6b25e3cba4605bd0142ac0de077d8b2e8a94698efffd219595a6b190b3873143c31"
     },
     "a0d7b954_grocy": {
       "options": {
@@ -875,7 +1009,7 @@
       "ingress_token": "7dhoYz50eAemfFgxbkS3uFe8oZZqftS2LR0Mfvh997Y",
       "uuid": "3035c43fc60e4e4cba0085f864cafefc",
       "auto_update": false,
-      "access_token": "d1d10f5ff72425fa59219321e7b4c5015f293a7d90141d9741e542c32e2cb22c1ec876a137f1fc6fde01fd1b78128c12cd2727d05981d4d0"
+      "access_token": "72a04250db6f9b1a30d3a2f70f39b3cd3afe878ed0e2fe160d5a13908a54b14cd9db3addf48aff457af883fe7136e321c61519fba8434353"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -888,7 +1022,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "caf5751794004e2b0eab3e018a7e5f01a56944bbbd41b0609fea7b5a21c67ca882e717d4fa455b80d88cc2fa3a37110794e2774469d195bd"
+      "access_token": "a48156dbe837839eed12ef4798f4fbc7ec2ccc29f0d3964a39f6f39fa1c2ac6a1748da09df6412cef4b2f42ff3ebb299d10e491202e5ee1b"
     },
     "a0d7b954_grafana": {
       "options": {},
@@ -942,7 +1076,37 @@
       "uuid": "884ccdcad07744debcf6160a9e66ca77",
       "protected": true,
       "ingress_panel": false,
-      "access_token": "38d38bf8d76944319f0f973c6c2153a5479045f73141580f7ffe9e284a361bd5ae2ca2cf0acb810b691b4d371a0a6eacd3ac6bf1ce75caea"
+      "access_token": "033106282b39c5d45af53f9379a2b29c5305e10afdb03a056592c6c93e9b0d462860f3fc93d21807ca50d72295f8ded83831d447289b6ace"
+    },
+    "core_check_config": {
+      "options": {},
+      "version": "3.2.0",
+      "image": "homeassistant/armv7-addon-check_config",
+      "protected": true,
+      "ingress_panel": false,
+      "uuid": "c79c05db1fd04523b8fb4298e47ee983",
+      "auto_update": false,
+      "ingress_token": "7NT8S0b7Bs9ZvquFpmhkFZZM624-y-wOEzxETuOfbbc",
+      "boot": "manual",
+      "access_token": "3a1c6ef353054ee3eee7ae622690d37eecd1ec63424496a6a38ac5d5bbbe6c39144d10b6c4b908b8f30429f5c1d6b6cacdee51fe01af59f4"
+    },
+    "a0d7b954_zerotier": {
+      "options": {
+        "networks": [
+          "d3ecf5726d296a4a",
+          "e5cd7a9e1c1404e2"
+        ],
+        "api_auth_token": "NpTvJZhis4RwhjLVevjHunStJwnS4HcP"
+      },
+      "version": "0.7.0",
+      "image": "hassioaddons/zerotier-armv7",
+      "protected": true,
+      "ingress_panel": false,
+      "uuid": "f9f52ec1869245e4908609cb85dbcd94",
+      "auto_update": false,
+      "ingress_token": "ua3BUBcs40oNBDLSoQPJptWjzM6TQZlyhR1JxilsDKY",
+      "boot": "manual",
+      "access_token": "9f0fb63b2a3ce444ac1faedc467e6ca697ad5ca886b3a5cdbc227ded8d41c239bc434097dc6886f47e41a0d6c5360d01a451097d2ec42ce4"
     }
   }
 }
