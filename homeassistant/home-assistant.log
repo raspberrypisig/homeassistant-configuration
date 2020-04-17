@@ -50,3 +50,21 @@
 2020-04-17 11:50:37 WARNING (MainThread) [homeassistant.config_entries] Config entry for ipp not ready yet. Retrying in 80 seconds.
 2020-04-17 11:52:01 ERROR (MainThread) [homeassistant.components.ipp] Error fetching ipp data: Invalid response from API: Error occurred while communicating with IPP server.
 2020-04-17 11:52:01 WARNING (MainThread) [homeassistant.config_entries] Config entry for ipp not ready yet. Retrying in 80 seconds.
+2020-04-17 11:53:25 ERROR (MainThread) [homeassistant.components.ipp] Error fetching ipp data: Invalid response from API: Error occurred while communicating with IPP server.
+2020-04-17 11:53:25 WARNING (MainThread) [homeassistant.config_entries] Config entry for ipp not ready yet. Retrying in 80 seconds.
+2020-04-17 11:54:49 ERROR (MainThread) [homeassistant.components.ipp] Error fetching ipp data: Invalid response from API: Error occurred while communicating with IPP server.
+2020-04-17 11:54:49 WARNING (MainThread) [homeassistant.config_entries] Config entry for ipp not ready yet. Retrying in 80 seconds.
+2020-04-17 11:56:13 ERROR (MainThread) [homeassistant.components.ipp] Error fetching ipp data: Invalid response from API: Error occurred while communicating with IPP server.
+2020-04-17 11:56:13 WARNING (MainThread) [homeassistant.config_entries] Config entry for ipp not ready yet. Retrying in 80 seconds.
+2020-04-17 11:57:37 ERROR (MainThread) [homeassistant.components.ipp] Error fetching ipp data: Invalid response from API: Error occurred while communicating with IPP server.
+2020-04-17 11:57:37 WARNING (MainThread) [homeassistant.config_entries] Config entry for ipp not ready yet. Retrying in 80 seconds.
+2020-04-17 11:59:01 ERROR (MainThread) [homeassistant.components.ipp] Error fetching ipp data: Invalid response from API: Error occurred while communicating with IPP server.
+2020-04-17 11:59:01 WARNING (MainThread) [homeassistant.config_entries] Config entry for ipp not ready yet. Retrying in 80 seconds.
+2020-04-17 12:00:25 ERROR (MainThread) [homeassistant.components.ipp] Error fetching ipp data: Invalid response from API: Error occurred while communicating with IPP server.
+2020-04-17 12:00:25 WARNING (MainThread) [homeassistant.config_entries] Config entry for ipp not ready yet. Retrying in 80 seconds.
+2020-04-17 12:01:49 ERROR (MainThread) [homeassistant.components.ipp] Error fetching ipp data: Invalid response from API: Error occurred while communicating with IPP server.
+2020-04-17 12:01:49 WARNING (MainThread) [homeassistant.config_entries] Config entry for ipp not ready yet. Retrying in 80 seconds.
+2020-04-17 12:03:13 ERROR (MainThread) [homeassistant.components.ipp] Error fetching ipp data: Invalid response from API: Error occurred while communicating with IPP server.
+2020-04-17 12:03:13 WARNING (MainThread) [homeassistant.config_entries] Config entry for ipp not ready yet. Retrying in 80 seconds.
+2020-04-17 12:04:37 ERROR (MainThread) [homeassistant.components.ipp] Error fetching ipp data: Invalid response from API: Error occurred while communicating with IPP server.
+2020-04-17 12:04:37 WARNING (MainThread) [homeassistant.config_entries] Config entry for ipp not ready yet. Retrying in 80 seconds.
