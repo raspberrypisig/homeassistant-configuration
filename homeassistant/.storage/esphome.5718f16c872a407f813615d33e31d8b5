@@ -1,7 +1,7 @@
 {
     "data": {
         "device_info": {
-            "compilation_time": "Apr 17 2020, 00:14:21",
+            "compilation_time": "Apr 17 2020, 17:14:22",
             "esphome_version": "1.14.3",
             "has_deep_sleep": false,
             "mac_address": "BC:DD:C2:9D:A1:C1",
@@ -12,16 +12,16 @@
         "light": [
             {
                 "effects": [],
-                "key": 2820037813,
+                "key": 483744922,
                 "max_mireds": 0.0,
                 "min_mireds": 0.0,
-                "name": "Mirabella_1 Light",
-                "object_id": "mirabella_1_light",
+                "name": "Mirabella_2 Light",
+                "object_id": "mirabella_2_light",
                 "supports_brightness": true,
                 "supports_color_temperature": false,
                 "supports_rgb": false,
                 "supports_white_value": false,
-                "unique_id": "mirabella_coolwhitelightmirabella_1_light"
+                "unique_id": "mirabella_coolwhitelightmirabella_2_light"
             }
         ],
         "services": []

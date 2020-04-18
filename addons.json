@@ -273,120 +273,6 @@
       "repository": "core",
       "location": "/data/addons/core/configurator"
     },
-    "a0d7b954_grocy": {
-      "name": "Grocy",
-      "version": "0.7.1",
-      "slug": "grocy",
-      "description": "ERP beyond your fridge! A groceries & household management solution for your home",
-      "url": "https://github.com/hassio-addons/addon-grocy",
-      "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
-      "ingress": true,
-      "ingress_port": 1337,
-      "panel_icon": "mdi:cart",
-      "startup": "system",
-      "arch": [
-        "aarch64",
-        "amd64",
-        "armhf",
-        "armv7",
-        "i386"
-      ],
-      "boot": "auto",
-      "hassio_api": true,
-      "hassio_role": "default",
-      "map": [
-        "ssl"
-      ],
-      "ports": {
-        "80/tcp": null
-      },
-      "ports_description": {
-        "80/tcp": "Web interface (Not required for Ingress)"
-      },
-      "options": {
-        "culture": "en",
-        "currency": "USD",
-        "entry_page": "stock",
-        "features": {
-          "batteries": true,
-          "calendar": true,
-          "chores": true,
-          "equipment": true,
-          "recipes": true,
-          "shoppinglist": true,
-          "stock": true,
-          "tasks": true
-        },
-        "tweaks": {
-          "chores_assignment": true,
-          "multiple_shopping_lists": true,
-          "stock_best_before_date_tracking": true,
-          "stock_location_tracking": true,
-          "stock_price_tracking": true,
-          "stock_product_freezing": true,
-          "stock_product_opened_tracking": true
-        },
-        "ssl": true,
-        "certfile": "fullchain.pem",
-        "keyfile": "privkey.pem"
-      },
-      "schema": {
-        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
-        "culture": "list(da|de|en|en_GB|es|fr|hu|it|nl|no|pl|ru|sv_SE|tr)",
-        "currency": "match(^[A-Z]{3}$)",
-        "entry_page": "list(stock|shoppinglist|recipes|chores|tasks|batteries|equipment|calendar|mealplan)",
-        "features": {
-          "batteries": "bool",
-          "calendar": "bool",
-          "chores": "bool",
-          "equipment": "bool",
-          "recipes": "bool",
-          "shoppinglist": "bool",
-          "stock": "bool",
-          "tasks": "bool"
-        },
-        "tweaks": {
-          "calendar_first_day_of_week": "int(0,6)?",
-          "chores_assignment": "bool",
-          "meal_plan_first_day_of_week": "int(0,6)?",
-          "multiple_shopping_lists": "bool",
-          "stock_best_before_date_tracking": "bool",
-          "stock_location_tracking": "bool",
-          "stock_price_tracking": "bool",
-          "stock_product_freezing": "bool",
-          "stock_product_opened_tracking": "bool"
-        },
-        "ssl": "bool",
-        "certfile": "str",
-        "keyfile": "str"
-      },
-      "image": "hassioaddons/grocy-{arch}",
-      "stdin": false,
-      "homeassistant_api": false,
-      "udev": false,
-      "panel_admin": true,
-      "timeout": 10,
-      "auto_uart": false,
-      "legacy": false,
-      "full_access": false,
-      "devicetree": false,
-      "advanced": false,
-      "auth_api": false,
-      "kernel_modules": false,
-      "init": true,
-      "video": false,
-      "gpio": false,
-      "audio": false,
-      "host_pid": false,
-      "docker_api": false,
-      "host_dbus": false,
-      "stage": "stable",
-      "host_network": false,
-      "host_ipc": false,
-      "apparmor": true,
-      "repository": "a0d7b954",
-      "location": "/data/addons/git/a0d7b954/grocy"
-    },
     "15ef4d2f_esphome": {
       "arch": [
         "amd64",
@@ -770,63 +656,6 @@
       "repository": "core",
       "location": "/data/addons/core/mosquitto"
     },
-    "core_check_config": {
-      "name": "Check Home Assistant configuration",
-      "version": "3.2.0",
-      "slug": "check_config",
-      "description": "Check current Home Assistant configuration against a new version",
-      "url": "https://github.com/home-assistant/hassio-addons/tree/master/check_config",
-      "arch": [
-        "armhf",
-        "armv7",
-        "aarch64",
-        "amd64",
-        "i386"
-      ],
-      "udev": true,
-      "startup": "once",
-      "boot": "manual",
-      "init": false,
-      "map": [
-        "config",
-        "ssl"
-      ],
-      "options": {
-        "version": "latest"
-      },
-      "schema": {
-        "version": "str"
-      },
-      "image": "homeassistant/{arch}-addon-check_config",
-      "video": false,
-      "kernel_modules": false,
-      "homeassistant_api": false,
-      "stdin": false,
-      "panel_icon": "mdi:puzzle",
-      "host_network": false,
-      "hassio_api": false,
-      "hassio_role": "default",
-      "host_pid": false,
-      "auto_uart": false,
-      "auth_api": false,
-      "audio": false,
-      "stage": "stable",
-      "devicetree": false,
-      "advanced": false,
-      "ingress_port": 8099,
-      "host_ipc": false,
-      "host_dbus": false,
-      "panel_admin": true,
-      "legacy": false,
-      "timeout": 10,
-      "docker_api": false,
-      "apparmor": true,
-      "ingress": false,
-      "full_access": false,
-      "gpio": false,
-      "repository": "core",
-      "location": "/data/addons/core/check_config"
-    },
     "a0d7b954_zerotier": {
       "name": "ZeroTier One",
       "version": "0.7.0",
@@ -929,7 +758,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "3fa97b6ae0091de4080a8b5a36a6a5c77c7c6108e19a1aeb1c8bbf0b59b7f5000c481e80883b2bb185d0c89b9ab4c1452ad77fcac2b2b147"
+      "access_token": "28ed3d6a34bb65552e61619dadd870e3d5ab1b789a1a4ba554ef9d68d3aa5a981f7f9039816eee6aa9e5b03c006d8d4a0581643f1fb708fa"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -958,7 +787,7 @@
       "auto_update": false,
       "ingress_panel": true,
       "uuid": "20c5b7c9aa1d4220a2c9ec9ccd7b505b",
-      "access_token": "6b83b49fc8d0590c8b1973eaf4afaa626cac20a94ceb47fbd98dd45c12555db59ef28177d224f77691ae5aae2536a9d7cb8419f4fb1ae8fc",
+      "access_token": "dee7b1354d3d1ebd118737ec5f9fa85f7f1702cb16adfee712a036dd26cf73ca608f52eabbeb4f6e705c562a23506543bff42b16de09f8df",
       "network": {
         "80/tcp": 1880
       }
@@ -972,44 +801,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "77b9e54e517dfd74febb6316b49e9e51e57267293bccb6b25e3cba4605bd0142ac0de077d8b2e8a94698efffd219595a6b190b3873143c31"
-    },
-    "a0d7b954_grocy": {
-      "options": {
-        "culture": "en",
-        "currency": "AUD",
-        "entry_page": "stock",
-        "features": {
-          "batteries": true,
-          "calendar": true,
-          "chores": true,
-          "equipment": true,
-          "recipes": true,
-          "shoppinglist": true,
-          "stock": true,
-          "tasks": true
-        },
-        "tweaks": {
-          "chores_assignment": true,
-          "multiple_shopping_lists": true,
-          "stock_best_before_date_tracking": true,
-          "stock_location_tracking": true,
-          "stock_price_tracking": true,
-          "stock_product_freezing": true,
-          "stock_product_opened_tracking": true
-        },
-        "ssl": false,
-        "certfile": "fullchain.pem",
-        "keyfile": "privkey.pem"
-      },
-      "version": "0.7.1",
-      "image": "hassioaddons/grocy-armv7",
-      "protected": true,
-      "ingress_panel": true,
-      "ingress_token": "7dhoYz50eAemfFgxbkS3uFe8oZZqftS2LR0Mfvh997Y",
-      "uuid": "3035c43fc60e4e4cba0085f864cafefc",
-      "auto_update": false,
-      "access_token": "72a04250db6f9b1a30d3a2f70f39b3cd3afe878ed0e2fe160d5a13908a54b14cd9db3addf48aff457af883fe7136e321c61519fba8434353"
+      "access_token": "c60bb45d6f8650b39a7cfffd1c68c3ed9931583a69dccb4d68b20a98f73221aa243e6394fc33211d8fd5af77492716bc71c114330040c4f7"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -1022,7 +814,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "a48156dbe837839eed12ef4798f4fbc7ec2ccc29f0d3964a39f6f39fa1c2ac6a1748da09df6412cef4b2f42ff3ebb299d10e491202e5ee1b"
+      "access_token": "eb4a26b7e74d5ed670edca2e090836b0c7b44c2c2076b63c383da83bf4188e4702ce840f06945035707d47f1fb45cfdc9e436687e1d4ad62"
     },
     "a0d7b954_grafana": {
       "options": {},
@@ -1076,19 +868,7 @@
       "uuid": "884ccdcad07744debcf6160a9e66ca77",
       "protected": true,
       "ingress_panel": false,
-      "access_token": "033106282b39c5d45af53f9379a2b29c5305e10afdb03a056592c6c93e9b0d462860f3fc93d21807ca50d72295f8ded83831d447289b6ace"
-    },
-    "core_check_config": {
-      "options": {},
-      "version": "3.2.0",
-      "image": "homeassistant/armv7-addon-check_config",
-      "protected": true,
-      "ingress_panel": false,
-      "uuid": "c79c05db1fd04523b8fb4298e47ee983",
-      "auto_update": false,
-      "ingress_token": "7NT8S0b7Bs9ZvquFpmhkFZZM624-y-wOEzxETuOfbbc",
-      "boot": "manual",
-      "access_token": "3a1c6ef353054ee3eee7ae622690d37eecd1ec63424496a6a38ac5d5bbbe6c39144d10b6c4b908b8f30429f5c1d6b6cacdee51fe01af59f4"
+      "access_token": "e8288c82007b34d18d1a5c3d0ab827bd8383a19170a9b2f7f3200b4b83c68bf45fe6f6134ccda6a069ac4321f1d51ae83b39a654ea9ba9dc"
     },
     "a0d7b954_zerotier": {
       "options": {

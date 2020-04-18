@@ -1439,6 +1439,23 @@
      "file": "/opt/node_modules/node-red-node-twitter/27-twitter.js"
     }
    }
+  },
+  "node-red-contrib-bcrypt": {
+   "name": "node-red-contrib-bcrypt",
+   "version": "0.0.49",
+   "local": false,
+   "nodes": {
+    "bcrypt": {
+     "name": "bcrypt",
+     "types": [
+      "bcrypt"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-bcrypt",
+     "file": "/config/node-red/node_modules/node-red-contrib-bcrypt/bcrypt/bcrypt.js"
+    }
+   }
   }
  },
  "users": {

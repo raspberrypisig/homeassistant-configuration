@@ -280,12 +280,75 @@
                             "type": "light"
                         },
                         {
-                            "entity": "light.mirabella_1_light",
+                            "entity": "light.mirabella_2_light",
                             "type": "light"
                         }
                     ],
                     "path": "rgbw-light",
                     "title": "RGBW Light"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.season",
+                            "type": "entity"
+                        },
+                        {
+                            "card": {
+                                "content": "This card will show only when the current season is **AUTUMN**",
+                                "type": "markdown"
+                            },
+                            "conditions": [
+                                {
+                                    "entity": "sensor.season",
+                                    "state": "autumn"
+                                }
+                            ],
+                            "type": "conditional"
+                        },
+                        {
+                            "card": {
+                                "content": "This card will show only when the season is **SUMMER**",
+                                "type": "markdown"
+                            },
+                            "conditions": [
+                                {
+                                    "entity": "sensor.season",
+                                    "state": "summer"
+                                }
+                            ],
+                            "type": "conditional"
+                        },
+                        {
+                            "card": {
+                                "content": "This card will show only when the season is **SPRING**",
+                                "type": "markdown"
+                            },
+                            "conditions": [
+                                {
+                                    "entity": "sensor.season",
+                                    "state": "spring"
+                                }
+                            ],
+                            "type": "conditional"
+                        },
+                        {
+                            "card": {
+                                "content": "This card will show only when the season is **WINTER**",
+                                "type": "markdown"
+                            },
+                            "conditions": [
+                                {
+                                    "entity": "sensor.season",
+                                    "state": "winter"
+                                }
+                            ],
+                            "type": "conditional"
+                        }
+                    ],
+                    "path": "testconditional",
+                    "title": "SEASON"
                 }
             ]
         }
