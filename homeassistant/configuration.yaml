@@ -21,5 +21,7 @@ homeassistant:
 
 discovery:
 python_script:
+frontend:
+  themes: !include_dir_merge_named themes
 
 

@@ -1,5 +1,5 @@
 {
   "version": "25",
-  "access_token": "3895cae5a43fb10466ca960618d87b0db7be611ebd4f402b21d9e95c96a5368fc720c0d7916dc3764eb70b693c321a44325d35efb1809b10",
+  "access_token": "243fc8b973d1c11313280767689183c6f2d498673e109cc28cf49ca79d774f83e1dd37a31176ad0aa8ae7bddd49ae9a9b0b70a37bb7d16b3",
   "image": "homeassistant/armv7-hassio-cli"
 }

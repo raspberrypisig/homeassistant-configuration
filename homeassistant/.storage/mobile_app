@@ -9,9 +9,9 @@
                     "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery",
+                "icon": "mdi:battery-90",
                 "name": "Battery Level",
-                "state": 95,
+                "state": 94,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -20,10 +20,10 @@
             "53768b86c3bdbff259b8bb1dd802272e46eb689dfffaeb53072564b4584eb10e_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 95
+                    "Battery Level": 94
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery",
+                "icon": "mdi:battery-90",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
