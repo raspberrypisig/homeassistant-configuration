@@ -391,7 +391,7 @@
                             "type": "vertical-stack"
                         }
                     ],
-                    "panel": true,
+                    "panel": false,
                     "path": "kioskmode",
                     "title": "KioskMode"
                 },
@@ -421,6 +421,79 @@
                     ],
                     "path": "garagedoor",
                     "title": "GARAGEDOOR"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entities": [
+                                        {
+                                            "attribute": "elevation",
+                                            "name": "Elevation",
+                                            "tap_action": null,
+                                            "unit": "\u00b0"
+                                        },
+                                        {
+                                            "attribute": "azimuth",
+                                            "name": "Azimuth",
+                                            "tap_action": null,
+                                            "unit": "\u00b0"
+                                        }
+                                    ],
+                                    "entity": "sun.sun",
+                                    "name": "Elevation and Azimuth",
+                                    "show_state": false,
+                                    "tap_action": null,
+                                    "type": "custom:multiple-entity-row"
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "attribute": "next_rising",
+                                            "format": "time",
+                                            "name": "Sunrise",
+                                            "tap_action": null
+                                        },
+                                        {
+                                            "attribute": "next_setting",
+                                            "format": "time",
+                                            "name": "Sunset",
+                                            "tap_action": null
+                                        }
+                                    ],
+                                    "entity": "sun.sun",
+                                    "name": "Sunrise and Sunset",
+                                    "show_state": false,
+                                    "tap_action": null,
+                                    "type": "custom:multiple-entity-row"
+                                }
+                            ],
+                            "style": "multiple-entity-row {\n  font-size: 1.4rem;\n}\n",
+                            "title": "Sun",
+                            "type": "entities"
+                        }
+                    ],
+                    "panel": false,
+                    "path": "sun",
+                    "theme": "",
+                    "title": "SUN"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.bom_gosford_wind_speed_kmh",
+                            "max": 150,
+                            "min": 0,
+                            "name": "Wind Speed",
+                            "type": "gauge"
+                        }
+                    ],
+                    "path": "themed",
+                    "theme": "Google - Dark",
+                    "title": "Themed"
                 }
             ]
         }

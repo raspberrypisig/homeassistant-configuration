@@ -25,6 +25,11 @@
                 "id": "a58a7a2569694290a08794a8b8ed9dc7",
                 "type": "module",
                 "url": "/local/mohan-javascript/kiosk.js"
+            },
+            {
+                "id": "71118f2c609e4a418550c4f74fadaf10",
+                "type": "module",
+                "url": "/hacsfiles/lovelace-multiple-entity-row/multiple-entity-row.js"
             }
         ]
     },

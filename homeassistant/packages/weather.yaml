@@ -6,7 +6,7 @@
 sensor:
 
   - platform: bom
-    station: IDV60901.94870
+    station: IDV60801.94870
     name: Gosford
     monitored_conditions:
       - apparent_t
