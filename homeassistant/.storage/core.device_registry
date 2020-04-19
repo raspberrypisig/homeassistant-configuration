@@ -84,26 +84,6 @@
             {
                 "area_id": "a874d80ec45047bab65e0af6315fd77d",
                 "config_entries": [
-                    "1c66e83f7a144a6c871a92f8b44fb1ad"
-                ],
-                "connections": [],
-                "id": "b6dbd0907c89420886fd5390f9bb5ea1",
-                "identifiers": [
-                    [
-                        "ipp",
-                        "1c852a4d-b800-1f08-abcd-1458d0fd7120"
-                    ]
-                ],
-                "manufacturer": "HP",
-                "model": "ENVY 4500 series",
-                "name": "HP ENVY 4500 series",
-                "name_by_user": null,
-                "sw_version": null,
-                "via_device_id": null
-            },
-            {
-                "area_id": "a874d80ec45047bab65e0af6315fd77d",
-                "config_entries": [
                     "5ae10f812c07440da8b57e5b9a2b0fae"
                 ],
                 "connections": [
