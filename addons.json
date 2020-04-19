@@ -758,7 +758,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "28ed3d6a34bb65552e61619dadd870e3d5ab1b789a1a4ba554ef9d68d3aa5a981f7f9039816eee6aa9e5b03c006d8d4a0581643f1fb708fa"
+      "access_token": "a568dcbaa1a07f62fa3c7cd376522e014e2ec4f7f5383a8a8247400f0800f0d86a7d936371ac0ceeb5cdff461c0f22ad294529eb71cde992"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -787,7 +787,7 @@
       "auto_update": false,
       "ingress_panel": true,
       "uuid": "20c5b7c9aa1d4220a2c9ec9ccd7b505b",
-      "access_token": "dee7b1354d3d1ebd118737ec5f9fa85f7f1702cb16adfee712a036dd26cf73ca608f52eabbeb4f6e705c562a23506543bff42b16de09f8df",
+      "access_token": "e5e83f598f9dcf5cbecf3991d85e24afc3ab722e6906d7a970f0ad5a0c973dee46f6809481cd1b5090fe13e95b36df954b799f5386aef54b",
       "network": {
         "80/tcp": 1880
       }
@@ -801,7 +801,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "c60bb45d6f8650b39a7cfffd1c68c3ed9931583a69dccb4d68b20a98f73221aa243e6394fc33211d8fd5af77492716bc71c114330040c4f7"
+      "access_token": "bdc54b16d20900bd123c95383a2ab16fd8680739279b5b4c9bab21495225812d2ccb51901a5cba0831f82cff77612a1d2a4a3238e535069a"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -814,7 +814,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "eb4a26b7e74d5ed670edca2e090836b0c7b44c2c2076b63c383da83bf4188e4702ce840f06945035707d47f1fb45cfdc9e436687e1d4ad62"
+      "access_token": "965723733c2d6b02c151eb761d371e33d05cabf325b4ad1aa6893a26906dd8b2c8fc6e598f875118a2facfcaf57df0ed90c6a9203d9908f9"
     },
     "a0d7b954_grafana": {
       "options": {},
@@ -868,7 +868,7 @@
       "uuid": "884ccdcad07744debcf6160a9e66ca77",
       "protected": true,
       "ingress_panel": false,
-      "access_token": "e8288c82007b34d18d1a5c3d0ab827bd8383a19170a9b2f7f3200b4b83c68bf45fe6f6134ccda6a069ac4321f1d51ae83b39a654ea9ba9dc"
+      "access_token": "98f628a72401225c2019cd1649c433ae0e373214c2e9de552b8a96e57f10ee960e4680d358a438b54649ce1278104d77173a6a80878a1b08"
     },
     "a0d7b954_zerotier": {
       "options": {

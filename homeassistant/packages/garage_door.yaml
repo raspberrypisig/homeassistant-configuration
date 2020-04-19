@@ -1,0 +1,4 @@
+input_boolean:
+  garage_door:
+    name: Garage Door
+    icon: "mdi:gate"
