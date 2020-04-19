@@ -171,6 +171,24 @@
                                         }
                                     },
                                     "type": "state-icon"
+                                },
+                                {
+                                    "entity": "person.mohan_gupta",
+                                    "icon": "mdi:fan",
+                                    "style": {
+                                        "left": "25%",
+                                        "position": "absolute",
+                                        "top": "46%"
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "mqtt.publish",
+                                        "service_data": {
+                                            "payload": "{\"Vendor\":\"DAIKIN\",\"Model\":1,\"Power\":\"On\",\"Mode\":\"Auto\",\"Celsius\":\"On\",\"Temp\":24,\"FanSpeed\":\"Auto\",\"SwingV\":\"Center\",\"SwingH\":\"Center\",\"Quiet\":\"Off\",\"Turbo\":\"Off\",\"Econo\":\"Off\",\"Light\":\"Off\",\"Filter\":\"Off\",\"Clean\":\"Off\",\"Beep\":\"Off\",\"Sleep\":-1}",
+                                            "topic": "cmnd/tasmotair/irhvac"
+                                        }
+                                    },
+                                    "type": "state-icon"
                                 }
                             ],
                             "image": "http://192.168.20.84:8123/local/daikin.jpg",

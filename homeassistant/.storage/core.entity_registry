@@ -362,7 +362,7 @@
                 "entity_id": "sensor.aruna_guptas_iphone_battery_level",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-20",
+                "original_icon": "mdi:battery",
                 "original_name": "Aruna Gupta\u2019s iPhone Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -378,7 +378,7 @@
                 "entity_id": "sensor.aruna_guptas_iphone_battery_state",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-20",
+                "original_icon": "mdi:battery",
                 "original_name": "Aruna Gupta\u2019s iPhone Battery State",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -751,6 +751,22 @@
                 "platform": "esphome",
                 "supported_features": 41,
                 "unique_id": "mirabella_coolwhitelightmirabella_2_light",
+                "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "input_boolean.garage_door",
+                "icon": null,
+                "name": null,
+                "original_icon": "mdi:gate",
+                "original_name": "Garage Door",
+                "platform": "input_boolean",
+                "supported_features": 0,
+                "unique_id": "garage_door",
                 "unit_of_measurement": null
             }
         ]
