@@ -20,6 +20,11 @@
                 "id": "89a98132c0914c0ba1876afcb0bee602",
                 "type": "module",
                 "url": "/hacsfiles/button-card/button-card.js"
+            },
+            {
+                "id": "a58a7a2569694290a08794a8b8ed9dc7",
+                "type": "module",
+                "url": "/local/mohan-javascript/kiosk.js"
             }
         ]
     },

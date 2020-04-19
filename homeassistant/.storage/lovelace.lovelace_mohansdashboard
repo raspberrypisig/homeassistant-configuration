@@ -349,6 +349,50 @@
                     ],
                     "path": "testconditional",
                     "title": "SEASON"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "cards": [
+                                {
+                                    "content": "I have a custom javascript component stolen from https://gist.github.com/ciotlosm/1f09b330aa5bd5ea87b59f33609cc931\n(using the one by anomaly256 )\n\nput it in a file called kiosk.js under www\n\nThen you have to add it as a resource:\n\nhttp://IP_ADDRESS:8123/config/lovelace/resources\n\nRESOURE DETAILS:\nURL: /local/kiosk.js\nTYPE: Javascript Module\n",
+                                    "type": "markdown"
+                                },
+                                {
+                                    "entity": "",
+                                    "hold_action": {
+                                        "action": "more-info"
+                                    },
+                                    "name": "Open in kiosk mode",
+                                    "show_icon": true,
+                                    "show_name": true,
+                                    "tap_action": {
+                                        "action": "url",
+                                        "url_path": "/lovelace-mohansdashboard/kioskmode?kiosk"
+                                    },
+                                    "type": "button"
+                                },
+                                {
+                                    "entity": "",
+                                    "hold_action": {
+                                        "action": "more-info"
+                                    },
+                                    "name": "Open in kiosk mode with tabs",
+                                    "show_icon": true,
+                                    "show_name": true,
+                                    "tap_action": {
+                                        "action": "url",
+                                        "url_path": "/lovelace-mohansdashboard/kioskmode?kiosk&show_tabs"
+                                    },
+                                    "type": "button"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "path": "kioskmode",
+                    "title": "KioskMode"
                 }
             ]
         }
