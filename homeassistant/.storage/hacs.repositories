@@ -1030,7 +1030,7 @@
             "authors": [],
             "category": "plugin",
             "description": "\u2747\ufe0f Lovelace button-card for home assistant",
-            "downloads": 8176,
+            "downloads": null,
             "first_install": false,
             "full_name": "custom-cards/button-card",
             "hide": false,
@@ -2742,6 +2742,33 @@
             "topics": [],
             "version_installed": null
         },
+        "169467285": {
+            "authors": [
+                "@elad-bar"
+            ],
+            "category": "integration",
+            "description": "Integration with EdgeOS (Ubiquiti)",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "elad-bar/ha-edgeos",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "iot_class": "Local Polling",
+                "name": "Integration with EdgeOS (Ubiquiti)"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 40,
+            "topics": [],
+            "version_installed": null
+        },
         "169525033": {
             "authors": [],
             "category": "plugin",
@@ -2931,7 +2958,7 @@
             ],
             "category": "integration",
             "description": "Manage (Install, track, upgrade) and discover custom elements for Home Assistant.",
-            "downloads": 9824,
+            "downloads": 10696,
             "first_install": false,
             "full_name": "hacs/integration",
             "hide": false,
@@ -2951,7 +2978,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 900,
+            "stars": 901,
             "topics": [
                 "community",
                 "hacs",
@@ -3451,7 +3478,7 @@
             "authors": [],
             "category": "plugin",
             "description": "Show multiple entity states and attributes on entity rows in Home Assistant's Lovelace UI",
-            "downloads": 2949,
+            "downloads": null,
             "first_install": false,
             "full_name": "benct/lovelace-multiple-entity-row",
             "hide": false,
@@ -3469,7 +3496,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 123,
+            "stars": 124,
             "topics": [
                 "attribute",
                 "entity",
@@ -4847,7 +4874,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 96,
+            "stars": 98,
             "topics": [],
             "version_installed": "13"
         },
@@ -11565,6 +11592,45 @@
             ],
             "version_installed": null
         },
+        "231201394": {
+            "authors": [
+                "@dmitry-k",
+                "@alryaz"
+            ],
+            "category": "integration",
+            "description": ":cloud: Yandex Smart Home component for Home Assistant",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "alryaz/hass-component-yandex-smart-home",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v1.2.0",
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "content_in_root": false,
+                "country": [
+                    "RU",
+                    "BY"
+                ],
+                "domains": [
+                    "yandex_smart_home"
+                ],
+                "homeassistant": "0.96.0",
+                "iot_class": "Cloud Push",
+                "name": "Yandex Smart Home",
+                "render_readme": false,
+                "zip_release": false
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [],
+            "version_installed": null
+        },
         "231674882": {
             "authors": [],
             "category": "plugin",
@@ -12699,6 +12765,40 @@
             "topics": [],
             "version_installed": null
         },
+        "235385658": {
+            "authors": [
+                "@rsnodgrass"
+            ],
+            "category": "integration",
+            "description": "Xantech Multi-Zone Matrix Audio for Home Assistant",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "rsnodgrass/hass-xantech",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "0.0.2",
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "media_player"
+                ],
+                "name": "Xantech Multi-Zone Audio Amplifier",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "audiophile",
+                "home-assistant",
+                "home-automation"
+            ],
+            "version_installed": null
+        },
         "235436539": {
             "authors": [],
             "category": "theme",
@@ -12774,6 +12874,33 @@
             "selected_tag": null,
             "show_beta": false,
             "stars": 14,
+            "topics": [],
+            "version_installed": null
+        },
+        "235659413": {
+            "authors": [
+                "@JonasPed"
+            ],
+            "category": "integration",
+            "description": "Home Assistant Custom Component showing data from eloverblik.dk",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "JonasPed/homeassistant-eloverblik",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "name": "Eloverblik",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 13,
             "topics": [],
             "version_installed": null
         },
@@ -13178,6 +13305,35 @@
                 "home-assistant",
                 "homeassistant",
                 "lovelace"
+            ],
+            "version_installed": null
+        },
+        "236945951": {
+            "authors": [],
+            "category": "plugin",
+            "description": "Graph of Buienradars rain forecast ",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "lukevink/lovelace-buien-rain-card",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "0.0.4",
+            "last_updated": null,
+            "name": "lovelace-buien-rain-card",
+            "new": true,
+            "repository_manifest": {},
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 9,
+            "topics": [
+                "buienradar",
+                "chartjs",
+                "custom-card",
+                "forecast",
+                "graph",
+                "home-assistant"
             ],
             "version_installed": null
         },
@@ -14794,6 +14950,67 @@
             "topics": [],
             "version_installed": null
         },
+        "249942054": {
+            "authors": [],
+            "category": "plugin",
+            "description": "\ud83d\udd39 Use built-in elements in the wrong place",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "thomasloven/lovelace-hui-element",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "last_updated": null,
+            "name": "lovelace-hui-element",
+            "new": true,
+            "repository_manifest": {
+                "name": "hui-element",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 4,
+            "topics": [],
+            "version_installed": null
+        },
+        "250022973": {
+            "authors": [
+                "@ollo69"
+            ],
+            "category": "integration",
+            "description": "Home Assistant custom integration for SmartThinQ LG devices configurable with Lovelace User Interface.",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "ollo69/ha-smartthinq-sensors",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v0.3.1",
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "sensor"
+                ],
+                "iot_class": "Cloud Polling",
+                "name": "SmartThinQ LGE Sensors"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 14,
+            "topics": [
+                "homeassistant",
+                "lg",
+                "lge",
+                "smartthinq",
+                "washer"
+            ],
+            "version_installed": null
+        },
         "250345421": {
             "authors": [
                 "@eifinger"
@@ -14850,6 +15067,442 @@
             "topics": [],
             "version_installed": null
         },
+        "250688607": {
+            "authors": [
+                "@boralyl"
+            ],
+            "category": "integration",
+            "description": "A home assistant integration that monitors games on sale on your Steam wishlist.",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "boralyl/steam-wishlist",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v1.0.1",
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "binary_sensor",
+                    "sensor"
+                ],
+                "homeassistant": "0.106.0",
+                "iot_class": "Cloud Polling",
+                "name": "Steam Wishlist",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "hacs",
+                "home-assistant",
+                "homeassistant",
+                "python",
+                "steam"
+            ],
+            "version_installed": null
+        },
+        "250865851": {
+            "authors": [],
+            "category": "plugin",
+            "description": "\ud83d\udcc2 Folder Card plugin for Home Assistant's Lovelace UI",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "GeorgeSG/lovelace-folder-card",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "0.2.0",
+            "last_updated": null,
+            "name": "lovelace-folder-card",
+            "new": true,
+            "repository_manifest": {
+                "filename": "folder-card.js",
+                "name": "Folder Card",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "home-assistant",
+                "homeassistant",
+                "lovelace",
+                "lovelace-card",
+                "lovelace-custom-card"
+            ],
+            "version_installed": null
+        },
+        "250866164": {
+            "authors": [
+                "@azogue"
+            ],
+            "category": "integration",
+            "description": "HomeAssistant custom sensor to track specific events",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "azogue/eventsensor",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v1.0.0",
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "content_in_root": false,
+                "domains": [
+                    "sensor"
+                ],
+                "homeassistant": "0.107.0",
+                "iot_class": "Local Push",
+                "name": "Event sensor",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 3,
+            "topics": [],
+            "version_installed": null
+        },
+        "251298857": {
+            "authors": [],
+            "category": "appdaemon",
+            "description": "\ud83d\udca1 AppDaemon App that synchronize the color of RGB lights with the thumbnail of a media player in Home Assistant.",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "ericmatte/ad-media-lights-sync",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v0.1.0",
+            "last_updated": null,
+            "name": "ad-media-lights-sync",
+            "new": true,
+            "repository_manifest": {
+                "name": "Media Player Lights Sync",
+                "render_readme": "true"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 3,
+            "topics": [
+                "appdaemon",
+                "home-assistant",
+                "media-lights-sync",
+                "media-player",
+                "rgb-lights"
+            ],
+            "version_installed": null
+        },
+        "252929074": {
+            "authors": [
+                "@mampfes"
+            ],
+            "category": "integration",
+            "description": "Support for Wiffi devices (e.g. Weatherman, Rainyman) from stall.biz",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "mampfes/hacs_wiffi",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "binary_sensor",
+                    "sensor"
+                ],
+                "iot_class": "local_push",
+                "name": "WIFFI from stall.biz",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "home-assistant",
+                "homeassistant",
+                "homeassistant-integration",
+                "homeassistant-sensor",
+                "rainyman",
+                "stallbiz",
+                "weather",
+                "weatherman",
+                "wetter",
+                "wiffi",
+                "wiffi-wz"
+            ],
+            "version_installed": null
+        },
+        "253019926": {
+            "authors": [],
+            "category": "plugin",
+            "description": "Minimalistic humidifier card for Home Assistant Lovelace UI",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "artem-sedykh/mini-humidifier",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v1.0.5",
+            "last_updated": null,
+            "name": "mini-humidifier",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "fan"
+                ],
+                "filename": "mini-humidifier-bundle.js",
+                "name": "mini humidifier",
+                "render_readme": false
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "automation",
+                "custom",
+                "hassio",
+                "home-assistant",
+                "humidifier",
+                "lovelace",
+                "lovelace-ui"
+            ],
+            "version_installed": null
+        },
+        "254203764": {
+            "authors": [
+                "@BSantalucia"
+            ],
+            "category": "integration",
+            "description": "Home assistant custom component to provide monetary account balance sensors for Bunq",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "ben8p/home-assistant-bunq-balance-sensors",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "content_in_root": false,
+                "name": "Bunq balance sensor",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "bunq",
+                "bunq-api",
+                "hacs",
+                "hassio",
+                "home-assistant",
+                "home-assistant-custom",
+                "home-assistant-sensor"
+            ],
+            "version_installed": null
+        },
+        "254206234": {
+            "authors": [],
+            "category": "plugin",
+            "description": "Home Assistant Lovelace custom card to use with Spain electricity hourly pricing (PVPC) integration",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "danimart1991/pvpc-hourly-pricing-card",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "0.0.1",
+            "last_updated": null,
+            "name": "pvpc-hourly-pricing-card",
+            "new": true,
+            "repository_manifest": {},
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 4,
+            "topics": [
+                "esios",
+                "graphics",
+                "hacs",
+                "home-assistant",
+                "home-assistant-custom",
+                "home-assistant-hacs",
+                "home-automation",
+                "lovelace",
+                "lovelace-card",
+                "lovelace-custom-card",
+                "lovelace-ui",
+                "pvpc",
+                "ree"
+            ],
+            "version_installed": null
+        },
+        "254347436": {
+            "authors": [
+                "@mampfes"
+            ],
+            "category": "integration",
+            "description": "Home Assistant integration framework for (garbage collection) schedules",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "mampfes/hacs_waste_collection_schedule",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "sensor"
+                ],
+                "iot_class": "cloud_polling",
+                "name": "Waste Collection Schedule"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 2,
+            "topics": [
+                "abfall",
+                "abfallnavi",
+                "abfallplus",
+                "garbage",
+                "garbage-collection",
+                "home-assistant",
+                "homeassistant",
+                "homeassistant-integration",
+                "jumomind",
+                "muell",
+                "muellabfuhr",
+                "muellsammlung",
+                "regioit",
+                "waste",
+                "waste-collection"
+            ],
+            "version_installed": null
+        },
+        "255073429": {
+            "authors": [
+                "@ericpignet"
+            ],
+            "category": "integration",
+            "description": "LG Hombot/Roboking Component for Home Assistant.",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "ericpignet/home-assistant-lg_hombot",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v0.0.2",
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "domains": [
+                    "vacuum"
+                ],
+                "homeassistant": "0.108.0",
+                "name": "LG Hombot Vacuum Cleaner"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "custom-components",
+                "hacs",
+                "hombot",
+                "home-assistant",
+                "home-assistant-component",
+                "homeassistant",
+                "roboking"
+            ],
+            "version_installed": null
+        },
+        "255110178": {
+            "authors": [
+                "@opravdin"
+            ],
+            "category": "integration",
+            "description": "Weback integration with Home Assistant",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "opravdin/weback-hass",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v1.0.0",
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "content_in_root": false,
+                "domains": [
+                    "weback"
+                ],
+                "name": "Weback cloud integration",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [
+                "home-assistant",
+                "home-assistant-component",
+                "home-assistant-hacs",
+                "weback"
+            ],
+            "version_installed": null
+        },
+        "255139072": {
+            "authors": [
+                "@dgomes"
+            ],
+            "category": "integration",
+            "description": "Home Assistant Custom Component for ERSE",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "dgomes/ha_erse",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "country": "PT",
+                "homeassistant": "0.87",
+                "name": "Entidade Reguladora dos Servi\u00e7os Energ\u00e9ticos"
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [],
+            "version_installed": null
+        },
         "255270395": {
             "authors": [],
             "category": "theme",
@@ -14875,6 +15528,126 @@
                 "hacs",
                 "home-assistant",
                 "theme"
+            ],
+            "version_installed": null
+        },
+        "255366214": {
+            "authors": [],
+            "category": "theme",
+            "description": "\ud83c\udf99\ufe0f Vintage theme original colours & style designed by @surendrananup HACS adapted by @Banditen01",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "Banditen01/vintage_theme",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "1.3.6",
+            "last_updated": null,
+            "name": "vintage_theme",
+            "new": true,
+            "repository_manifest": {
+                "filename": "themes/vintage.yaml",
+                "name": "Vintage",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [
+                "hacs",
+                "homeassistant",
+                "theme",
+                "unofficial"
+            ],
+            "version_installed": null
+        },
+        "255662264": {
+            "authors": [
+                "@MTrab"
+            ],
+            "category": "integration",
+            "description": "Landroid Cloud component for Home Assistant",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "MTrab/landroid_cloud",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v1.0",
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "name": "Landroid Cloud",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 0,
+            "topics": [],
+            "version_installed": null
+        },
+        "255999506": {
+            "authors": [
+                "@azogue"
+            ],
+            "category": "integration",
+            "description": "HomeAssistant integration to customize Hue polling for sensors and remotes",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "azogue/fasthue",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": "v1.0.0",
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "content_in_root": false,
+                "domains": [
+                    "sensor"
+                ],
+                "homeassistant": "0.108.0",
+                "iot_class": "Local Polling",
+                "name": "Fast-Hue polling",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [],
+            "version_installed": null
+        },
+        "256899380": {
+            "authors": [],
+            "category": "integration",
+            "description": "Project Three Zero Home Assistant Integration",
+            "downloads": null,
+            "first_install": true,
+            "full_name": "atymic/project_three_zero_ha",
+            "hide": false,
+            "installed": false,
+            "installed_commit": null,
+            "last_commit": null,
+            "last_release_tag": null,
+            "last_updated": null,
+            "name": "",
+            "new": true,
+            "repository_manifest": {
+                "content_in_root": true,
+                "name": "Project Three Zero (7-11 Fuel Lock Monitor)",
+                "render_readme": true
+            },
+            "selected_tag": null,
+            "show_beta": false,
+            "stars": 1,
+            "topics": [
+                "fuel",
+                "home-automation"
             ],
             "version_installed": null
         },

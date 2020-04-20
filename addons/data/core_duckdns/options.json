@@ -1,0 +1,12 @@
+{
+  "lets_encrypt": {
+    "accept_terms": false,
+    "certfile": "fullchain.pem",
+    "keyfile": "privkey.pem"
+  },
+  "token": "c6649bb6-fecd-4406-880e-28b00d9a5609",
+  "domains": [
+    "melbpc"
+  ],
+  "seconds": 300
+}

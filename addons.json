@@ -729,6 +729,82 @@
       "gpio": false,
       "repository": "a0d7b954",
       "location": "/data/addons/git/a0d7b954/zerotier"
+    },
+    "core_duckdns": {
+      "name": "Duck DNS",
+      "version": "1.11",
+      "slug": "duckdns",
+      "description": "Free Dynamic DNS (DynDNS or DDNS) service with Let's Encrypt support",
+      "url": "https://github.com/home-assistant/hassio-addons/tree/master/duckdns",
+      "arch": [
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
+      ],
+      "startup": "services",
+      "boot": "auto",
+      "map": [
+        "ssl:rw"
+      ],
+      "options": {
+        "lets_encrypt": {
+          "accept_terms": false,
+          "certfile": "fullchain.pem",
+          "keyfile": "privkey.pem"
+        },
+        "token": null,
+        "domains": [
+          null
+        ],
+        "seconds": 300
+      },
+      "schema": {
+        "lets_encrypt": {
+          "accept_terms": "bool",
+          "certfile": "str",
+          "keyfile": "str"
+        },
+        "ipv4": "str?",
+        "ipv6": "str?",
+        "token": "str",
+        "domains": [
+          "str"
+        ],
+        "seconds": "int"
+      },
+      "image": "homeassistant/{arch}-addon-duckdns",
+      "panel_admin": true,
+      "devicetree": false,
+      "host_pid": false,
+      "timeout": 10,
+      "gpio": false,
+      "udev": false,
+      "auth_api": false,
+      "host_ipc": false,
+      "ingress": false,
+      "video": false,
+      "panel_icon": "mdi:puzzle",
+      "kernel_modules": false,
+      "hassio_api": false,
+      "advanced": false,
+      "stdin": false,
+      "audio": false,
+      "host_dbus": false,
+      "init": true,
+      "hassio_role": "default",
+      "host_network": false,
+      "auto_uart": false,
+      "docker_api": false,
+      "legacy": false,
+      "apparmor": true,
+      "homeassistant_api": false,
+      "full_access": false,
+      "ingress_port": 8099,
+      "stage": "stable",
+      "repository": "core",
+      "location": "/data/addons/core/duckdns"
     }
   },
   "user": {
@@ -758,7 +834,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "faafbfb57990145a789ba848d43744f1569ae7011aa241492abd56c26e115705a2cd27b3be86b736be2f4f48db3839fa2ab6ce6bcfefc7eb"
+      "access_token": "df94c783d875b8f771e006b034d09d5d7eaad0e101cd35c6b15612d8341704fec82d107ead849618a74555ccb8cb70accbb745addb35edca"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -787,7 +863,7 @@
       "auto_update": false,
       "ingress_panel": true,
       "uuid": "20c5b7c9aa1d4220a2c9ec9ccd7b505b",
-      "access_token": "7d968f80ebef480197562fba30c651b6660f2f19960053a673be30af7ee03b37bee25c53faaf9b193bf241a1c0164857bd4d37d0c0794bda",
+      "access_token": "a369d9ce715ca53b7b5dbb1a0fa71802db25dbc446b133913cb22696549c21405116a594426f2fb3bcd97b384513085726832d9bc2ef2343",
       "network": {
         "80/tcp": 1880
       }
@@ -801,7 +877,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "c21224ee48ddbedcf0cb398d898ba0dc2b7c82b9354696ee0868a4e50d8221cf0ad97381067c4579009aa82c50c9f5946b7fa442af9af363"
+      "access_token": "5496bafcebe2a84515dde7e72e5ae55ee2cc481b54e5cff77c53ffd03203498672c4fa771daf8a210a94f4eb5fb4132fe6c029d3bc25fe9b"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -814,7 +890,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "159e6c9bb8ea8f7a1ec8430d824db24fc32e9ca80fe25ba335d73d020e34b32d59ebd213d13de785ec4a3f093128eab98406e56a66e1609c"
+      "access_token": "db474ede6ecbccfa130d83b2997bdd70fc33148cf1f2b94d24eb9d8f2ce940ea0386533375840b39e652f11bd16c1562e9e45cc4caacd70a"
     },
     "a0d7b954_grafana": {
       "options": {},
@@ -868,7 +944,7 @@
       "uuid": "884ccdcad07744debcf6160a9e66ca77",
       "protected": true,
       "ingress_panel": false,
-      "access_token": "eea520eba32fd58851f15c0ad3c0dd883061ea45dfcd7fd5d45032702415112a29ba0e73e4a7c13fd1d9fb9976fc2439c17114739a5fc8d1"
+      "access_token": "dc29acedaff013dbb541e3f74f7f393447bf215118d01436780fc85011b4767a0c9be56d6e0711d318b501700bc61e760a1954cca24f1a50"
     },
     "a0d7b954_zerotier": {
       "options": {
@@ -887,6 +963,28 @@
       "ingress_token": "ua3BUBcs40oNBDLSoQPJptWjzM6TQZlyhR1JxilsDKY",
       "boot": "manual",
       "access_token": "9f0fb63b2a3ce444ac1faedc467e6ca697ad5ca886b3a5cdbc227ded8d41c239bc434097dc6886f47e41a0d6c5360d01a451097d2ec42ce4"
+    },
+    "core_duckdns": {
+      "options": {
+        "lets_encrypt": {
+          "accept_terms": false,
+          "certfile": "fullchain.pem",
+          "keyfile": "privkey.pem"
+        },
+        "token": "c6649bb6-fecd-4406-880e-28b00d9a5609",
+        "domains": [
+          "melbpc"
+        ],
+        "seconds": 300
+      },
+      "version": "1.11",
+      "image": "homeassistant/armv7-addon-duckdns",
+      "ingress_token": "_OYNnRnHxTbHTe8mWtRU1wnIoxOIWGeaFyO-7DZZR-U",
+      "uuid": "e51019fb38bb464fbe14b557418525f3",
+      "auto_update": false,
+      "ingress_panel": false,
+      "protected": true,
+      "access_token": "d2f034fe456f9fd48e3d20c9c525b728a37c3f8d8545ea2620f1b2607386c6a03b299e9e6b7fd2f15b52a7545257b881be243d1eb920ae93"
     }
   }
 }
