@@ -834,7 +834,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "df94c783d875b8f771e006b034d09d5d7eaad0e101cd35c6b15612d8341704fec82d107ead849618a74555ccb8cb70accbb745addb35edca"
+      "access_token": "696eefb8edf90ed5f8df0a5536c9fb6cdb9a9d3f68dc800e61ddb04f57302aac0fbd7a6a656ac692ff64fced3a72a9d188fc3bdcc1563c94"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -863,7 +863,7 @@
       "auto_update": false,
       "ingress_panel": true,
       "uuid": "20c5b7c9aa1d4220a2c9ec9ccd7b505b",
-      "access_token": "a369d9ce715ca53b7b5dbb1a0fa71802db25dbc446b133913cb22696549c21405116a594426f2fb3bcd97b384513085726832d9bc2ef2343",
+      "access_token": "d19469800be76af7bfa715488069d28ec4e4c871f5463cde0dbe54f46801ffd43f7e6037ead8b6f12561ab555d600449da5e18319accf5cb",
       "network": {
         "80/tcp": 1880
       }
@@ -877,7 +877,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "5496bafcebe2a84515dde7e72e5ae55ee2cc481b54e5cff77c53ffd03203498672c4fa771daf8a210a94f4eb5fb4132fe6c029d3bc25fe9b"
+      "access_token": "7731645b1f61d6bce523e24e4edd5136acf5226f174c87938319fc2e069a9905623b90486fe6ea0b377adef782d79764694af43be1bfe509"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -890,7 +890,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "db474ede6ecbccfa130d83b2997bdd70fc33148cf1f2b94d24eb9d8f2ce940ea0386533375840b39e652f11bd16c1562e9e45cc4caacd70a"
+      "access_token": "e14a0489de0fb763e297aa68d93450154beec6c23e9b1a19f4d55197e83659813012f58d9670c39e2a32def52de8b9cebd24e68fd82ace72"
     },
     "a0d7b954_grafana": {
       "options": {},
@@ -927,10 +927,15 @@
     },
     "core_mosquitto": {
       "options": {
-        "logins": [],
+        "logins": [
+          {
+            "username": "mqtt",
+            "password": "mqtt"
+          }
+        ],
         "anonymous": true,
         "customize": {
-          "active": false,
+          "active": true,
           "folder": "mosquitto"
         },
         "certfile": "fullchain.pem",
@@ -944,7 +949,8 @@
       "uuid": "884ccdcad07744debcf6160a9e66ca77",
       "protected": true,
       "ingress_panel": false,
-      "access_token": "dc29acedaff013dbb541e3f74f7f393447bf215118d01436780fc85011b4767a0c9be56d6e0711d318b501700bc61e760a1954cca24f1a50"
+      "access_token": "953d1d10abf83353825dd281d41ed77b16caf224f6a789b8bfce9a84974588aafd4cdcfb476562d2c3c60f3c716ddae713b5e109531186e0",
+      "boot": "manual"
     },
     "a0d7b954_zerotier": {
       "options": {
@@ -984,7 +990,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "protected": true,
-      "access_token": "d2f034fe456f9fd48e3d20c9c525b728a37c3f8d8545ea2620f1b2607386c6a03b299e9e6b7fd2f15b52a7545257b881be243d1eb920ae93"
+      "access_token": "df2e24646f8e80021007f2e0c7b101e509b90c24cc82f5152bf0dc10db113557ba0eb0332e2c23cc7596c318f6b446eae821268ddb2498ee"
     }
   }
 }

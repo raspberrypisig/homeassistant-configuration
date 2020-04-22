@@ -18,6 +18,15 @@
                 },
                 "id": "013447b3350340f49863e3f0688bb77b",
                 "user_id": "81725a2e476a44048b242c3e4cc1977f"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "mqtt"
+                },
+                "id": "7f947034de5c497094d2f2043e5ddbcd",
+                "user_id": "a4b2e224f4324ad38f2b769246ec5af1"
             }
         ],
         "groups": [
@@ -43,7 +52,7 @@
                 "created_at": "2020-04-03T07:46:41.219275+00:00",
                 "id": "1b05a6ee0cf74fe68fc9a2ec6a8c4797",
                 "jwt_key": "92de3e5841491bacf33071d8e4fbc4bcd06d26852a1ab7f228b4f0a86b3ae72dfe5b3abc8e64444c4b482720d0897ed7b521fd481b1cba9a67670d838b2ec924",
-                "last_used_at": "2020-04-20T03:01:54.858331+00:00",
+                "last_used_at": "2020-04-22T15:51:12.076367+00:00",
                 "last_used_ip": "172.30.32.2",
                 "token": "072ffb7e1fb5b98f2915872299da16b87a7df7acd9ff21d7691774752918a2197306c9412e5c65d10655e0f585b77fb47ce13c322dd01ade021238c8f962f414",
                 "token_type": "system",
@@ -183,7 +192,7 @@
                 "created_at": "2020-04-15T05:52:18.542109+00:00",
                 "id": "50450efa2b0241ae9faa7bdbba1f3542",
                 "jwt_key": "b2c002125c0e208f40f5a230837f5899970612674b644a2c8f31b801f39a5f079cae76e45bcc5c6a79b7f1691ca283c4a72b50cb771e25f81f1f28f1b323c247",
-                "last_used_at": "2020-04-18T21:59:21.852957+00:00",
+                "last_used_at": "2020-04-20T21:25:06.906657+00:00",
                 "last_used_ip": "192.168.20.54",
                 "token": "1a366d08b55b8006c1c292f59b4cad0ba6a5ef17acc4b027c7e1c8abe4cc0dce4e22325f89d7bf62f3a183ac7048c0f06d8bf4e5e7dbef733ca289e00011a711",
                 "token_type": "normal",
@@ -225,9 +234,37 @@
                 "created_at": "2020-04-19T09:11:17.303559+00:00",
                 "id": "711d14331438441eb805b2a4dc3f4347",
                 "jwt_key": "b91c8d354c1fd4c315ba326b9082b91407d3ffa696972f30c3534ed4c1e16bd90757cc20a10346a75af668b966f83c491f6d8adc9112548fcd206b36cae807cc",
-                "last_used_at": "2020-04-20T03:00:58.925990+00:00",
+                "last_used_at": "2020-04-22T15:59:14.641990+00:00",
                 "last_used_ip": "192.168.20.68",
                 "token": "2c4d54e08aa6dd18f2d3de756f3f265bcfda1c35ab381fc883d27eaa0106fb83678827550dcb0ff49225b397e749acd3e617d6a64a1fe97456a231aef99015c9",
+                "token_type": "normal",
+                "user_id": "e448bf45727e44f996c590d74b5c95e2"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://pi-7e120f6b.localhost.run/",
+                "client_name": null,
+                "created_at": "2020-04-20T22:42:11.135206+00:00",
+                "id": "453d24176fbc48f6978e12f02a65df5f",
+                "jwt_key": "977398b576c3d569e19e3ac2c25983be1e4217e8a513f369317afc77ae77695077f66fe35f2e15a74b8b259fb22783d726e0af6f6ad1da0675a49556dfa89609",
+                "last_used_at": "2020-04-20T22:42:11.135771+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "c097447f531c61517094e2d2b6fef1298312c76235f8817c01444298bb851d883a14fbcc77a22db7f4ca8899a7db1c4a10a8fcf4c8ba7d4a51c341779cf001e9",
+                "token_type": "normal",
+                "user_id": "e448bf45727e44f996c590d74b5c95e2"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://raspberrypisig-7e120f6b.localhost.run/",
+                "client_name": null,
+                "created_at": "2020-04-20T22:44:24.165491+00:00",
+                "id": "8858e75da02440818bbe20b59b4399e1",
+                "jwt_key": "4cfb49e55f6c0153953fc1b2d9b8e3bd67ff91843ed5a9dc6c1d5211c43252415d6683ada8bb5bc2c2c7fa20012a83910b0f81849b27a94b314da861e213e6cf",
+                "last_used_at": "2020-04-20T22:44:24.165963+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "bd2eb97429a1e259290f935ec8764d3dd4be67cc13c6e10425b5cabc50a5b079fb62c7e985e9dd06e47e37f5fff7b84b34c4a224d3556b57fe7785bc1229706d",
                 "token_type": "normal",
                 "user_id": "e448bf45727e44f996c590d74b5c95e2"
             },
@@ -369,6 +406,16 @@
                 "is_active": true,
                 "is_owner": false,
                 "name": "Aruna",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-users"
+                ],
+                "id": "a4b2e224f4324ad38f2b769246ec5af1",
+                "is_active": true,
+                "is_owner": false,
+                "name": "mqtt",
                 "system_generated": false
             }
         ]

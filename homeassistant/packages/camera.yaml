@@ -1,0 +1,4 @@
+camera:
+  - platform: ffmpeg
+    name: Random rtsp stream
+    input: http://freja.hiof.no:1935/rtplive/_definst_/hessdalen03.stream/playlist.m3u8

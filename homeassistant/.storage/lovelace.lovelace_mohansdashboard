@@ -494,6 +494,18 @@
                     "path": "themed",
                     "theme": "Google - Dark",
                     "title": "Themed"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "aspect_ratio": "50%",
+                            "entity": "camera.generic_camera",
+                            "type": "picture-entity"
+                        }
+                    ],
+                    "path": "camera",
+                    "title": "Camera"
                 }
             ]
         }

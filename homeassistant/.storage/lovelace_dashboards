@@ -27,6 +27,14 @@
                 "show_in_sidebar": true,
                 "title": "RemoteControls",
                 "url_path": "lovelace-remotecontrols"
+            },
+            {
+                "id": "lovelace_mohansdashboard2",
+                "mode": "storage",
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "MohansDashboard2",
+                "url_path": "lovelace-mohansdashboard2"
             }
         ]
     },

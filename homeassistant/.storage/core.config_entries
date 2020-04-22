@@ -150,24 +150,6 @@
                 "version": 1
             },
             {
-                "connection_class": "local_push",
-                "data": {
-                    "broker": "localhost",
-                    "discovery": false,
-                    "port": 1883
-                },
-                "domain": "mqtt",
-                "entry_id": "ff2fa1ebc3df4450b16bdb73bf8cbd0b",
-                "options": {},
-                "source": "user",
-                "system_options": {
-                    "disable_new_entities": false
-                },
-                "title": "localhost",
-                "unique_id": null,
-                "version": 1
-            },
-            {
                 "connection_class": "cloud_push",
                 "data": {
                     "app_data": {
@@ -232,6 +214,41 @@
                     "disable_new_entities": false
                 },
                 "title": "mirabella_coolwhite",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "cloudhook": false,
+                    "webhook_id": "a7b0a0f438912507dd7de654ba4588c7bffb548186b19bc3cb240aebb8758235"
+                },
+                "domain": "ifttt",
+                "entry_id": "80f907ae9d0748c2b73585a5f5995416",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "IFTTT Webhook",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "broker": "192.168.20.84",
+                    "discovery": false,
+                    "port": 1883
+                },
+                "domain": "mqtt",
+                "entry_id": "52997ee9c305489b886866b8e0384b41",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "192.168.20.84",
                 "unique_id": null,
                 "version": 1
             }

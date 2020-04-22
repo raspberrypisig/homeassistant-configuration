@@ -2,7 +2,7 @@
   "logins": [],
   "anonymous": true,
   "customize": {
-    "active": false,
+    "active": true,
     "folder": "mosquitto"
   },
   "certfile": "fullchain.pem",

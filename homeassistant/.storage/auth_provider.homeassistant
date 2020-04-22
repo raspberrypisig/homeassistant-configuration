@@ -8,6 +8,10 @@
             {
                 "password": "JDJiJDEyJGVndkZQLm9FYXI1N2hMR0lDMjhka3VQV1FiaGxmUjRiSTJoODF2bkozblJOWng1bzZOQXhh",
                 "username": "aruna"
+            },
+            {
+                "password": "JDJiJDEyJHFPbDJ1dWRqa2J4Y1ZreThxQ1dIdS5VMWgwVHF6WlJ1NEo5MDV6T3VkY24vV1JzdFJOQVlT",
+                "username": "mqtt"
             }
         ]
     },
