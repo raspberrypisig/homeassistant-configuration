@@ -70,6 +70,18 @@
                     "panel": true,
                     "path": "cameras",
                     "title": "CAMERAS"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.command_sensor",
+                            "name": " http://mohangupta-652eb883.localhost.run",
+                            "type": "entity"
+                        }
+                    ],
+                    "path": "public-address",
+                    "title": "PUBLIC ADDRESS"
                 }
             ]
         }

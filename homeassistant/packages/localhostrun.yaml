@@ -1,0 +1,4 @@
+sensor:
+  - platform: command_line
+    command: "curl -i http://mohangupta-652eb883.localhost.run | head -1"
+    scan_interval: 10

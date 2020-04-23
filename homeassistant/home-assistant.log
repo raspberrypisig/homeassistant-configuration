@@ -1,10 +1,2 @@
-2020-04-24 07:22:44 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
-2020-04-24 07:22:56 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for bom_forecast which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
-2020-04-24 07:26:25 WARNING (MainThread) [homeassistant.core] Unable to remove unknown listener <function async_track_point_in_utc_time.<locals>.point_in_time_listener at 0x6a514c48>
-2020-04-24 07:26:29 ERROR (MainThread) [homeassistant.core] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/storage.py", line 177, in _async_callback_delayed_write
-    await self._async_handle_write_data()
-  File "/usr/src/homeassistant/homeassistant/helpers/storage.py", line 189, in _async_handle_write_data
-    if "data_func" in data:
-TypeError: argument of type 'NoneType' is not iterable
+2020-04-24 09:37:15 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-04-24 09:37:26 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for bom_forecast which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
