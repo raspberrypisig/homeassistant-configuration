@@ -24,22 +24,15 @@
                     "badges": [],
                     "cards": [
                         {
-                            "default_zoom": 2,
-                            "entities": [
-                                {
-                                    "entity": "binary_sensor.iss"
-                                }
-                            ],
-                            "hours_to_show": 0,
-                            "type": "map"
-                        },
-                        {
                             "elements": [
                                 {
                                     "camera_image": "camera.iss",
                                     "camera_view": "live",
                                     "style": {
-                                        "width": "100%"
+                                        "height": "500px",
+                                        "left": 0,
+                                        "top": 0,
+                                        "width": "500px"
                                     },
                                     "type": "image"
                                 },
@@ -48,12 +41,13 @@
                                     "icon": "mdi:earth",
                                     "style": {
                                         "left": "25%",
-                                        "top": "50%"
+                                        "top": "25%"
                                     },
                                     "type": "state-icon"
                                 }
                             ],
-                            "image": "mm",
+                            "image": "//192.168.20.84:8123/local/blank.png",
+                            "style": "ha-card {\n  width: 250px;\n  height: 250px;\n}\n",
                             "type": "picture-elements"
                         }
                     ],
