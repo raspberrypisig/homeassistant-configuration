@@ -1,0 +1,13 @@
+notify:
+  - name: gmail
+    platform: smtp
+    server: smtp.gmail.com
+    port: 587
+    timeout: 15
+    sender: !secret gmailusername
+    encryption: starttls
+    username: !secret gmailusername
+    password: !secret gmailpassword
+    recipient:
+      - !secret gmailusername
+    sender_name: Mohans Home Assistant
