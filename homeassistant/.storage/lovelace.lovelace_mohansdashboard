@@ -426,6 +426,21 @@
                     "badges": [],
                     "cards": [
                         {
+                            "entity": "sensor.bom_gosford_wind_speed_kmh",
+                            "max": 150,
+                            "min": 0,
+                            "name": "Wind Speed",
+                            "type": "gauge"
+                        }
+                    ],
+                    "path": "themed",
+                    "theme": "Google - Dark",
+                    "title": "Themed"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
                             "entities": [
                                 {
                                     "entities": [
@@ -479,21 +494,6 @@
                     "path": "sun",
                     "theme": "",
                     "title": "SUN"
-                },
-                {
-                    "badges": [],
-                    "cards": [
-                        {
-                            "entity": "sensor.bom_gosford_wind_speed_kmh",
-                            "max": 150,
-                            "min": 0,
-                            "name": "Wind Speed",
-                            "type": "gauge"
-                        }
-                    ],
-                    "path": "themed",
-                    "theme": "Google - Dark",
-                    "title": "Themed"
                 },
                 {
                     "badges": [],

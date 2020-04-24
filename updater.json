@@ -1,6 +1,6 @@
 {
   "channel": "stable",
-  "homeassistant": "0.108.8",
+  "homeassistant": "0.108.9",
   "cli": "25",
   "dns": "9",
   "audio": "14",

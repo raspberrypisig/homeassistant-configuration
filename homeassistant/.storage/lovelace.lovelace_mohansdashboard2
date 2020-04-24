@@ -94,6 +94,17 @@
                             "entity": "sensor.home_assistant_v2_db",
                             "type": "entity",
                             "unit": "MB"
+                        },
+                        {
+                            "entity": "sensor.disk_use_percent",
+                            "max": 100,
+                            "min": 0,
+                            "severity": {
+                                "green": 0,
+                                "red": 90,
+                                "yellow": 50
+                            },
+                            "type": "gauge"
                         }
                     ],
                     "path": "home-assistant",

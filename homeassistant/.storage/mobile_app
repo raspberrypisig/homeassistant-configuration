@@ -101,12 +101,12 @@
             "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_battery_level": {
                 "added": true,
                 "attributes": {
-                    "Battery State": "Not Charging"
+                    "Battery State": "Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery",
+                "icon": "mdi:battery-charging-20",
                 "name": "Battery Level",
-                "state": 100,
+                "state": 39,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -115,12 +115,12 @@
             "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 100
+                    "Battery Level": 39
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery",
+                "icon": "mdi:battery-charging-20",
                 "name": "Battery State",
-                "state": "Not Charging",
+                "state": "Charging",
                 "type": "sensor",
                 "unique_id": "battery_state",
                 "webhook_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1"
