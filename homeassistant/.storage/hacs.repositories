@@ -2922,7 +2922,7 @@
             ],
             "category": "integration",
             "description": "Manage (Install, track, upgrade) and discover custom elements for Home Assistant.",
-            "downloads": 2942,
+            "downloads": 3045,
             "first_install": false,
             "full_name": "hacs/integration",
             "hide": false,

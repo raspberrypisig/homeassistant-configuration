@@ -18,6 +18,8 @@ scene: !include scenes.yaml
 # Mohan
 homeassistant:
   packages: !include_dir_named packages
+  whitelist_external_dirs:
+    - /config
 
 discovery:
 python_script:
@@ -25,6 +27,10 @@ frontend:
   themes: !include_dir_merge_named themes
 
 stream:
+
+recorder:
+  purge_keep_days: 3
+  purge_interval: 1
 
 
 

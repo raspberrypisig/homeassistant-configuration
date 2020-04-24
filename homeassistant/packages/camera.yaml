@@ -1,4 +1,11 @@
 camera:
   - platform: ffmpeg
-    name: Random rtsp stream
-    input: http://freja.hiof.no:1935/rtplive/_definst_/hessdalen03.stream/playlist.m3u8
+    name: Santa Monica
+    input: https://usw01-smr05-relay.ozolio.com/hls-live/relay01.kwpxbpv.fd0.sm1.av2.at0.sh2.rt16304.rc0.basic.stream/playlist.m3u8
+  #- platform: ffmpeg
+  #  name: Random rtsp stream
+  #  input: rtmp://freja.hiof.no/rtplive/_definst_/hessdalen03.stream/playlist.m3u8
+
+    
+    
+    
