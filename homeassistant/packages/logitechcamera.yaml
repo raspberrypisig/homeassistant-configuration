@@ -1,0 +1,4 @@
+camera:
+  - platform: mjpeg
+    mjpeg_url: http://192.168.20.84:8080/?action=stream
+    verify_ssl: false

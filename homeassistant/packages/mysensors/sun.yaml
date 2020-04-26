@@ -1,0 +1,12 @@
+sensor:
+  - platform: template
+    sensors:
+      solar_azimuth:
+        friendly_name: "Sun Azimuth"
+        unit_of_measurement: 'degrees'
+        value_template: "{{ state_attr('sun.sun', 'azimuth') }}"    
+      solar_elevation:
+        friendly_name: "Sun Elevation"
+        unit_of_measurement: 'degrees'
+        value_template: "{{ state_attr('sun.sun', 'elevation') }}"
+

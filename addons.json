@@ -481,90 +481,6 @@
       "repository": "a0d7b954",
       "location": "/data/addons/git/a0d7b954/aircast"
     },
-    "a0d7b954_motioneye": {
-      "name": "motionEye",
-      "version": "0.8.0",
-      "slug": "motioneye",
-      "description": "Simple, elegant and feature-rich CCTV/NVR for your cameras",
-      "url": "https://github.com/hassio-addons/addon-motioneye",
-      "webui": "[PROTO:ssl]://[HOST]:[PORT:8765]",
-      "startup": "application",
-      "ingress": true,
-      "ingress_port": 0,
-      "panel_icon": "mdi:cctv",
-      "homeassistant": "0.92.0b2",
-      "arch": [
-        "aarch64",
-        "amd64",
-        "armhf",
-        "armv7",
-        "i386"
-      ],
-      "init": false,
-      "ports": {
-        "80/tcp": null
-      },
-      "ports_description": {
-        "80/tcp": "Web interface (Not required for Ingress)"
-      },
-      "boot": "auto",
-      "hassio_api": true,
-      "hassio_role": "default",
-      "host_network": true,
-      "apparmor": false,
-      "video": true,
-      "privileged": [
-        "DAC_READ_SEARCH",
-        "SYS_ADMIN"
-      ],
-      "map": [
-        "share:rw",
-        "ssl"
-      ],
-      "options": {
-        "motion_webcontrol": false,
-        "ssl": true,
-        "certfile": "fullchain.pem",
-        "keyfile": "privkey.pem",
-        "action_buttons": []
-      },
-      "schema": {
-        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
-        "motion_webcontrol": "bool",
-        "ssl": "bool",
-        "certfile": "str",
-        "keyfile": "str",
-        "action_buttons": [
-          {
-            "type": "list(lock|unlock|light_on|light_off|alarm_on|alarm_off|up|right|down|left|zoom_in|zoom_out|preset1|preset2|preset3|preset4|preset5|preset6|preset7|preset8|preset9)?",
-            "camera": "int?",
-            "command": "str?"
-          }
-        ]
-      },
-      "image": "hassioaddons/motioneye",
-      "host_ipc": false,
-      "stage": "stable",
-      "audio": false,
-      "host_pid": false,
-      "panel_admin": true,
-      "udev": false,
-      "kernel_modules": false,
-      "devicetree": false,
-      "timeout": 10,
-      "docker_api": false,
-      "legacy": false,
-      "stdin": false,
-      "full_access": false,
-      "auto_uart": false,
-      "gpio": false,
-      "homeassistant_api": false,
-      "host_dbus": false,
-      "auth_api": false,
-      "advanced": false,
-      "repository": "a0d7b954",
-      "location": "/data/addons/git/a0d7b954/motioneye"
-    },
     "core_mosquitto": {
       "name": "Mosquitto broker",
       "version": "5.1",
@@ -834,7 +750,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "ae7b0ed2dc3881d0de87b90b72446a7b73d9b0d040cde9d81d9a1e53a7aaa66a9ac8e3c447b671bd85d179aefe146e4e568dd207d4d7835b"
+      "access_token": "e4393bc24a03581f278d2ce7b81745ff7b7400202922051daca8b2a54e6dfa5fa31c6169ae960bc7df1ee5abdbb8398aaf7f3bf21fda91c4"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -863,7 +779,7 @@
       "auto_update": false,
       "ingress_panel": true,
       "uuid": "20c5b7c9aa1d4220a2c9ec9ccd7b505b",
-      "access_token": "3b06a1f53eab494738fb791af8b8c9b363941c7925ebc5fc3ac9c045af357a0f6ca29b1050ea7b13ea55a03f4d6ba18f49eae8fa58fafe89",
+      "access_token": "35b8e181c3fabb1a5ef24c86c1e072c6185695a34919c9b60fda08ef0666ee7de03ec649347604a6cad4c391b303ba802dec3461358d605e",
       "network": {
         "80/tcp": 1880
       }
@@ -877,7 +793,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "a5ef2800d4b504775c9983c652f548a323a303a82d6f0ba20ff65a493850d41ed0bceec4d3a2dfa7a6771571a8a7eeac0f82c57f2b566c4f"
+      "access_token": "34f34991457363c542dd1fe09d1a50730c0d536eaf5d0498318a10bae2ff7d3ed7e4b5d2fe7210b5973af81a6bef8d88379e382ceca0fb67"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -890,7 +806,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "33187004222327a54df2d8b021234556acf1a46394c761010bb598b1acb4a96da2c29919e6fbd10f1e65a8e61e75592fcefdc4387cdc77e1"
+      "access_token": "03b133278da0565da38864581a50f1168097b986d53c66cf3cab5822b5fd79314abae4337e23925121f0bcc8ad8814032d31b89476f76723"
     },
     "a0d7b954_grafana": {
       "options": {},
@@ -912,17 +828,6 @@
       "ingress_token": "EPYKZ96yl7330IZ7VhdE0fe-HO3rGmUxRRgewZo1CPw",
       "protected": true,
       "uuid": "de26c5f9fb21452d9c3ef9ea66d339be",
-      "boot": "manual"
-    },
-    "a0d7b954_motioneye": {
-      "options": {},
-      "version": "0.8.0",
-      "image": "hassioaddons/motioneye",
-      "auto_update": false,
-      "ingress_panel": false,
-      "ingress_token": "QLT4BEf50VYegus7LjocZCkzseRl07ALY4neleJhfvM",
-      "protected": true,
-      "uuid": "980c71296a7d41ab864a052782b8086b",
       "boot": "manual"
     },
     "core_mosquitto": {
@@ -990,7 +895,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "protected": true,
-      "access_token": "3e28b07f20196705b1ae916935e93c1f2400780bed356feba75f10936f9533b830de56b6949ebdec8ad076e87b4333e161097444bb96728b"
+      "access_token": "1a95bf19b7e20870841df5917c1516f6d41402684113079f5a83dafdacda2514dfd78200d865c886677a87440187aeeccb389d5fa89d803e"
     }
   }
 }

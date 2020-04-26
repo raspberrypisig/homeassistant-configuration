@@ -1022,7 +1022,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 400,
+            "stars": 402,
             "topics": [
                 "home-assistant",
                 "home-assistant-custom",
@@ -2922,7 +2922,7 @@
             ],
             "category": "integration",
             "description": "Manage (Install, track, upgrade) and discover custom elements for Home Assistant.",
-            "downloads": 4617,
+            "downloads": 6501,
             "first_install": false,
             "full_name": "hacs/integration",
             "hide": false,
@@ -2942,7 +2942,7 @@
             },
             "selected_tag": null,
             "show_beta": false,
-            "stars": 915,
+            "stars": 916,
             "topics": [
                 "community",
                 "hacs",
@@ -8217,14 +8217,14 @@
             "category": "plugin",
             "description": "Flexible Horseshoe card for Home Assistant Lovelace UI. A card with a flexible layout,  a horseshoe-like donut graph, multiple entities or attributes, graphics and animations!",
             "downloads": null,
-            "first_install": true,
+            "first_install": false,
             "full_name": "AmoebeLabs/flex-horseshoe-card",
             "hide": false,
-            "installed": false,
-            "installed_commit": null,
+            "installed": true,
+            "installed_commit": "2e00adb",
             "last_commit": "2e00adb",
             "last_release_tag": "0.8.3",
-            "last_updated": "2020-02-24T16:12:42Z",
+            "last_updated": "2020-04-25T11:08:16Z",
             "name": "flex-horseshoe-card",
             "new": false,
             "repository_manifest": {
@@ -8243,7 +8243,7 @@
                 "lovelace-custom-card",
                 "lovelace-ui"
             ],
-            "version_installed": null
+            "version_installed": "0.8.3"
         },
         "207620142": {
             "authors": [

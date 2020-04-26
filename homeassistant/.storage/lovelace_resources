@@ -30,6 +30,11 @@
                 "id": "71118f2c609e4a418550c4f74fadaf10",
                 "type": "module",
                 "url": "/hacsfiles/lovelace-multiple-entity-row/multiple-entity-row.js"
+            },
+            {
+                "id": "b8c21a5b28e44d5f85a6b5d5ca1143a2",
+                "type": "module",
+                "url": "/hacsfiles/flex-horseshoe-card/flex-horseshoe-card.js"
             }
         ]
     },

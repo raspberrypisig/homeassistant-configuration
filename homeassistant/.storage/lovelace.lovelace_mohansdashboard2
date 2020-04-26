@@ -24,40 +24,6 @@
                     "badges": [],
                     "cards": [
                         {
-                            "elements": [
-                                {
-                                    "camera_image": "camera.iss",
-                                    "camera_view": "live",
-                                    "style": {
-                                        "height": "500px",
-                                        "left": 0,
-                                        "top": 0,
-                                        "width": "500px"
-                                    },
-                                    "type": "image"
-                                },
-                                {
-                                    "entity": "person.mohan_gupta",
-                                    "icon": "mdi:earth",
-                                    "style": {
-                                        "left": "25%",
-                                        "top": "25%"
-                                    },
-                                    "type": "state-icon"
-                                }
-                            ],
-                            "image": "//192.168.20.84:8123/local/blank.png",
-                            "style": "ha-card {\n  width: 250px;\n  height: 250px;\n}\n",
-                            "type": "picture-elements"
-                        }
-                    ],
-                    "path": "iss",
-                    "title": "ISS"
-                },
-                {
-                    "badges": [],
-                    "cards": [
-                        {
                             "aspect_ratio": "86%",
                             "camera_image": "camera.santa_monica",
                             "camera_view": "live",
@@ -69,11 +35,52 @@
                         {
                             "content": "https://pacpark.com/santa-monica-pier-live-cams/park/",
                             "type": "markdown"
+                        },
+                        {
+                            "aspect_ratio": "50%",
+                            "camera_image": "camera.mjpeg_camera",
+                            "camera_view": "live",
+                            "entity": "camera.mjpeg_camera",
+                            "show_name": false,
+                            "show_state": false,
+                            "type": "picture-entity"
                         }
                     ],
                     "panel": false,
                     "path": "cameras",
                     "title": "CAMERAS"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "elements": [
+                                {
+                                    "camera_image": "camera.iss",
+                                    "camera_view": "live",
+                                    "style": {
+                                        "left": "62.5px",
+                                        "top": "62.5px"
+                                    },
+                                    "type": "image"
+                                },
+                                {
+                                    "entity": "binary_sensor.iss",
+                                    "icon": "mdi:satellite-variant",
+                                    "style": {
+                                        "left": "100px",
+                                        "top": "100px"
+                                    },
+                                    "type": "state-icon"
+                                }
+                            ],
+                            "image": "//192.168.20.84:8123/local/blank.png",
+                            "type": "picture-elements"
+                        }
+                    ],
+                    "panel": false,
+                    "path": "iss",
+                    "title": "ISS"
                 },
                 {
                     "badges": [],

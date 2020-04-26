@@ -488,6 +488,17 @@
                             "style": "multiple-entity-row {\n  font-size: 1.4rem;\n}\n",
                             "title": "Sun",
                             "type": "entities"
+                        },
+                        {
+                            "entity": "sensor.solar_azimuth",
+                            "max": 360,
+                            "type": "gauge"
+                        },
+                        {
+                            "entity": "sensor.solar_elevation",
+                            "max": 180,
+                            "min": -180,
+                            "type": "gauge"
                         }
                     ],
                     "panel": false,
@@ -499,9 +510,17 @@
                     "badges": [],
                     "cards": [
                         {
-                            "aspect_ratio": "50%",
-                            "entity": "camera.generic_camera",
+                            "aspect_ratio": "80%",
+                            "camera_image": "camera.santa_monica",
+                            "camera_view": "live",
+                            "entity": "camera.santa_monica",
+                            "show_name": false,
+                            "show_state": false,
                             "type": "picture-entity"
+                        },
+                        {
+                            "content": "https://pacpark.com/santa-monica-pier-live-cams/park/\n\nhttps://relay.ozolio.com/ses.api?cmd=open&oid=SID_VPLX0000A738&output=1&format=M3U8",
+                            "type": "markdown"
                         }
                     ],
                     "path": "camera",
