@@ -35,6 +35,14 @@
                 "show_in_sidebar": true,
                 "title": "MohansDashboard2",
                 "url_path": "lovelace-mohansdashboard2"
+            },
+            {
+                "id": "lovelace_mohandashboard3",
+                "mode": "storage",
+                "require_admin": false,
+                "show_in_sidebar": true,
+                "title": "MohanDashboard3",
+                "url_path": "lovelace-mohandashboard3"
             }
         ]
     },

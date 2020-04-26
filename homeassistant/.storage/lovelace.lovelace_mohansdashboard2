@@ -24,7 +24,7 @@
                     "badges": [],
                     "cards": [
                         {
-                            "aspect_ratio": "86%",
+                            "aspect_ratio": "56%",
                             "camera_image": "camera.santa_monica",
                             "camera_view": "live",
                             "entity": "camera.santa_monica",
@@ -37,7 +37,7 @@
                             "type": "markdown"
                         },
                         {
-                            "aspect_ratio": "50%",
+                            "aspect_ratio": "75%",
                             "camera_image": "camera.mjpeg_camera",
                             "camera_view": "live",
                             "entity": "camera.mjpeg_camera",

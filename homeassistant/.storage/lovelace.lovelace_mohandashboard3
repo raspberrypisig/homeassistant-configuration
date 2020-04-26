@@ -1,0 +1,53 @@
+{
+    "data": {
+        "config": {
+            "title": " ",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.moon",
+                            "type": "entity"
+                        }
+                    ],
+                    "path": "moon",
+                    "title": "Moon"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.cert_expiry_raspberrypisig_com",
+                            "type": "entity"
+                        }
+                    ],
+                    "path": "ssl",
+                    "title": "SSL"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.waqi_dandenong",
+                            "max": 500,
+                            "min": 0,
+                            "name": "Dandenong AQI",
+                            "severity": {
+                                "green": 0,
+                                "red": 300,
+                                "yellow": 200
+                            },
+                            "type": "gauge",
+                            "unit": " "
+                        }
+                    ],
+                    "path": "aqi",
+                    "title": "AQI"
+                }
+            ]
+        }
+    },
+    "key": "lovelace.lovelace_mohandashboard3",
+    "version": 1
+}

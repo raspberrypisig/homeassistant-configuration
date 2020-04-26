@@ -251,6 +251,23 @@
                 "title": "192.168.20.84",
                 "unique_id": null,
                 "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "host": "raspberrypisig.com",
+                    "port": 443
+                },
+                "domain": "cert_expiry",
+                "entry_id": "57723b0190aa4dd88eb79b9c82db226e",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "raspberrypisig.com",
+                "unique_id": "raspberrypisig.com:443",
+                "version": 1
             }
         ]
     },
