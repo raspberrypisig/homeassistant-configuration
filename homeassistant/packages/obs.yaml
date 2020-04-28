@@ -1,0 +1,6 @@
+input_select:
+  obs_scenes:
+    name: OBS Scenes
+    options: 
+      - " "
+    icon: mdi:movie-roll

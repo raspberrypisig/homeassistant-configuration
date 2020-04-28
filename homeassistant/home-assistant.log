@@ -1,2 +1,211 @@
-2020-04-26 17:21:41 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
-2020-04-26 17:21:53 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for bom_forecast which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-04-28 11:20:12 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-04-28 11:20:24 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for bom_forecast which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-04-28 11:21:55 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1772518928] required key not provided @ data['options']
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 134, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1210, in async_call
+    processed_data = handler.schema(service_data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 208, in __call__
+    return self._exec((Schema(val) for val in self.validators), v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 287, in _exec
+    raise e if self.msg is None else AllInvalid(self.msg, path=path)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 283, in _exec
+    v = func(v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 817, in validate_callable
+    return schema(data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 594, in validate_dict
+    return base_validate(path, iteritems(data), out)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 432, in validate_mapping
+    raise er.MultipleInvalid(errors)
+voluptuous.error.MultipleInvalid: required key not provided @ data['options']
+2020-04-28 11:25:46 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 192.168.20.84
+2020-04-28 11:26:17 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 192.168.20.84
+2020-04-28 11:40:24 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1772168016] extra keys not allowed @ data['0']
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 134, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1210, in async_call
+    processed_data = handler.schema(service_data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 208, in __call__
+    return self._exec((Schema(val) for val in self.validators), v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 287, in _exec
+    raise e if self.msg is None else AllInvalid(self.msg, path=path)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 283, in _exec
+    v = func(v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 817, in validate_callable
+    return schema(data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 594, in validate_dict
+    return base_validate(path, iteritems(data), out)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 432, in validate_mapping
+    raise er.MultipleInvalid(errors)
+voluptuous.error.MultipleInvalid: extra keys not allowed @ data['0']
+2020-04-28 11:40:48 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1772170672] extra keys not allowed @ data['0']
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 134, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1210, in async_call
+    processed_data = handler.schema(service_data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 208, in __call__
+    return self._exec((Schema(val) for val in self.validators), v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 287, in _exec
+    raise e if self.msg is None else AllInvalid(self.msg, path=path)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 283, in _exec
+    v = func(v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 817, in validate_callable
+    return schema(data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 594, in validate_dict
+    return base_validate(path, iteritems(data), out)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 432, in validate_mapping
+    raise er.MultipleInvalid(errors)
+voluptuous.error.MultipleInvalid: extra keys not allowed @ data['0']
+2020-04-28 11:41:37 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1794734704] extra keys not allowed @ data['0']
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 134, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1210, in async_call
+    processed_data = handler.schema(service_data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 208, in __call__
+    return self._exec((Schema(val) for val in self.validators), v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 287, in _exec
+    raise e if self.msg is None else AllInvalid(self.msg, path=path)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 283, in _exec
+    v = func(v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 817, in validate_callable
+    return schema(data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 594, in validate_dict
+    return base_validate(path, iteritems(data), out)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 432, in validate_mapping
+    raise er.MultipleInvalid(errors)
+voluptuous.error.MultipleInvalid: extra keys not allowed @ data['0']
+2020-04-28 11:43:31 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1772138544] extra keys not allowed @ data['0']
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 134, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1210, in async_call
+    processed_data = handler.schema(service_data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 208, in __call__
+    return self._exec((Schema(val) for val in self.validators), v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 287, in _exec
+    raise e if self.msg is None else AllInvalid(self.msg, path=path)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 283, in _exec
+    v = func(v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 817, in validate_callable
+    return schema(data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 594, in validate_dict
+    return base_validate(path, iteritems(data), out)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 432, in validate_mapping
+    raise er.MultipleInvalid(errors)
+voluptuous.error.MultipleInvalid: extra keys not allowed @ data['0']
+2020-04-28 11:44:59 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1772300144] extra keys not allowed @ data['0']
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 134, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1210, in async_call
+    processed_data = handler.schema(service_data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 208, in __call__
+    return self._exec((Schema(val) for val in self.validators), v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 287, in _exec
+    raise e if self.msg is None else AllInvalid(self.msg, path=path)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 283, in _exec
+    v = func(v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 817, in validate_callable
+    return schema(data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 594, in validate_dict
+    return base_validate(path, iteritems(data), out)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 432, in validate_mapping
+    raise er.MultipleInvalid(errors)
+voluptuous.error.MultipleInvalid: extra keys not allowed @ data['0']
+2020-04-28 11:45:51 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1772195536] extra keys not allowed @ data['0']
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 134, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1210, in async_call
+    processed_data = handler.schema(service_data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 208, in __call__
+    return self._exec((Schema(val) for val in self.validators), v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 287, in _exec
+    raise e if self.msg is None else AllInvalid(self.msg, path=path)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 283, in _exec
+    v = func(v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 817, in validate_callable
+    return schema(data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 594, in validate_dict
+    return base_validate(path, iteritems(data), out)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 432, in validate_mapping
+    raise er.MultipleInvalid(errors)
+voluptuous.error.MultipleInvalid: extra keys not allowed @ data['0']
+2020-04-28 11:48:57 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1772284528] extra keys not allowed @ data['0']
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 134, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1210, in async_call
+    processed_data = handler.schema(service_data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 208, in __call__
+    return self._exec((Schema(val) for val in self.validators), v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 287, in _exec
+    raise e if self.msg is None else AllInvalid(self.msg, path=path)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 283, in _exec
+    v = func(v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 817, in validate_callable
+    return schema(data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 594, in validate_dict
+    return base_validate(path, iteritems(data), out)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 432, in validate_mapping
+    raise er.MultipleInvalid(errors)
+voluptuous.error.MultipleInvalid: extra keys not allowed @ data['0']
+2020-04-28 11:53:08 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1774694224] extra keys not allowed @ data['0']
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 134, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1210, in async_call
+    processed_data = handler.schema(service_data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 208, in __call__
+    return self._exec((Schema(val) for val in self.validators), v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 287, in _exec
+    raise e if self.msg is None else AllInvalid(self.msg, path=path)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/validators.py", line 283, in _exec
+    v = func(v)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 817, in validate_callable
+    return schema(data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 594, in validate_dict
+    return base_validate(path, iteritems(data), out)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 432, in validate_mapping
+    raise er.MultipleInvalid(errors)
+voluptuous.error.MultipleInvalid: extra keys not allowed @ data['0']

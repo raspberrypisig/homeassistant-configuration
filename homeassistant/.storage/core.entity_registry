@@ -506,7 +506,7 @@
                 "entity_id": "sensor.aruna_s_ipad_battery_level",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-30",
+                "original_icon": "mdi:battery-70",
                 "original_name": "Aruna's iPad Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -522,7 +522,7 @@
                 "entity_id": "sensor.aruna_s_ipad_battery_state",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-30",
+                "original_icon": "mdi:battery-70",
                 "original_name": "Aruna's iPad Battery State",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -850,7 +850,7 @@
                 "unit_of_measurement": "AQI"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": null,
                 "device_class": null,
                 "device_id": null,
@@ -864,6 +864,22 @@
                 "supported_features": 0,
                 "unique_id": 3237,
                 "unit_of_measurement": "AQI"
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "input_select.obs_scenes",
+                "icon": null,
+                "name": null,
+                "original_icon": "mdi:movie-roll",
+                "original_name": "OBS Scenes",
+                "platform": "input_select",
+                "supported_features": 0,
+                "unique_id": "obs_scenes",
+                "unit_of_measurement": null
             }
         ]
     },

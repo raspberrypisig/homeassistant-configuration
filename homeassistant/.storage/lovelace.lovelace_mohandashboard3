@@ -44,6 +44,40 @@
                     ],
                     "path": "aqi",
                     "title": "AQI"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.australia_coronavirus_recovered"
+                                }
+                            ],
+                            "hours_to_show": 72,
+                            "refresh_interval": 0,
+                            "type": "history-graph"
+                        }
+                    ],
+                    "path": "history",
+                    "theme": "Google - Dark",
+                    "title": "history"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "input_select.obs_scenes"
+                                }
+                            ],
+                            "title": "ObsStudio Scenes",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "obstudio",
+                    "title": "OBStudio"
                 }
             ]
         }

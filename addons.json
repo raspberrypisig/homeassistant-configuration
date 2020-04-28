@@ -85,119 +85,6 @@
       "repository": "core",
       "location": "/data/addons/core/samba"
     },
-    "a0d7b954_nodered": {
-      "name": "Node-RED",
-      "version": "6.2.0",
-      "slug": "nodered",
-      "description": "Flow-based programming for the Internet of Things",
-      "url": "https://github.com/hassio-addons/addon-node-red",
-      "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
-      "ingress": true,
-      "ingress_port": 0,
-      "panel_icon": "mdi:sitemap",
-      "startup": "application",
-      "init": false,
-      "homeassistant": "0.92.0b2",
-      "arch": [
-        "aarch64",
-        "amd64",
-        "armhf",
-        "armv7",
-        "i386"
-      ],
-      "ports": {
-        "80/tcp": 1880
-      },
-      "ports_description": {
-        "80/tcp": "Web interface"
-      },
-      "boot": "auto",
-      "hassio_api": true,
-      "hassio_role": "manager",
-      "homeassistant_api": true,
-      "host_network": true,
-      "auth_api": true,
-      "auto_uart": true,
-      "gpio": true,
-      "privileged": [
-        "SYS_RAWIO"
-      ],
-      "devices": [
-        "/dev/mem:/dev/mem:rwm"
-      ],
-      "apparmor": false,
-      "map": [
-        "config:rw",
-        "share:rw",
-        "ssl"
-      ],
-      "options": {
-        "credential_secret": "",
-        "dark_mode": false,
-        "http_node": {
-          "username": "",
-          "password": ""
-        },
-        "http_static": {
-          "username": "",
-          "password": ""
-        },
-        "ssl": true,
-        "certfile": "fullchain.pem",
-        "keyfile": "privkey.pem",
-        "require_ssl": true,
-        "system_packages": [],
-        "npm_packages": [],
-        "init_commands": []
-      },
-      "schema": {
-        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
-        "credential_secret": "password",
-        "dark_mode": "bool",
-        "http_node": {
-          "username": "str",
-          "password": "password"
-        },
-        "http_static": {
-          "username": "str",
-          "password": "password"
-        },
-        "ssl": "bool",
-        "certfile": "str",
-        "keyfile": "str",
-        "require_ssl": "bool",
-        "system_packages": [
-          "str"
-        ],
-        "npm_packages": [
-          "str"
-        ],
-        "init_commands": [
-          "str"
-        ],
-        "i_like_to_be_pwned": "bool?",
-        "leave_front_door_open": "bool?"
-      },
-      "image": "hassioaddons/node-red-{arch}",
-      "video": false,
-      "kernel_modules": false,
-      "udev": false,
-      "stdin": false,
-      "host_pid": false,
-      "audio": false,
-      "stage": "stable",
-      "devicetree": false,
-      "advanced": false,
-      "host_ipc": false,
-      "host_dbus": false,
-      "panel_admin": true,
-      "legacy": false,
-      "timeout": 10,
-      "docker_api": false,
-      "full_access": false,
-      "repository": "a0d7b954",
-      "location": "/data/addons/git/a0d7b954/node-red"
-    },
     "core_configurator": {
       "name": "File editor",
       "version": "4.7",
@@ -721,6 +608,119 @@
       "stage": "stable",
       "repository": "core",
       "location": "/data/addons/core/duckdns"
+    },
+    "a0d7b954_nodered": {
+      "name": "Node-RED",
+      "version": "6.2.0",
+      "slug": "nodered",
+      "description": "Flow-based programming for the Internet of Things",
+      "url": "https://github.com/hassio-addons/addon-node-red",
+      "webui": "[PROTO:ssl]://[HOST]:[PORT:80]",
+      "ingress": true,
+      "ingress_port": 0,
+      "panel_icon": "mdi:sitemap",
+      "startup": "application",
+      "init": false,
+      "homeassistant": "0.92.0b2",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+      ],
+      "ports": {
+        "80/tcp": 1880
+      },
+      "ports_description": {
+        "80/tcp": "Web interface"
+      },
+      "boot": "auto",
+      "hassio_api": true,
+      "hassio_role": "manager",
+      "homeassistant_api": true,
+      "host_network": true,
+      "auth_api": true,
+      "auto_uart": true,
+      "gpio": true,
+      "privileged": [
+        "SYS_RAWIO"
+      ],
+      "devices": [
+        "/dev/mem:/dev/mem:rwm"
+      ],
+      "apparmor": false,
+      "map": [
+        "config:rw",
+        "share:rw",
+        "ssl"
+      ],
+      "options": {
+        "credential_secret": "",
+        "dark_mode": false,
+        "http_node": {
+          "username": "",
+          "password": ""
+        },
+        "http_static": {
+          "username": "",
+          "password": ""
+        },
+        "ssl": true,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "require_ssl": true,
+        "system_packages": [],
+        "npm_packages": [],
+        "init_commands": []
+      },
+      "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+        "credential_secret": "password",
+        "dark_mode": "bool",
+        "http_node": {
+          "username": "str",
+          "password": "password"
+        },
+        "http_static": {
+          "username": "str",
+          "password": "password"
+        },
+        "ssl": "bool",
+        "certfile": "str",
+        "keyfile": "str",
+        "require_ssl": "bool",
+        "system_packages": [
+          "str"
+        ],
+        "npm_packages": [
+          "str"
+        ],
+        "init_commands": [
+          "str"
+        ],
+        "i_like_to_be_pwned": "bool?",
+        "leave_front_door_open": "bool?"
+      },
+      "image": "hassioaddons/node-red-{arch}",
+      "docker_api": false,
+      "audio": false,
+      "kernel_modules": false,
+      "host_pid": false,
+      "stage": "stable",
+      "host_dbus": false,
+      "legacy": false,
+      "udev": false,
+      "host_ipc": false,
+      "stdin": false,
+      "devicetree": false,
+      "panel_admin": true,
+      "full_access": false,
+      "video": false,
+      "advanced": false,
+      "timeout": 10,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/node-red"
     }
   },
   "user": {
@@ -750,39 +750,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "e4393bc24a03581f278d2ce7b81745ff7b7400202922051daca8b2a54e6dfa5fa31c6169ae960bc7df1ee5abdbb8398aaf7f3bf21fda91c4"
-    },
-    "a0d7b954_nodered": {
-      "options": {
-        "credential_secret": "boo",
-        "dark_mode": false,
-        "http_node": {
-          "username": "",
-          "password": ""
-        },
-        "http_static": {
-          "username": "",
-          "password": ""
-        },
-        "ssl": false,
-        "certfile": "fullchain.pem",
-        "keyfile": "privkey.pem",
-        "require_ssl": true,
-        "system_packages": [],
-        "npm_packages": [],
-        "init_commands": []
-      },
-      "version": "6.2.0",
-      "image": "hassioaddons/node-red-armv7",
-      "ingress_token": "a6bpeiu8GHNTgysa60kaNQp_HxdKGDpXIlArPYcBEnA",
-      "protected": true,
-      "auto_update": false,
-      "ingress_panel": true,
-      "uuid": "20c5b7c9aa1d4220a2c9ec9ccd7b505b",
-      "access_token": "35b8e181c3fabb1a5ef24c86c1e072c6185695a34919c9b60fda08ef0666ee7de03ec649347604a6cad4c391b303ba802dec3461358d605e",
-      "network": {
-        "80/tcp": 1880
-      }
+      "access_token": "584392cd15336574243bd6d90aa36c9b74616e807b261837401741800086e10a33d77386d67622b16345d7d8a0049dd76576307cef111c33"
     },
     "core_configurator": {
       "options": {},
@@ -793,7 +761,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "34f34991457363c542dd1fe09d1a50730c0d536eaf5d0498318a10bae2ff7d3ed7e4b5d2fe7210b5973af81a6bef8d88379e382ceca0fb67"
+      "access_token": "227dce6020de978d5c38881988dc08ac94f528f7154bb13cc7aaf9727fccbcd57ecc47e1b7dd88b9627046766532a531d0eadb3ff1a0bf09"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -806,7 +774,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "03b133278da0565da38864581a50f1168097b986d53c66cf3cab5822b5fd79314abae4337e23925121f0bcc8ad8814032d31b89476f76723"
+      "access_token": "22142215be77b6f4daecec4832acf1b6ffad32e85b8c83ce20485e5d3040bfcd5bfcca544c1ce8ad1ae298c65e1ac5459e8fc8225bf45756"
     },
     "a0d7b954_grafana": {
       "options": {},
@@ -895,7 +863,36 @@
       "auto_update": false,
       "ingress_panel": false,
       "protected": true,
-      "access_token": "1a95bf19b7e20870841df5917c1516f6d41402684113079f5a83dafdacda2514dfd78200d865c886677a87440187aeeccb389d5fa89d803e"
+      "access_token": "ca231e38ac5cd8455de751e7f7536b99545c2d4131abfb76e497e63d8c7d9dfd7a88faaa358c49d3f2ab14447ab8b8a3a48206edf61ec81d"
+    },
+    "a0d7b954_nodered": {
+      "options": {
+        "credential_secret": "boo",
+        "dark_mode": false,
+        "http_node": {
+          "username": "",
+          "password": ""
+        },
+        "http_static": {
+          "username": "",
+          "password": ""
+        },
+        "ssl": false,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "require_ssl": false,
+        "system_packages": [],
+        "npm_packages": [],
+        "init_commands": []
+      },
+      "version": "6.2.0",
+      "image": "hassioaddons/node-red-armv7",
+      "ingress_token": "x1d2h3rHsN3vKPkOjByiadPfqthE2V0KdRTKblfktdE",
+      "ingress_panel": true,
+      "uuid": "5d281a2dea5a4ca98a986e7e2e3512df",
+      "auto_update": false,
+      "protected": true,
+      "access_token": "5866122c6eac284d8ad276c16dbe0111a09395f65f64709917354c06212a70a37cf56813d08633a03af368be762c944717f1728c9ff84084"
     }
   }
 }

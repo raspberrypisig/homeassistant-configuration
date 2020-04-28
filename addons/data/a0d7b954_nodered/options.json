@@ -12,7 +12,7 @@
   "ssl": false,
   "certfile": "fullchain.pem",
   "keyfile": "privkey.pem",
-  "require_ssl": true,
+  "require_ssl": false,
   "system_packages": [],
   "npm_packages": [],
   "init_commands": []
