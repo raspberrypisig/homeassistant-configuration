@@ -116,6 +116,18 @@
                     ],
                     "path": "home-assistant",
                     "title": "Home Assistant"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.lastest_raspbian_release",
+                            "icon": "mdi:raspberry-pi",
+                            "type": "entity"
+                        }
+                    ],
+                    "path": "raspbian",
+                    "title": "Raspbian"
                 }
             ]
         }

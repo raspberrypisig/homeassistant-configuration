@@ -1,0 +1,6 @@
+sensor:
+  - platform: rest
+    name: Lastest Raspbian Release
+    resource: http://downloads.raspberrypi.org/raspbian/release_notes.txt
+    value_template: >-
+      {{ value[:10] }}

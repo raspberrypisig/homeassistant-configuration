@@ -104,9 +104,9 @@
                     "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-70",
+                "icon": "mdi:battery",
                 "name": "Battery Level",
-                "state": 73,
+                "state": 100,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -115,10 +115,10 @@
             "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 73
+                    "Battery Level": 100
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-70",
+                "icon": "mdi:battery",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -165,21 +165,21 @@
                     "Inland Water": "N/A",
                     "Locality": "Endeavour Hills",
                     "Location": [
-                        -37.9676284,
-                        145.2585297
+                        -37.9679069,
+                        145.2585907
                     ],
-                    "Name": "20 Eildon Road",
+                    "Name": "9 Eildon Road",
                     "Ocean": "N/A",
                     "Postal Code": "3802",
                     "Sub Administrative Area": "Melbourne",
                     "Sub Locality": "N/A",
-                    "Sub Thoroughfare": "20",
+                    "Sub Thoroughfare": "9",
                     "Thoroughfare": "Eildon Road",
                     "Time Zone": "Australia/Melbourne"
                 },
                 "icon": "mdi:map",
                 "name": "Geocoded Location",
-                "state": "20 Eildon Road\nEndeavour Hills VIC 3802\nAustralia",
+                "state": "9 Eildon Road\nEndeavour Hills VIC 3802\nAustralia",
                 "type": "sensor",
                 "unique_id": "geocoded_location",
                 "webhook_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1"
@@ -189,7 +189,7 @@
                 "attributes": {},
                 "icon": "mdi:cellphone-wireless",
                 "name": "Last Update Trigger",
-                "state": "Significant Location Change",
+                "state": "Initial",
                 "type": "sensor",
                 "unique_id": "last_update_trigger",
                 "webhook_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1"
