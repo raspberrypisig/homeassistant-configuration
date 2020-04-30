@@ -1,0 +1,21 @@
+'1588210942769':
+  alias: OBSRefresh
+  sequence:
+  - event: obs
+    event_data:
+      request: refresh
+'1588213079643':
+  alias: OBSRecord
+  sequence:
+  - event: OBS
+    event_data: {}
+'1588213091323':
+  alias: OBSStop
+  sequence:
+  - event: OBS
+    event_data: {}
+'1588215383904':
+  alias: OBSResetScenes
+  sequence:
+  - event: obs
+    event_data: {}

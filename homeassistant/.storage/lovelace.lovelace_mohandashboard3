@@ -67,17 +67,65 @@
                     "badges": [],
                     "cards": [
                         {
-                            "entities": [
+                            "cards": [
                                 {
-                                    "entity": "input_select.obs_scenes"
+                                    "entity": "",
+                                    "hold_action": {
+                                        "action": "more-info"
+                                    },
+                                    "name": "REFRESH",
+                                    "show_icon": false,
+                                    "show_name": true,
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "script.1588210942769"
+                                    },
+                                    "type": "button"
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "input_select.obs_scenes"
+                                        }
+                                    ],
+                                    "show_header_toggle": false,
+                                    "title": "OBS Scenes",
+                                    "type": "entities"
+                                },
+                                {
+                                    "entity": "",
+                                    "hold_action": {
+                                        "action": "more-info"
+                                    },
+                                    "name": "RECORD",
+                                    "show_icon": false,
+                                    "show_name": true,
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "script.1588213079643"
+                                    },
+                                    "type": "button"
+                                },
+                                {
+                                    "entity": "",
+                                    "hold_action": {
+                                        "action": "more-info"
+                                    },
+                                    "name": "STOP",
+                                    "show_icon": false,
+                                    "show_name": true,
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "script.1588213091323"
+                                    },
+                                    "type": "button"
                                 }
                             ],
-                            "title": "ObsStudio Scenes",
-                            "type": "entities"
+                            "type": "vertical-stack"
                         }
                     ],
-                    "path": "obstudio",
-                    "title": "OBStudio"
+                    "path": "obstudiofinal",
+                    "title": "OBStudioFinal"
                 }
             ]
         }

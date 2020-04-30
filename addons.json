@@ -750,7 +750,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "abb3b5cdc5f92a2c4f86e5f26770e828090926cb4f40bbcd3d190c293651ea3b6eb6b73f714f5546a914b66a28f36441d3cfde4bae49ee91"
+      "access_token": "2cb1e50637a6d3fcce1d0989a9df2866c52be5a23182cc1579208ca38adab5eb36cdd0111885bb567a8a0f71c9b691d598d40d01c132c014"
     },
     "core_configurator": {
       "options": {},
@@ -761,7 +761,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "3dc3c8e06c6a239a799245837d048ea0c43cbf495e0ccadd0b9492a2225002319528d78a0fe30d26c49932343f8661df3fabaf76f9967914"
+      "access_token": "8b813b420856008b4d4ac1bb4230d111dc3aebdcb8a521caf557185c67bc9c258f0822d13152d03c0a28eadbf1bcdee64523090c54d85328"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -774,7 +774,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "feeecec8682e26507af5301e85d47c2ea8318593a78d70f9e3e97c57db1df436b87d65a0155b2e4760051fd212d97fab9ae7539f0e58ecc5"
+      "access_token": "9ca1a045c1e758e5df04ac579911d3139993e513d163276d818c5d819132a4eed9e5e92dd7b6d5df3ce28f0db7a87ede0c67f55cd73de943"
     },
     "a0d7b954_grafana": {
       "options": {},
@@ -863,7 +863,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "protected": true,
-      "access_token": "87386d92aa1cd2658e6186ac0f7b75568693d5eb69fa8ef46ea2f04deab98259b2732b36cb4163454e36c4b88af457f17b54f208fd1428dd"
+      "access_token": "3562965e1492a415954f68e96f897e8349d0b12be65373a4d94e558f966979b883febda303465fa62a76e59dc4ebc45c9feb3622bb7d2b45"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -892,7 +892,7 @@
       "uuid": "5d281a2dea5a4ca98a986e7e2e3512df",
       "auto_update": false,
       "protected": true,
-      "access_token": "3719b8c1335e37409876db146000f244bb1fdd74a26983f484def28b31d1abde060f05d809b281697b3b5f8b2aef833aaf09df437a85c53e"
+      "access_token": "921d94fb8f990f394bd102f87ecf190cdd7de7581ba1f91854a033d1f9d54d81447782d1431f4374673e7d8184d21be7cb7776109d975d4a"
     }
   }
 }

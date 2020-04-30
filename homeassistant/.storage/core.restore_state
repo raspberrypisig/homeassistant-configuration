@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2020-04-29T23:27:17.007937+00:00",
+            "last_seen": "2020-04-30T07:35:06.011918+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -14,18 +14,44 @@
                     "user_id": "e448bf45727e44f996c590d74b5c95e2"
                 },
                 "context": {
-                    "id": "b0b23583956b4b379d1be3dff36b7d97",
+                    "id": "424fc897ef50403381cd76aa126a88b2",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.mohan_gupta",
-                "last_changed": "2020-04-29T22:41:58.461129+00:00",
-                "last_updated": "2020-04-29T22:42:14.900610+00:00",
+                "last_changed": "2020-04-30T07:19:50.531179+00:00",
+                "last_updated": "2020-04-30T07:20:05.366606+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2020-04-29T23:27:17.007937+00:00",
+            "last_seen": "2020-04-30T07:35:06.011918+00:00",
+            "state": {
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "OBS Scenes",
+                    "icon": "mdi:movie-roll",
+                    "options": [
+                        "MainScene",
+                        "GreenScreen",
+                        "Clock",
+                        "Kabs",
+                        "WebcamOnly"
+                    ]
+                },
+                "context": {
+                    "id": "869415985d744bfaa4f159f904718650",
+                    "parent_id": null,
+                    "user_id": "e448bf45727e44f996c590d74b5c95e2"
+                },
+                "entity_id": "input_select.obs_scenes",
+                "last_changed": "2020-04-30T07:32:33.670524+00:00",
+                "last_updated": "2020-04-30T07:32:33.670524+00:00",
+                "state": "MainScene"
+            }
+        },
+        {
+            "last_seen": "2020-04-30T07:35:06.011918+00:00",
             "state": {
                 "attributes": {
                     "editable": false,
@@ -36,18 +62,18 @@
                     "step": 1
                 },
                 "context": {
-                    "id": "5856a99acfa44594a650a2e0d68ea703",
+                    "id": "9ed94a277b984414bd5aab9bf8bee564",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "counter.daikin_fan_mode",
-                "last_changed": "2020-04-29T22:41:58.523004+00:00",
-                "last_updated": "2020-04-29T22:41:58.523004+00:00",
+                "last_changed": "2020-04-30T07:19:50.543923+00:00",
+                "last_updated": "2020-04-30T07:19:50.543923+00:00",
                 "state": "0"
             }
         },
         {
-            "last_seen": "2020-04-29T23:27:17.007937+00:00",
+            "last_seen": "2020-04-30T07:35:06.011918+00:00",
             "state": {
                 "attributes": {
                     "editable": false,
@@ -55,58 +81,36 @@
                     "icon": "mdi:gate"
                 },
                 "context": {
-                    "id": "6f3a5ea2837040ef95ce92be0dd817da",
+                    "id": "5d4a4afd3b8540418a0e126eb71988a7",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "input_boolean.garage_door",
-                "last_changed": "2020-04-29T22:41:58.524135+00:00",
-                "last_updated": "2020-04-29T22:41:58.524135+00:00",
+                "last_changed": "2020-04-30T07:19:50.545365+00:00",
+                "last_updated": "2020-04-30T07:19:50.545365+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-04-29T23:27:17.007937+00:00",
-            "state": {
-                "attributes": {
-                    "editable": false,
-                    "friendly_name": "OBS Scenes",
-                    "icon": "mdi:movie-roll",
-                    "options": [
-                        " "
-                    ]
-                },
-                "context": {
-                    "id": "22b891a580644c9a9bcb8e9e35fb9705",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "input_select.obs_scenes",
-                "last_changed": "2020-04-29T22:41:58.525454+00:00",
-                "last_updated": "2020-04-29T22:41:58.525454+00:00",
-                "state": " "
-            }
-        },
-        {
-            "last_seen": "2020-04-29T23:27:17.007937+00:00",
+            "last_seen": "2020-04-30T07:35:06.011918+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Update BOM Icons",
-                    "last_triggered": "2020-04-29T22:42:15.413384+00:00"
+                    "last_triggered": "2020-04-30T07:20:06.015424+00:00"
                 },
                 "context": {
-                    "id": "8a99d9639ff8401e8936a90e0cc01889",
+                    "id": "3ffe795fa3784a159106da19b3241db9",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.update_bom_icons",
-                "last_changed": "2020-04-29T22:41:58.526388+00:00",
-                "last_updated": "2020-04-29T22:42:15.413961+00:00",
+                "last_changed": "2020-04-30T07:19:50.547253+00:00",
+                "last_updated": "2020-04-30T07:20:06.015772+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-04-29T23:27:17.007937+00:00",
+            "last_seen": "2020-04-30T07:35:06.011918+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -115,36 +119,36 @@
                     "user_id": "81725a2e476a44048b242c3e4cc1977f"
                 },
                 "context": {
-                    "id": "2985264c5e5a47308d7f2ee3197339db",
+                    "id": "41b90fd202ef4909a547cb5f2d442743",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.aruna",
-                "last_changed": "2020-04-29T22:41:58.655017+00:00",
-                "last_updated": "2020-04-29T22:42:14.925469+00:00",
+                "last_changed": "2020-04-30T07:19:50.903101+00:00",
+                "last_updated": "2020-04-30T07:20:05.368894+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2020-04-29T23:27:17.007937+00:00",
+            "last_seen": "2020-04-30T07:35:06.011918+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Aruna Gupta\u2019s iPhone",
                     "source_type": "gps"
                 },
                 "context": {
-                    "id": "1ca58b20f3ea4aeaa2394d1e3e434cab",
+                    "id": "aa8aa8c785544abfbdc7665339fb0d54",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.aruna_guptas_iphone",
-                "last_changed": "2020-04-29T22:42:05.467399+00:00",
-                "last_updated": "2020-04-29T22:42:05.467399+00:00",
+                "last_changed": "2020-04-30T07:19:56.556067+00:00",
+                "last_updated": "2020-04-30T07:19:56.556067+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2020-04-29T23:27:17.007937+00:00",
+            "last_seen": "2020-04-30T07:35:06.011918+00:00",
             "state": {
                 "attributes": {
                     "altitude": 53.71280670166016,
@@ -157,14 +161,36 @@
                     "vertical_accuracy": 10
                 },
                 "context": {
-                    "id": "95d1685995114771b61d2eafde009d37",
+                    "id": "d8589414678e4b4e8a7e80886ead8812",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.aruna_s_ipad",
-                "last_changed": "2020-04-29T22:42:05.469374+00:00",
-                "last_updated": "2020-04-29T22:42:05.469374+00:00",
+                "last_changed": "2020-04-30T07:19:56.559734+00:00",
+                "last_updated": "2020-04-30T07:19:56.559734+00:00",
                 "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2020-04-30T07:02:54.164435+00:00",
+            "state": {
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "OBS Scenes",
+                    "icon": "mdi:movie-roll",
+                    "options": [
+                        "boo"
+                    ]
+                },
+                "context": {
+                    "id": "9bd1047ba3924a32b1526e1331f46175",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_select.obs",
+                "last_changed": "2020-04-30T07:02:39.069548+00:00",
+                "last_updated": "2020-04-30T07:02:39.069548+00:00",
+                "state": "boo"
             }
         }
     ],

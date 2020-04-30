@@ -866,7 +866,7 @@
                 "unit_of_measurement": "AQI"
             },
             {
-                "capabilities": {},
+                "capabilities": null,
                 "config_entry_id": null,
                 "device_class": null,
                 "device_id": null,

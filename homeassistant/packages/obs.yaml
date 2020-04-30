@@ -1,6 +1,8 @@
 input_select:
   obs_scenes:
     name: OBS Scenes
+    initial: UNAVAILABLE 
     options: 
-      - " "
+      - UNAVAILABLE
     icon: mdi:movie-roll
+
