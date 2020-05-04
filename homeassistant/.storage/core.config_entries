@@ -268,6 +268,38 @@
                 "title": "raspberrypisig.com",
                 "unique_id": "raspberrypisig.com:443",
                 "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "d0z-XK2-C6g:APA91bF0x0xyFkyKp3dy_Qlx7bEEjwnh7R4C2WJXqZoTlJP-I8y1QvMRFhatJRgO7uXPuBYQ7flsoxIc3vQ3AMTA7S9evqvYNT_j-ADbqnNQsqoIFTV4hgRw8BxrP6vkdH6N6sppxQdA",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "0ac85d3c6a18438588cc336464892d01",
+                    "device_name": "Aruna Gupta\u2019s iPhone",
+                    "manufacturer": "Apple",
+                    "model": "iPhone 6",
+                    "os_name": "iOS",
+                    "os_version": "12.4.5",
+                    "secret": "bec6b70dd2c00943f25c14ff6b4d94bf40a89348e10243cfa6b743ce160522cf",
+                    "supports_encryption": true,
+                    "user_id": "81725a2e476a44048b242c3e4cc1977f",
+                    "webhook_id": "28d179582af95bd5137361bc6477610c53d40c91474626e97a8fb1126392b96a"
+                },
+                "domain": "mobile_app",
+                "entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Aruna Gupta\u2019s iPhone",
+                "unique_id": null,
+                "version": 1
             }
         ]
     },

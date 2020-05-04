@@ -11,7 +11,9 @@
                 "user_id": "e448bf45727e44f996c590d74b5c95e2"
             },
             {
-                "device_trackers": [],
+                "device_trackers": [
+                    "device_tracker.aruna_guptas_iphone_2"
+                ],
                 "id": "aruna",
                 "name": "Aruna",
                 "user_id": "81725a2e476a44048b242c3e4cc1977f"

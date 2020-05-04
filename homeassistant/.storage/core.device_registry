@@ -120,6 +120,26 @@
                 "name_by_user": null,
                 "sw_version": "1.14.3 (Apr 17 2020, 17:14:22)",
                 "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "1d3a3a6b12194bf2a18b1816f1824bb7"
+                ],
+                "connections": [],
+                "id": "63a668d4984b4256bc8c9549334dcb9f",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "0ac85d3c6a18438588cc336464892d01"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 6",
+                "name": "Aruna Gupta\u2019s iPhone",
+                "name_by_user": null,
+                "sw_version": "12.4.5",
+                "via_device_id": null
             }
         ]
     },

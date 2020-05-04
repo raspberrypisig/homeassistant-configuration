@@ -1,1 +1,12 @@
-[]
+- id: '1588590231158'
+  alias: Raspbian Updated
+  description: ''
+  trigger:
+  - entity_id: sensor.lastest_raspbian_release
+    platform: state
+  condition: []
+  action:
+  - data:
+      message: Raspbian has been updated. See details [here](http://downloads.raspberrypi.org/raspbian/release_notes.txt)
+      title: Raspbian Updated
+    service: persistent_notification.create
