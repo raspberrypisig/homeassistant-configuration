@@ -3,10 +3,18 @@
 # For the animated card follow the instructions and put the icons in <config-dir>/www/icons/weather_icons. This is a DIFFERENT icon file to the above.
 # Show BOM Satellite and Radar
 
-sensor:
-
+weather:
   - platform: bom
-    station: IDV60801.94870
+    name: MoorabbinAirport
+    station: IDV60901.94870
+
+camera:
+  - platform: bom
+    location: Melbourne
+
+sensor:
+  - platform: bom
+    station: IDV60901.94870
     name: Gosford
     monitored_conditions:
       - apparent_t

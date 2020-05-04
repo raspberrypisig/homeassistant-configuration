@@ -7,6 +7,15 @@
                     "badges": [],
                     "cards": [
                         {
+                            "entity": "weather.melbpc",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entity": "weather.bom_moorabbinairport",
+                            "name": "Moorabbin",
+                            "type": "weather-forecast"
+                        },
+                        {
                             "apparent_right_margin": "1em",
                             "apparent_right_pos": "1em",
                             "apparent_top_margin": "45px",

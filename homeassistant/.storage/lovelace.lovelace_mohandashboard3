@@ -126,6 +126,28 @@
                     ],
                     "path": "obstudiofinal",
                     "title": "OBStudioFinal"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "aspect_ratio": "100%",
+                            "camera_image": "camera.bom_radar_loop_melbourne",
+                            "camera_view": "live",
+                            "entity": "camera.bom_radar_loop_melbourne",
+                            "hold_action": {
+                                "action": "none"
+                            },
+                            "show_name": false,
+                            "show_state": false,
+                            "tap_action": {
+                                "action": "none"
+                            },
+                            "type": "picture-entity"
+                        }
+                    ],
+                    "path": "radar",
+                    "title": "radar"
                 }
             ]
         }
