@@ -5,7 +5,7 @@ binary_sensor:
 camera:
   - platform: generic
     name: ISS
-    still_image_url: "https://api.mapbox.com/styles/v1/mapbox/light-v10/static/{{ state_attr('binary_sensor.iss', 'long') }},{{ state_attr('binary_sensor.iss', 'lat') }},1,0/250x250?access_token=pk.eyJ1IjoicmFzcGJlcnJ5cGlzaWciLCJhIjoiY2s5YmJmY2NuMG11cjNnczJndDdjdnU1cCJ9.E4eVVKxFubeH1_xP3UkUzw"
+    still_image_url: "https://api.mapbox.com/styles/v1/mapbox/light-v10/static/{{ state_attr('binary_sensor.iss', 'long') }},{{ state_attr('binary_sensor.iss', 'lat') }},1,0/1280x1280?access_token=pk.eyJ1IjoicmFzcGJlcnJ5cGlzaWciLCJhIjoiY2s5YmJmY2NuMG11cjNnczJndDdjdnU1cCJ9.E4eVVKxFubeH1_xP3UkUzw"
     #still_image_url: http://staticmap.openstreetmap.de/staticmap.php?center={{ state_attr('binary_sensor.iss', 'lat') }},{{ state_attr('binary_sensor.iss', 'long') }}&zoom=4&size=865x512&maptype=mapnik&markers={{ state_attr('binary_sensor.iss', 'lat') }},{{ state_attr('binary_sensor.iss', 'long') }},lightblue
     limit_refetch_to_url_change: true
     

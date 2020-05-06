@@ -506,7 +506,7 @@
                 "entity_id": "sensor.aruna_s_ipad_battery_level",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-80",
+                "original_icon": "mdi:battery-20",
                 "original_name": "Aruna's iPad Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -522,7 +522,7 @@
                 "entity_id": "sensor.aruna_s_ipad_battery_state",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-80",
+                "original_icon": "mdi:battery-20",
                 "original_name": "Aruna's iPad Battery State",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -882,7 +882,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": null,
                 "device_class": null,
                 "device_id": null,
@@ -898,7 +898,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -914,7 +914,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -930,7 +930,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": "battery",
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -946,7 +946,7 @@
                 "unit_of_measurement": "%"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": "battery",
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -962,7 +962,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -978,7 +978,7 @@
                 "unit_of_measurement": "m/s"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -994,7 +994,7 @@
                 "unit_of_measurement": "floors"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -1010,7 +1010,7 @@
                 "unit_of_measurement": "m"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -1026,7 +1026,7 @@
                 "unit_of_measurement": "floors"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -1042,7 +1042,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -1058,7 +1058,7 @@
                 "unit_of_measurement": "steps"
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -1074,7 +1074,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -1090,7 +1090,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -1106,7 +1106,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",
@@ -1122,7 +1122,7 @@
                 "unit_of_measurement": null
             },
             {
-                "capabilities": null,
+                "capabilities": {},
                 "config_entry_id": "1d3a3a6b12194bf2a18b1816f1824bb7",
                 "device_class": null,
                 "device_id": "63a668d4984b4256bc8c9549334dcb9f",

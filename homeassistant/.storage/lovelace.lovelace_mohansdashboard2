@@ -57,10 +57,9 @@
                             "elements": [
                                 {
                                     "camera_image": "camera.iss",
-                                    "camera_view": "live",
                                     "style": {
-                                        "left": "62.5px",
-                                        "top": "62.5px"
+                                        "right": 0,
+                                        "top": 0
                                     },
                                     "type": "image"
                                 },
@@ -68,14 +67,18 @@
                                     "entity": "binary_sensor.iss",
                                     "icon": "mdi:satellite-variant",
                                     "style": {
-                                        "left": "100px",
-                                        "top": "100px"
+                                        "left": "9px",
+                                        "top": "89px"
                                     },
                                     "type": "state-icon"
                                 }
                             ],
                             "image": "//192.168.20.84:8123/local/blank.png",
                             "type": "picture-elements"
+                        },
+                        {
+                            "content": "https://www.astroviewer.net/iss/en/",
+                            "type": "markdown"
                         }
                     ],
                     "panel": false,

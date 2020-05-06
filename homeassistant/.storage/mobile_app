@@ -269,9 +269,9 @@
                     "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-50",
+                "icon": "mdi:battery-20",
                 "name": "Battery Level",
-                "state": 53,
+                "state": 26,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -280,10 +280,10 @@
             "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 53
+                    "Battery Level": 26
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-50",
+                "icon": "mdi:battery-20",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -354,7 +354,7 @@
                 "attributes": {},
                 "icon": "mdi:cellphone-wireless",
                 "name": "Last Update Trigger",
-                "state": "Initial",
+                "state": "Background Fetch",
                 "type": "sensor",
                 "unique_id": "last_update_trigger",
                 "webhook_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1"
