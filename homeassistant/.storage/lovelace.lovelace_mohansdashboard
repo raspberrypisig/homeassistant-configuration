@@ -11,6 +11,10 @@
                             "type": "weather-forecast"
                         },
                         {
+                            "entity": "sensor.melbourne_forecast_summary",
+                            "type": "entity"
+                        },
+                        {
                             "entity": "weather.bom_moorabbinairport",
                             "name": "Moorabbin",
                             "type": "weather-forecast"

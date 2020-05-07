@@ -721,6 +721,82 @@
       "timeout": 10,
       "repository": "a0d7b954",
       "location": "/data/addons/git/a0d7b954/node-red"
+    },
+    "a0d7b954_jupyterlablite": {
+      "name": "JupyterLab Lite",
+      "version": "0.3.1",
+      "slug": "jupyterlablite",
+      "description": "Create documents containing live code, equations, visualizations, and explanatory text.",
+      "url": "https://github.com/hassio-addons/addon-jupyterlab-lite",
+      "webui": "[PROTO:ssl]://[HOST]:[PORT:7777]",
+      "startup": "application",
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armv7",
+        "i386"
+      ],
+      "boot": "auto",
+      "hassio_api": true,
+      "auth_api": true,
+      "hassio_role": "default",
+      "homeassistant_api": true,
+      "host_network": false,
+      "ports": {
+        "7777/tcp": 7777
+      },
+      "map": [
+        "config:rw",
+        "share:rw",
+        "ssl"
+      ],
+      "options": {
+        "github_access_token": "",
+        "ssl": false,
+        "certfile": "fullchain.pem",
+        "keyfile": "privkey.pem",
+        "system_packages": [],
+        "init_commands": []
+      },
+      "schema": {
+        "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)?",
+        "github_access_token": "str",
+        "ssl": "bool",
+        "certfile": "str",
+        "keyfile": "str",
+        "system_packages": [
+          "str"
+        ],
+        "init_commands": [
+          "str"
+        ]
+      },
+      "image": "hassioaddons/jupyterlablite-{arch}",
+      "stage": "stable",
+      "panel_admin": true,
+      "devicetree": false,
+      "apparmor": true,
+      "host_dbus": false,
+      "gpio": false,
+      "host_ipc": false,
+      "panel_icon": "mdi:puzzle",
+      "auto_uart": false,
+      "full_access": false,
+      "ingress_port": 8099,
+      "audio": false,
+      "video": false,
+      "legacy": false,
+      "docker_api": false,
+      "timeout": 10,
+      "init": true,
+      "ingress": false,
+      "kernel_modules": false,
+      "stdin": false,
+      "advanced": false,
+      "udev": false,
+      "host_pid": false,
+      "repository": "a0d7b954",
+      "location": "/data/addons/git/a0d7b954/jupyterlablite"
     }
   },
   "user": {
@@ -750,7 +826,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "22a9786e89e1c5d2833b97a7b60acbe1afce9333d1b2ad198d304573cbbb6d54dd6d0618750c24c6fba551c1b8f4ee4324b147646e00bb08"
+      "access_token": "a62ce1903d532e0417f34e79428eebc80eed21dc2f14ff79d505baa028dca41a703292fef0bddfbb75b7d12549ee5d8252d0f5a6c2288666"
     },
     "core_configurator": {
       "options": {},
@@ -761,7 +837,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "cf07f970b6a3b0ccb135cb0839162492b09cbb6b53b3108e5febeaeded277197a32aade1c3f34100cef00d72f32982784d18aabe21076832"
+      "access_token": "f104c851948c177184dc5c0a01986b3e5e1878c9b73bdc87b23e808e6cc35db4ab17e615f91dbd20fd92f75261dcc66442eed1d92fd2c8b0"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -774,7 +850,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "96e3e4fbffa3c34e799fe8845a2a49a809352c540e38aab23bfef67ebc3f8a16cd574bbf560b15b37bbd9a32264f9a4e29e6f504f1bbf6c6"
+      "access_token": "eb3121f75115304d55106b374547bf2a2f807c68cabb5709b84a058da469f1749bed59266cde46363414bc5643ee43641d16854bd29f7253"
     },
     "a0d7b954_grafana": {
       "options": {},
@@ -863,7 +939,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "protected": true,
-      "access_token": "6e933b78e9ffd2b8446210a4a74c5b1b7d2921007bd955ab57616abe9815de27e471e0db5788952c76b099700b958b86ca0ec53309729362"
+      "access_token": "20b5bc3bf6b4a5c2f151a47dd8d493178f41dad546cc2cf936f683aa2edb0fe62ae08abb730e0c6af307373925bcf348654514354b19a797"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -892,7 +968,19 @@
       "uuid": "5d281a2dea5a4ca98a986e7e2e3512df",
       "auto_update": false,
       "protected": true,
-      "access_token": "198ac0ce00081727fd97bed65896a388664dcf61cd53e07a45870ea1a770dda9736bf847840fc2d39d845d13d4e86185edca8cdf63c6be5e"
+      "access_token": "0bbadcb0853e234df242a9a2f94cd7f4fdf0b41e97fd3c7544c6a9ea84b5fdc657f889ec89025ba5ae4e1fb129e58deac429bb4d0083f92a"
+    },
+    "a0d7b954_jupyterlablite": {
+      "options": {},
+      "version": "0.3.1",
+      "image": "hassioaddons/jupyterlablite-armv7",
+      "ingress_panel": false,
+      "uuid": "d87896c440c8490bb4e1fcc0d25c59da",
+      "ingress_token": "BAF8lqO8vEn92VlFhHaOC5H2pR_rBkckNepddR0lg7A",
+      "auto_update": false,
+      "protected": true,
+      "boot": "manual",
+      "access_token": "682ef8c7fa02319031783ed7a5bf380143c7eeb41327bdf92eeb8246045303a27a17409866208c6a4773a0b6784ac8e228b564e6e2a5ba75"
     }
   }
 }
