@@ -1,6 +1,6 @@
 {
   "channel": "stable",
-  "homeassistant": "0.109.5",
+  "homeassistant": "0.109.6",
   "cli": "25",
   "dns": "9",
   "audio": "14",
@@ -12,6 +12,6 @@
     "dns": "homeassistant/{arch}-hassio-dns",
     "multicast": "homeassistant/{arch}-hassio-multicast"
   },
-  "supervisor": "220",
+  "supervisor": "221",
   "multicast": "2"
 }

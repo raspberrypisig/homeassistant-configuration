@@ -21,12 +21,12 @@
             "28d179582af95bd5137361bc6477610c53d40c91474626e97a8fb1126392b96a_battery_level": {
                 "added": true,
                 "attributes": {
-                    "Battery State": "Charging"
+                    "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-charging-80",
+                "icon": "mdi:battery-80",
                 "name": "Battery Level",
-                "state": 94,
+                "state": 89,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -35,12 +35,12 @@
             "28d179582af95bd5137361bc6477610c53d40c91474626e97a8fb1126392b96a_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 94
+                    "Battery Level": 89
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-charging-80",
+                "icon": "mdi:battery-80",
                 "name": "Battery State",
-                "state": "Charging",
+                "state": "Not Charging",
                 "type": "sensor",
                 "unique_id": "battery_state",
                 "webhook_id": "28d179582af95bd5137361bc6477610c53d40c91474626e97a8fb1126392b96a"
@@ -108,7 +108,7 @@
                 "attributes": {},
                 "icon": "mdi:cellphone-wireless",
                 "name": "Last Update Trigger",
-                "state": "Initial",
+                "state": "Background Fetch",
                 "type": "sensor",
                 "unique_id": "last_update_trigger",
                 "webhook_id": "28d179582af95bd5137361bc6477610c53d40c91474626e97a8fb1126392b96a"
@@ -118,7 +118,7 @@
                 "attributes": {},
                 "icon": "mdi:speedometer",
                 "name": "Average Active Pace",
-                "state": 0,
+                "state": 1,
                 "type": "sensor",
                 "unique_id": "pedometer_avg_active_pace",
                 "unit_of_measurement": "m/s",
@@ -129,7 +129,7 @@
                 "attributes": {},
                 "icon": "mdi:hiking",
                 "name": "Distance",
-                "state": 309,
+                "state": 752,
                 "type": "sensor",
                 "unique_id": "pedometer_distance",
                 "unit_of_measurement": "m",
@@ -162,7 +162,7 @@
                 "attributes": {},
                 "icon": "mdi:walk",
                 "name": "Steps",
-                "state": 437,
+                "state": 1214,
                 "type": "sensor",
                 "unique_id": "pedometer_steps",
                 "unit_of_measurement": "steps",
