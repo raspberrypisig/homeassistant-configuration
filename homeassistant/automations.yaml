@@ -10,3 +10,14 @@
       message: Raspbian has been updated. See details [here](http://downloads.raspberrypi.org/raspbian/release_notes.txt)
       title: Raspbian Updated
     service: persistent_notification.create
+- id: '1588947610767'
+  alias: IFTTT webhook
+  description: ''
+  trigger:
+  - platform: webhook
+    webhook_id: moo
+  condition: []
+  action:
+  - data_template:
+      message: '{{trigger.json.message}}'
+    service: system_log.write

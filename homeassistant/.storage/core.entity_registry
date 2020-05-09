@@ -1136,6 +1136,22 @@
                 "supported_features": 0,
                 "unique_id": "28d179582af95bd5137361bc6477610c53d40c91474626e97a8fb1126392b96a_geocoded_location",
                 "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "automation.ifttt_webhook",
+                "icon": null,
+                "name": null,
+                "original_icon": null,
+                "original_name": "IFTTT webhook",
+                "platform": "automation",
+                "supported_features": 0,
+                "unique_id": "1588947610767",
+                "unit_of_measurement": null
             }
         ]
     },

@@ -1,50 +1,498 @@
-2020-05-08 12:35:33 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
-2020-05-08 12:35:51 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for bom_forecast which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
-2020-05-08 12:36:03 WARNING (MainThread) [homeassistant.setup] Setup of coronavirus is taking over 10 seconds.
-2020-05-08 12:36:03 WARNING (MainThread) [homeassistant.setup] Setup of updater is taking over 10 seconds.
-2020-05-08 12:36:03 WARNING (MainThread) [homeassistant.setup] Setup of counter is taking over 10 seconds.
-2020-05-08 12:36:03 WARNING (MainThread) [homeassistant.setup] Setup of input_select is taking over 10 seconds.
-2020-05-08 12:36:03 WARNING (MainThread) [homeassistant.setup] Setup of input_boolean is taking over 10 seconds.
-2020-05-08 12:36:03 WARNING (MainThread) [homeassistant.setup] Setup of person is taking over 10 seconds.
-2020-05-08 12:36:03 WARNING (MainThread) [homeassistant.components.weather] Setup of weather platform bom is taking over 10 seconds.
-2020-05-08 12:36:03 WARNING (MainThread) [homeassistant.components.binary_sensor] Setup of binary_sensor platform iss is taking over 10 seconds.
-2020-05-08 12:36:03 ERROR (MainThread) [homeassistant.components.coronavirus] Timeout fetching coronavirus data
-2020-05-08 12:36:08 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
-2020-05-08 12:36:08 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
-2020-05-08 12:41:17 ERROR (MainThread) [homeassistant.core] Error doing job: Task exception was never retrieved
+2020-05-08 16:04:21 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-05-08 16:04:33 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for bom_forecast which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-05-08 16:04:42 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
+2020-05-08 16:04:42 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
+2020-05-08 17:04:46 ERROR (SyncWorker_5) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-08 17:04:46 ERROR (SyncWorker_5) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-08 18:16:24 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 192.168.20.54
+2020-05-08 18:16:34 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
+2020-05-08 18:16:34 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
+2020-05-08 18:34:36 ERROR (MainThread) [homeassistant.components.webhook] Error processing webhook b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 288, in async_add_entities
-    for entity in new_entities
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 285, in <listcomp>
-    self._async_add_entity(  # type: ignore
-  File "/usr/src/homeassistant/homeassistant/components/coronavirus/sensor.py", line 22, in <genexpr>
-    for info_type in SENSORS
-  File "/usr/src/homeassistant/homeassistant/components/coronavirus/sensor.py", line 37, in __init__
-    self.name = f"{coordinator.data[country].country} Coronavirus {info_type}"
-TypeError: 'NoneType' object is not subscriptable
-2020-05-08 12:41:17 ERROR (MainThread) [homeassistant.core] Error doing job: Task exception was never retrieved
+  File "/usr/src/homeassistant/homeassistant/components/webhook/__init__.py", line 78, in async_handle_webhook
+    response = await webhook["handler"](hass, webhook_id, request)
+  File "/usr/src/homeassistant/homeassistant/components/mobile_app/webhook.py", line 148, in handle_webhook
+    req_data = await request.json()
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_request.py", line 583, in json
+    body = await self.text()
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_request.py", line 577, in text
+    bytes_body = await self.read()
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_request.py", line 561, in read
+    chunk = await self._payload.readany()
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/streams.py", line 380, in readany
+    await self._wait('readany')
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/streams.py", line 298, in _wait
+    await waiter
+concurrent.futures._base.CancelledError
+2020-05-08 18:40:05 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.command_sensor is taking over 10 seconds
+2020-05-08 18:40:06 WARNING (MainThread) [homeassistant.components.sensor] Updating command_line sensor took longer than the scheduled update interval 0:00:10
+2020-05-08 18:40:10 ERROR (SyncWorker_9) [homeassistant.components.command_line.sensor] Timeout for command: curl -i http://mohangupta-652eb883.localhost.run | head -1
+2020-05-08 19:04:48 ERROR (SyncWorker_2) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-08 19:04:48 ERROR (SyncWorker_2) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-08 21:04:50 ERROR (SyncWorker_14) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-08 21:04:50 ERROR (SyncWorker_14) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-08 23:04:52 ERROR (SyncWorker_7) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-08 23:04:52 ERROR (SyncWorker_7) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-09 00:16:47 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
+2020-05-09 00:16:50 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
+2020-05-09 00:27:45 ERROR (MainThread) [homeassistant.components.automation] IFTTT webhook: Error executing script. Invalid data for call_service at pos 1: extra keys not allowed @ data['payload']
+2020-05-09 00:31:11 ERROR (MainThread) [homeassistant.components.automation] IFTTT webhook: Error executing script. Invalid data for call_service at pos 1: extra keys not allowed @ data['payload']
+2020-05-09 00:31:45 ERROR (MainThread) [homeassistant.components.automation] IFTTT webhook: Error executing script. Invalid data for call_service at pos 1: extra keys not allowed @ data['payload']
+2020-05-09 00:32:19 ERROR (MainThread) [homeassistant.components.automation] IFTTT webhook: Error executing script. Invalid data for call_service at pos 1: extra keys not allowed @ data['payload']
+2020-05-09 00:34:04 ERROR (MainThread) [homeassistant.components.automation] IFTTT webhook: Error executing script. Invalid data for call_service at pos 1: extra keys not allowed @ data['payload']
+2020-05-09 00:39:29 ERROR (MainThread) [homeassistant.components.persistent_notification] Error rendering message Template("{{ trigger.data }}"): UndefinedError: 'trigger' is undefined
+2020-05-09 00:40:02 ERROR (MainThread) [homeassistant.components.automation] IFTTT webhook: Error executing script. Invalid data for call_service at pos 1: template value should be a string for dictionary value @ data['message']
+2020-05-09 00:41:18 ERROR (MainThread) [homeassistant.components.automation] IFTTT webhook: Error executing script. Invalid data for call_service at pos 1: template value should be a string for dictionary value @ data['message']
+2020-05-09 00:41:57 ERROR (MainThread) [homeassistant.components.persistent_notification] Error rendering message Template("{{trigger.data}}"): UndefinedError: 'trigger' is undefined
+2020-05-09 01:03:11 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1771011472] expected dict for dictionary value @ data['data']
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 288, in async_add_entities
-    for entity in new_entities
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 285, in <listcomp>
-    self._async_add_entity(  # type: ignore
-  File "/usr/src/homeassistant/homeassistant/components/coronavirus/sensor.py", line 22, in <genexpr>
-    for info_type in SENSORS
-  File "/usr/src/homeassistant/homeassistant/components/coronavirus/sensor.py", line 37, in __init__
-    self.name = f"{coordinator.data[country].country} Coronavirus {info_type}"
-TypeError: 'NoneType' object is not subscriptable
-2020-05-08 12:41:17 ERROR (MainThread) [homeassistant.core] Error doing job: Task exception was never retrieved
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 130, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1209, in async_call
+    processed_data = handler.schema(service_data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 594, in validate_dict
+    return base_validate(path, iteritems(data), out)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 432, in validate_mapping
+    raise er.MultipleInvalid(errors)
+voluptuous.error.MultipleInvalid: expected dict for dictionary value @ data['data']
+2020-05-09 01:03:21 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1771011472] expected dict for dictionary value @ data['data']
 Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 288, in async_add_entities
-    for entity in new_entities
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 285, in <listcomp>
-    self._async_add_entity(  # type: ignore
-  File "/usr/src/homeassistant/homeassistant/components/coronavirus/sensor.py", line 22, in <genexpr>
-    for info_type in SENSORS
-  File "/usr/src/homeassistant/homeassistant/components/coronavirus/sensor.py", line 37, in __init__
-    self.name = f"{coordinator.data[country].country} Coronavirus {info_type}"
-TypeError: 'NoneType' object is not subscriptable
-2020-05-08 12:41:20 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
-2020-05-08 12:41:21 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
-2020-05-08 12:41:24 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
-2020-05-08 12:41:25 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 130, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1209, in async_call
+    processed_data = handler.schema(service_data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 272, in __call__
+    return self._compiled([], data)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 594, in validate_dict
+    return base_validate(path, iteritems(data), out)
+  File "/usr/local/lib/python3.7/site-packages/voluptuous/schema_builder.py", line 432, in validate_mapping
+    raise er.MultipleInvalid(errors)
+voluptuous.error.MultipleInvalid: expected dict for dictionary value @ data['data']
+2020-05-09 01:03:45 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.1771011472] 'platform specific'
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 130, in handle_call_service
+    connection.context(msg),
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1247, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1282, in _execute_service
+    await handler.func(service_call)
+  File "/usr/src/homeassistant/homeassistant/components/notify/__init__.py", line 119, in async_notify_message
+    await notify_service.async_send_message(**kwargs)
+  File "/usr/src/homeassistant/homeassistant/components/mobile_app/notify.py", line 115, in async_send_message
+    entry = self.hass.data[DOMAIN][DATA_CONFIG_ENTRIES][target]
+KeyError: 'platform specific'
+2020-05-09 01:04:01 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
+2020-05-09 01:04:01 ERROR (MainThread) [homeassistant.components.mobile_app.notify] Requested entity was not found.
+2020-05-09 01:04:41 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
+2020-05-09 01:04:42 ERROR (MainThread) [homeassistant.components.mobile_app.notify] Requested entity was not found.
+2020-05-09 01:04:52 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
+2020-05-09 01:04:52 ERROR (MainThread) [homeassistant.components.mobile_app.notify] Requested entity was not found.
+2020-05-09 01:04:54 ERROR (SyncWorker_8) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-09 01:04:54 ERROR (SyncWorker_8) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-09 01:06:22 ERROR (MainThread) [homeassistant.components.system_log.external] Urgent boo
+2020-05-09 01:07:33 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:07:42 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:07:47 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:10:52 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:11:16 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:11:21 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:12:10 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:12:34 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:14:33 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:14:46 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:15:01 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:15:38 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:15:51 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:15:57 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:16:03 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy()>
+2020-05-09 01:16:44 ERROR (MainThread) [homeassistant.components.system_log.external] <MultiDictProxy('moomoomoo': '')>
+2020-05-09 01:20:41 ERROR (MainThread) [homeassistant.components.system_log.external] 
+2020-05-09 01:21:03 ERROR (MainThread) [homeassistant.components.system_log.external] 
+2020-05-09 01:21:58 ERROR (MainThread) [homeassistant.components.system_log.external] {'message': 'boo boo boo'}
+2020-05-09 01:23:40 ERROR (MainThread) [homeassistant.components.system_log.external] {'message': 'boo boo boo'}
+2020-05-09 01:24:55 ERROR (MainThread) [homeassistant.components.system_log.external] boo boo boo
+2020-05-09 03:04:56 ERROR (SyncWorker_2) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-09 03:04:56 ERROR (SyncWorker_2) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-09 04:54:48 WARNING (Thread-3) [pychromecast.socket_client] [Rumpus room Speaker(192.168.20.10):8009] Heartbeat timeout, resetting connection
+2020-05-09 04:55:13 WARNING (Thread-3) [pychromecast.socket_client] [Rumpus room Speaker(192.168.20.10):8009] Connection reestablished!
+2020-05-09 05:04:58 ERROR (SyncWorker_17) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-09 05:04:58 ERROR (SyncWorker_17) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-09 05:29:53 ERROR (MainThread) [hacs.factory] robmarkcole/Hue-remotes-HASS - Repository is archived.
+2020-05-09 07:04:59 ERROR (SyncWorker_16) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-09 07:04:59 ERROR (SyncWorker_16) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-09 09:05:01 ERROR (SyncWorker_1) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-09 09:05:01 ERROR (SyncWorker_1) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-09 10:53:36 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.waqi_dandenong is taking over 10 seconds
+2020-05-09 10:53:36 ERROR (MainThread) [homeassistant.helpers.entity] Update for sensor.waqi_dandenong fails
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 48, in _get
+    path, params=dict(self._params, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/client.py", line 483, in _request
+    timeout=real_timeout
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 859, in _create_connection
+    req, traces, timeout)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 986, in _create_direct_connection
+    req=req, client_error=client_error)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 936, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "/usr/local/lib/python3.7/asyncio/base_events.py", line 949, in create_connection
+    await self.sock_connect(sock, address)
+  File "/usr/local/lib/python3.7/asyncio/selector_events.py", line 473, in sock_connect
+    return await fut
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 279, in async_update_ha_state
+    await self.async_device_update()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 470, in async_device_update
+    await self.async_update()
+  File "/usr/src/homeassistant/homeassistant/components/waqi/sensor.py", line 174, in async_update
+    result = await self._client.get_station_by_number(self.uid)
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 42, in get_station_by_number
+    return (yield from self._get(FEED_NUMBER_URL.format(number)))
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 49, in _get
+    return (yield from resp.json())['data']
+  File "/usr/local/lib/python3.7/site-packages/async_timeout/__init__.py", line 45, in __exit__
+    self._do_exit(exc_type)
+  File "/usr/local/lib/python3.7/site-packages/async_timeout/__init__.py", line 92, in _do_exit
+    raise asyncio.TimeoutError
+concurrent.futures._base.TimeoutError
+2020-05-09 10:58:37 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.waqi_dandenong is taking over 10 seconds
+2020-05-09 10:58:37 ERROR (MainThread) [homeassistant.helpers.entity] Update for sensor.waqi_dandenong fails
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 48, in _get
+    path, params=dict(self._params, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/client.py", line 483, in _request
+    timeout=real_timeout
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 859, in _create_connection
+    req, traces, timeout)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 986, in _create_direct_connection
+    req=req, client_error=client_error)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 936, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "/usr/local/lib/python3.7/asyncio/base_events.py", line 949, in create_connection
+    await self.sock_connect(sock, address)
+  File "/usr/local/lib/python3.7/asyncio/selector_events.py", line 473, in sock_connect
+    return await fut
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 279, in async_update_ha_state
+    await self.async_device_update()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 470, in async_device_update
+    await self.async_update()
+  File "/usr/src/homeassistant/homeassistant/components/waqi/sensor.py", line 174, in async_update
+    result = await self._client.get_station_by_number(self.uid)
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 42, in get_station_by_number
+    return (yield from self._get(FEED_NUMBER_URL.format(number)))
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 49, in _get
+    return (yield from resp.json())['data']
+  File "/usr/local/lib/python3.7/site-packages/async_timeout/__init__.py", line 45, in __exit__
+    self._do_exit(exc_type)
+  File "/usr/local/lib/python3.7/site-packages/async_timeout/__init__.py", line 92, in _do_exit
+    raise asyncio.TimeoutError
+concurrent.futures._base.TimeoutError
+2020-05-09 11:03:38 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.waqi_dandenong is taking over 10 seconds
+2020-05-09 11:03:38 ERROR (MainThread) [homeassistant.helpers.entity] Update for sensor.waqi_dandenong fails
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 48, in _get
+    path, params=dict(self._params, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/client.py", line 483, in _request
+    timeout=real_timeout
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 859, in _create_connection
+    req, traces, timeout)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 986, in _create_direct_connection
+    req=req, client_error=client_error)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 936, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "/usr/local/lib/python3.7/asyncio/base_events.py", line 949, in create_connection
+    await self.sock_connect(sock, address)
+  File "/usr/local/lib/python3.7/asyncio/selector_events.py", line 473, in sock_connect
+    return await fut
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 279, in async_update_ha_state
+    await self.async_device_update()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 470, in async_device_update
+    await self.async_update()
+  File "/usr/src/homeassistant/homeassistant/components/waqi/sensor.py", line 174, in async_update
+    result = await self._client.get_station_by_number(self.uid)
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 42, in get_station_by_number
+    return (yield from self._get(FEED_NUMBER_URL.format(number)))
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 49, in _get
+    return (yield from resp.json())['data']
+  File "/usr/local/lib/python3.7/site-packages/async_timeout/__init__.py", line 45, in __exit__
+    self._do_exit(exc_type)
+  File "/usr/local/lib/python3.7/site-packages/async_timeout/__init__.py", line 92, in _do_exit
+    raise asyncio.TimeoutError
+concurrent.futures._base.TimeoutError
+2020-05-09 11:05:03 ERROR (SyncWorker_18) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-09 11:05:03 ERROR (SyncWorker_18) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-09 11:08:39 WARNING (MainThread) [homeassistant.helpers.entity] Update of sensor.waqi_dandenong is taking over 10 seconds
+2020-05-09 11:08:39 ERROR (MainThread) [homeassistant.helpers.entity] Update for sensor.waqi_dandenong fails
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 48, in _get
+    path, params=dict(self._params, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/client.py", line 483, in _request
+    timeout=real_timeout
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 859, in _create_connection
+    req, traces, timeout)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 986, in _create_direct_connection
+    req=req, client_error=client_error)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/connector.py", line 936, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "/usr/local/lib/python3.7/asyncio/base_events.py", line 949, in create_connection
+    await self.sock_connect(sock, address)
+  File "/usr/local/lib/python3.7/asyncio/selector_events.py", line 473, in sock_connect
+    return await fut
+concurrent.futures._base.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 279, in async_update_ha_state
+    await self.async_device_update()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 470, in async_device_update
+    await self.async_update()
+  File "/usr/src/homeassistant/homeassistant/components/waqi/sensor.py", line 174, in async_update
+    result = await self._client.get_station_by_number(self.uid)
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 42, in get_station_by_number
+    return (yield from self._get(FEED_NUMBER_URL.format(number)))
+  File "/usr/local/lib/python3.7/site-packages/waqiasync/__init__.py", line 49, in _get
+    return (yield from resp.json())['data']
+  File "/usr/local/lib/python3.7/site-packages/async_timeout/__init__.py", line 45, in __exit__
+    self._do_exit(exc_type)
+  File "/usr/local/lib/python3.7/site-packages/async_timeout/__init__.py", line 92, in _do_exit
+    raise asyncio.TimeoutError
+concurrent.futures._base.TimeoutError
+2020-05-09 13:05:05 ERROR (SyncWorker_14) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-09 13:05:05 ERROR (SyncWorker_14) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-09 13:14:53 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_protocol.py", line 418, in start
+    resp = await task
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_app.py", line 458, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_middlewares.py", line 119, in impl
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/real_ip.py", line 39, in real_ip_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/ban.py", line 73, in ban_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/auth.py", line 127, in auth_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/view.py", line 125, in handle
+    result = await result
+  File "/usr/src/homeassistant/homeassistant/components/api/__init__.py", line 388, in post
+    return tpl.async_render(data.get("variables"))
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 222, in async_render
+    return compiled.render(kwargs).strip()
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/usr/local/lib/python3.7/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 1, in top-level template code
+  File "/usr/local/lib/python3.7/site-packages/jinja2/sandbox.py", line 462, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 1010, in wrapper
+    return func(hass, *args[1:], **kwargs)
+TypeError: state_attr() missing 2 required positional arguments: 'entity_id' and 'name'
+2020-05-09 13:14:54 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_protocol.py", line 418, in start
+    resp = await task
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_app.py", line 458, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_middlewares.py", line 119, in impl
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/real_ip.py", line 39, in real_ip_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/ban.py", line 73, in ban_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/auth.py", line 127, in auth_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/view.py", line 125, in handle
+    result = await result
+  File "/usr/src/homeassistant/homeassistant/components/api/__init__.py", line 388, in post
+    return tpl.async_render(data.get("variables"))
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 222, in async_render
+    return compiled.render(kwargs).strip()
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/usr/local/lib/python3.7/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 1, in top-level template code
+  File "/usr/local/lib/python3.7/site-packages/jinja2/sandbox.py", line 462, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 1010, in wrapper
+    return func(hass, *args[1:], **kwargs)
+TypeError: state_attr() missing 1 required positional argument: 'name'
+2020-05-09 13:14:56 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_protocol.py", line 418, in start
+    resp = await task
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_app.py", line 458, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_middlewares.py", line 119, in impl
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/real_ip.py", line 39, in real_ip_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/ban.py", line 73, in ban_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/auth.py", line 127, in auth_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/view.py", line 125, in handle
+    result = await result
+  File "/usr/src/homeassistant/homeassistant/components/api/__init__.py", line 388, in post
+    return tpl.async_render(data.get("variables"))
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 222, in async_render
+    return compiled.render(kwargs).strip()
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/usr/local/lib/python3.7/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 1, in top-level template code
+  File "/usr/local/lib/python3.7/site-packages/jinja2/sandbox.py", line 462, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 1010, in wrapper
+    return func(hass, *args[1:], **kwargs)
+TypeError: state_attr() missing 1 required positional argument: 'name'
+2020-05-09 13:14:58 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_protocol.py", line 418, in start
+    resp = await task
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_app.py", line 458, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_middlewares.py", line 119, in impl
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/real_ip.py", line 39, in real_ip_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/ban.py", line 73, in ban_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/auth.py", line 127, in auth_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/view.py", line 125, in handle
+    result = await result
+  File "/usr/src/homeassistant/homeassistant/components/api/__init__.py", line 388, in post
+    return tpl.async_render(data.get("variables"))
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 222, in async_render
+    return compiled.render(kwargs).strip()
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/usr/local/lib/python3.7/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 1, in top-level template code
+  File "/usr/local/lib/python3.7/site-packages/jinja2/sandbox.py", line 462, in call
+    return __context.call(__obj, *args, **kwargs)
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 1010, in wrapper
+    return func(hass, *args[1:], **kwargs)
+TypeError: state_attr() missing 1 required positional argument: 'name'
+2020-05-09 15:05:07 ERROR (SyncWorker_7) [homeassistant.components.rest.sensor] Error fetching data: http://www.bom.gov.au/vic/forecasts/melbourne.shtml failed with ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2020-05-09 15:05:07 ERROR (SyncWorker_7) [homeassistant.components.scrape.sensor] Unable to retrieve data
+2020-05-09 16:06:29 ERROR (MainThread) [aiohttp.server] Error handling request
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/lib/python3.7/http/client.py", line 1252, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1298, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1247, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/local/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x669a6230>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.20.84', port=8080): Max retries exceeded with url: /?action=stream (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x669a6230>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_protocol.py", line 418, in start
+    resp = await task
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_app.py", line 458, in _handle
+    resp = await handler(request)
+  File "/usr/local/lib/python3.7/site-packages/aiohttp/web_middlewares.py", line 119, in impl
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/real_ip.py", line 39, in real_ip_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/ban.py", line 73, in ban_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/auth.py", line 127, in auth_middleware
+    return await handler(request)
+  File "/usr/src/homeassistant/homeassistant/components/http/view.py", line 125, in handle
+    result = await result
+  File "/usr/src/homeassistant/homeassistant/components/camera/__init__.py", line 490, in get
+    return await self.handle(request, camera)
+  File "/usr/src/homeassistant/homeassistant/components/camera/__init__.py", line 507, in handle
+    image = await camera.async_camera_image()
+  File "/usr/src/homeassistant/homeassistant/components/mjpeg/camera.py", line 113, in async_camera_image
+    image = await self.hass.async_add_job(self.camera_image)
+  File "/usr/local/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/src/homeassistant/homeassistant/components/mjpeg/camera.py", line 145, in camera_image
+    req = requests.get(self._mjpeg_url, stream=True, timeout=10)
+  File "/usr/local/lib/python3.7/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.20.84', port=8080): Max retries exceeded with url: /?action=stream (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x669a6230>: Failed to establish a new connection: [Errno 111] Connection refused'))

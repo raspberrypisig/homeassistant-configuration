@@ -24,9 +24,9 @@
                     "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-80",
+                "icon": "mdi:battery-70",
                 "name": "Battery Level",
-                "state": 89,
+                "state": 75,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -35,10 +35,10 @@
             "28d179582af95bd5137361bc6477610c53d40c91474626e97a8fb1126392b96a_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 89
+                    "Battery Level": 75
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-80",
+                "icon": "mdi:battery-70",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -118,7 +118,7 @@
                 "attributes": {},
                 "icon": "mdi:speedometer",
                 "name": "Average Active Pace",
-                "state": 1,
+                "state": 0,
                 "type": "sensor",
                 "unique_id": "pedometer_avg_active_pace",
                 "unit_of_measurement": "m/s",
@@ -129,7 +129,7 @@
                 "attributes": {},
                 "icon": "mdi:hiking",
                 "name": "Distance",
-                "state": 752,
+                "state": 15,
                 "type": "sensor",
                 "unique_id": "pedometer_distance",
                 "unit_of_measurement": "m",
@@ -162,7 +162,7 @@
                 "attributes": {},
                 "icon": "mdi:walk",
                 "name": "Steps",
-                "state": 1214,
+                "state": 25,
                 "type": "sensor",
                 "unique_id": "pedometer_steps",
                 "unit_of_measurement": "steps",
@@ -269,9 +269,9 @@
                     "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery",
+                "icon": "mdi:battery-80",
                 "name": "Battery Level",
-                "state": 100,
+                "state": 88,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -280,10 +280,10 @@
             "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 100
+                    "Battery Level": 88
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery",
+                "icon": "mdi:battery-80",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -330,21 +330,21 @@
                     "Inland Water": "N/A",
                     "Locality": "Endeavour Hills",
                     "Location": [
-                        -37.9683876,
-                        145.2586365
+                        -37.9679069,
+                        145.2585907
                     ],
-                    "Name": "16 Kennington Park Drive",
+                    "Name": "9 Eildon Road",
                     "Ocean": "N/A",
                     "Postal Code": "3802",
                     "Sub Administrative Area": "Melbourne",
                     "Sub Locality": "N/A",
-                    "Sub Thoroughfare": "16",
-                    "Thoroughfare": "Kennington Park Drive",
+                    "Sub Thoroughfare": "9",
+                    "Thoroughfare": "Eildon Road",
                     "Time Zone": "Australia/Melbourne"
                 },
                 "icon": "mdi:map",
                 "name": "Geocoded Location",
-                "state": "16 Kennington Park Drive\nEndeavour Hills VIC 3802\nAustralia",
+                "state": "9 Eildon Road\nEndeavour Hills VIC 3802\nAustralia",
                 "type": "sensor",
                 "unique_id": "geocoded_location",
                 "webhook_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1"
@@ -354,7 +354,7 @@
                 "attributes": {},
                 "icon": "mdi:cellphone-wireless",
                 "name": "Last Update Trigger",
-                "state": "Significant Location Change",
+                "state": "Initial",
                 "type": "sensor",
                 "unique_id": "last_update_trigger",
                 "webhook_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1"
