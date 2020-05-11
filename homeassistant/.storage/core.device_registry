@@ -140,6 +140,26 @@
                 "name_by_user": null,
                 "sw_version": "12.4.5",
                 "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "182c2cbdb04a4fce9fd748708cee6f50"
+                ],
+                "connections": [],
+                "id": "2bcf7f93a06f4c84ab839fc5201f81ae",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "38d7097d5b284483a2b2cbed30d4f0ea"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 5s",
+                "name": "Aruna Gupta\u2019s iPhone",
+                "name_by_user": null,
+                "sw_version": "12.2",
+                "via_device_id": null
             }
         ]
     },

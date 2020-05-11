@@ -454,6 +454,20 @@
             "reason": "Repository is archived",
             "removal_type": "blacklist",
             "repository": "pippyn/Home-Assistant-Sensor-Ophaalkalender"
+        },
+        {
+            "acknowledged": false,
+            "link": "https://github.com/hacs/default/issues/392",
+            "reason": "archived",
+            "removal_type": "blacklist",
+            "repository": "robmarkcole/Hue-remotes-HASS"
+        },
+        {
+            "acknowledged": false,
+            "link": "https://github.com/hacs/default/pull/427",
+            "reason": "No longer maintained",
+            "removal_type": "blacklist",
+            "repository": "sinclairpaul/ha_purple_theme"
         }
     ],
     "key": "hacs.removed",

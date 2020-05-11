@@ -4,7 +4,8 @@
             {
                 "device_trackers": [
                     "device_tracker.aruna_guptas_iphone",
-                    "device_tracker.aruna_s_ipad"
+                    "device_tracker.aruna_s_ipad",
+                    "device_tracker.aruna_guptas_iphone_3"
                 ],
                 "id": "mohan_gupta",
                 "name": "Mohan Gupta",

@@ -24,9 +24,9 @@
                     "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-70",
+                "icon": "mdi:battery-80",
                 "name": "Battery Level",
-                "state": 75,
+                "state": 82,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -35,10 +35,10 @@
             "28d179582af95bd5137361bc6477610c53d40c91474626e97a8fb1126392b96a_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 75
+                    "Battery Level": 82
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-70",
+                "icon": "mdi:battery-80",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -108,7 +108,7 @@
                 "attributes": {},
                 "icon": "mdi:cellphone-wireless",
                 "name": "Last Update Trigger",
-                "state": "Background Fetch",
+                "state": "Initial",
                 "type": "sensor",
                 "unique_id": "last_update_trigger",
                 "webhook_id": "28d179582af95bd5137361bc6477610c53d40c91474626e97a8fb1126392b96a"
@@ -129,7 +129,7 @@
                 "attributes": {},
                 "icon": "mdi:hiking",
                 "name": "Distance",
-                "state": 15,
+                "state": 18,
                 "type": "sensor",
                 "unique_id": "pedometer_distance",
                 "unit_of_measurement": "m",
@@ -162,7 +162,7 @@
                 "attributes": {},
                 "icon": "mdi:walk",
                 "name": "Steps",
-                "state": 25,
+                "state": 27,
                 "type": "sensor",
                 "unique_id": "pedometer_steps",
                 "unit_of_measurement": "steps",
@@ -269,9 +269,9 @@
                     "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-80",
+                "icon": "mdi:battery-50",
                 "name": "Battery Level",
-                "state": 88,
+                "state": 56,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -280,10 +280,10 @@
             "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 88
+                    "Battery Level": 56
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-80",
+                "icon": "mdi:battery-50",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -358,6 +358,100 @@
                 "type": "sensor",
                 "unique_id": "last_update_trigger",
                 "webhook_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1"
+            },
+            "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa_battery_level": {
+                "added": true,
+                "attributes": {
+                    "Battery State": "Not Charging"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-60",
+                "name": "Battery Level",
+                "state": 66,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa"
+            },
+            "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa_battery_state": {
+                "added": true,
+                "attributes": {
+                    "Battery Level": 66
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-60",
+                "name": "Battery State",
+                "state": "Not Charging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa"
+            },
+            "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa_connectivity_bssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi-star",
+                "name": "BSSID",
+                "state": "c0:fd:84:a0:d8:e7",
+                "type": "sensor",
+                "unique_id": "connectivity_bssid",
+                "webhook_id": "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa"
+            },
+            "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa_connectivity_connection_type": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "Connection Type",
+                "state": "Wi-Fi",
+                "type": "sensor",
+                "unique_id": "connectivity_connection_type",
+                "webhook_id": "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa"
+            },
+            "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa_connectivity_sim_1": {
+                "added": true,
+                "attributes": {
+                    "Allows VoIP": true,
+                    "Carrier ID": "0000000100000001",
+                    "Carrier Name": "voda AU",
+                    "ISO Country Code": "N/A",
+                    "Mobile Country Code": "N/A",
+                    "Mobile Network Code": "N/A"
+                },
+                "icon": "mdi:sim",
+                "name": "SIM 1",
+                "state": "voda AU",
+                "type": "sensor",
+                "unique_id": "connectivity_sim_1",
+                "webhook_id": "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa"
+            },
+            "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa_connectivity_ssid": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:wifi",
+                "name": "SSID",
+                "state": "mycrib",
+                "type": "sensor",
+                "unique_id": "connectivity_ssid",
+                "webhook_id": "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa"
+            },
+            "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa_geocoded_location": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Unknown",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa"
+            },
+            "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa_last_update_trigger": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:cellphone-wireless",
+                "name": "Last Update Trigger",
+                "state": "Initial",
+                "type": "sensor",
+                "unique_id": "last_update_trigger",
+                "webhook_id": "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa"
             }
         }
     },

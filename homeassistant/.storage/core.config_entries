@@ -303,7 +303,10 @@
             },
             {
                 "connection_class": "local_poll",
-                "data": {},
+                "data": {
+                    "host": "192.168.20.18",
+                    "name": "HP ENVY 4500 series [FD7120]"
+                },
                 "domain": "ipp",
                 "entry_id": "9a5c73761fab416b8e0a358dfa797a46",
                 "options": {},
@@ -313,6 +316,38 @@
                 },
                 "title": "Ignored",
                 "unique_id": "1c852a4d-b800-1f08-abcd-1458d0fd7120",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "cYh-jkrEc9g:APA91bE-Vt5E_I1TCGq0BlZMcFklTPXMIQPUg5vRuFA6IJNF_G_9cI2OFVCnlIVdemaUGIhUsEUZVq4A9iXb-DosqUXm1rN11fibqUMgSJ29-XPp_sHz5mGrmn1A0MG4Vtkbqx7lr45Z",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "38d7097d5b284483a2b2cbed30d4f0ea",
+                    "device_name": "Aruna Gupta\u2019s iPhone",
+                    "manufacturer": "Apple",
+                    "model": "iPhone 5s",
+                    "os_name": "iOS",
+                    "os_version": "12.2",
+                    "secret": "2c0657de3bc3d870fb80077ebf48f7b93762eb1b4686b1e39ea60fc00563faac",
+                    "supports_encryption": true,
+                    "user_id": "e448bf45727e44f996c590d74b5c95e2",
+                    "webhook_id": "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa"
+                },
+                "domain": "mobile_app",
+                "entry_id": "182c2cbdb04a4fce9fd748708cee6f50",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Aruna Gupta\u2019s iPhone",
+                "unique_id": null,
                 "version": 1
             }
         ]
