@@ -2,3 +2,6 @@ homeassistant/tts/*.mp3
 homeassistant/home-assistant.log
 homeassistant/home-assistant_v2.db
 homeassistant/secrets.yaml
+homeassistant/home-assistant_v2.db-shm
+homeassistant/home-assistant_v2.db-wal
+
