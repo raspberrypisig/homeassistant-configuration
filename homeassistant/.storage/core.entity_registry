@@ -506,7 +506,7 @@
                 "entity_id": "sensor.aruna_s_ipad_battery_level",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-50",
+                "original_icon": "mdi:battery-charging-60",
                 "original_name": "Aruna's iPad Battery Level",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -522,7 +522,7 @@
                 "entity_id": "sensor.aruna_s_ipad_battery_state",
                 "icon": null,
                 "name": null,
-                "original_icon": "mdi:battery-50",
+                "original_icon": "mdi:battery-charging-60",
                 "original_name": "Aruna's iPad Battery State",
                 "platform": "mobile_app",
                 "supported_features": 0,
@@ -1296,6 +1296,22 @@
                 "supported_features": 0,
                 "unique_id": "cdff61e5a9e50aa0a83cc9aff385ac1a7594cc8d759ed4dce25a08f6506151fa_geocoded_location",
                 "unit_of_measurement": null
+            },
+            {
+                "capabilities": null,
+                "config_entry_id": null,
+                "device_class": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.mohan_sensor",
+                "icon": null,
+                "name": null,
+                "original_icon": "mdi:certificate",
+                "original_name": "Mohan Sensor",
+                "platform": "mohan_sensor",
+                "supported_features": 0,
+                "unique_id": "Mohan Sensor",
+                "unit_of_measurement": "\u00b0C"
             }
         ]
     },

@@ -1,26 +1,11 @@
-2020-05-11 22:05:36 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for sensor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
-2020-05-11 22:05:36 ERROR (MainThread) [homeassistant.config] Package localhostrun setup failed. Integration sensor cannot be merged. Expected a dict. (See /config/packages/localhostrun.yaml:0). 
-2020-05-11 22:05:36 ERROR (MainThread) [homeassistant.config] Package weather setup failed. Integration sensor cannot be merged. Expected a dict. (See /config/packages/weather.yaml:5). 
-2020-05-11 22:05:37 ERROR (MainThread) [homeassistant.config] Package aqi setup failed. Integration sensor cannot be merged. Expected a dict. (See /config/packages/mysensors/aqi.yaml:0). 
-2020-05-11 22:05:37 ERROR (MainThread) [homeassistant.config] Package moon setup failed. Integration sensor cannot be merged. Expected a dict. (See /config/packages/mysensors/moon.yaml:0). 
-2020-05-11 22:05:37 ERROR (MainThread) [homeassistant.config] Package raspbian setup failed. Integration sensor cannot be merged. Expected a dict. (See /config/packages/mysensors/raspbian.yaml:0). 
-2020-05-11 22:05:37 ERROR (MainThread) [homeassistant.config] Package scrape_example setup failed. Integration sensor cannot be merged. Expected a dict. (See /config/packages/mysensors/scrape_example.yaml:1). 
-2020-05-11 22:05:37 ERROR (MainThread) [homeassistant.config] Package seasonsensor setup failed. Integration sensor cannot be merged. Expected a dict. (See /config/packages/mysensors/seasonsensor.yaml:0). 
-2020-05-11 22:05:37 ERROR (MainThread) [homeassistant.config] Package sun setup failed. Integration sensor cannot be merged. Expected a dict. (See /config/packages/mysensors/sun.yaml:0). 
-2020-05-11 22:05:37 ERROR (MainThread) [homeassistant.config] Package dbfilesize setup failed. Integration sensor cannot be merged. Expected a dict. (See /config/packages/homeassistant/dbfilesize.yaml:0). 
-2020-05-11 22:05:37 ERROR (MainThread) [homeassistant.config] Package diskspace setup failed. Integration sensor cannot be merged. Expected a dict. (See /config/packages/homeassistant/diskspace.yaml:0). 
-2020-05-11 22:05:37 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
-2020-05-11 22:05:52 ERROR (MainThread) [homeassistant.setup] Setup failed for sensor: No setup function defined.
-2020-05-11 22:05:56 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
-2020-05-11 22:05:56 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
-2020-05-11 22:05:56 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
-2020-05-11 22:05:56 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
-2020-05-11 22:06:09 WARNING (MainThread) [homeassistant.helpers.entity_component] Forced update failed. Component for sensor.bom_forecast_0 not loaded.
-2020-05-11 22:06:09 WARNING (MainThread) [homeassistant.helpers.entity_component] Forced update failed. Component for sensor.bom_forecast_3 not loaded.
-2020-05-11 22:06:09 WARNING (MainThread) [homeassistant.helpers.entity_component] Forced update failed. Component for sensor.bom_forecast_6 not loaded.
-2020-05-11 22:06:09 WARNING (MainThread) [homeassistant.helpers.entity_component] Forced update failed. Component for sensor.bom_forecast_4 not loaded.
-2020-05-11 22:06:09 WARNING (MainThread) [homeassistant.helpers.entity_component] Forced update failed. Component for sensor.bom_forecast_1 not loaded.
-2020-05-11 22:06:09 WARNING (MainThread) [homeassistant.helpers.entity_component] Forced update failed. Component for sensor.bom_forecast_5 not loaded.
-2020-05-11 22:06:09 WARNING (MainThread) [homeassistant.helpers.entity_component] Forced update failed. Component for sensor.bom_forecast_2 not loaded.
-2020-05-11 22:06:13 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
-2020-05-11 22:06:15 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
+2020-05-12 18:47:39 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for mohan_helloworld which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-05-12 18:47:40 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-05-12 18:47:54 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for bom_forecast which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-05-12 18:47:58 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for mohan_sensor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-05-12 18:48:02 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
+2020-05-12 18:48:02 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
+2020-05-12 18:48:02 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
+2020-05-12 18:48:02 WARNING (MainThread) [homeassistant.components.mobile_app.notify] Found duplicate device name Aruna Gupta’s iPhone
+2020-05-12 18:48:22 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
+2020-05-12 18:48:23 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 
+2020-05-12 18:48:23 WARNING (MainThread) [homeassistant.helpers.translation] hacs: the '.translations' directory has been moved, the new name is 'translations', starting with Home Assistant 0.111 your translations will no longer load if you do not move/rename this 

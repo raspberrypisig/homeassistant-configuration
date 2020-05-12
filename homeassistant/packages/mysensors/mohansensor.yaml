@@ -1,0 +1,3 @@
+sensor:
+  - platform: mohan_sensor
+    name: Mohan Sensor
