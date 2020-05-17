@@ -8,4 +8,5 @@
   action:
   - data_template:
       message: '{{trigger.json.message}}'
-    service: system_log.write
+      title: IFTTT Message
+    service: persistent_notification.create

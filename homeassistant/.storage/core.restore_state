@@ -1,109 +1,63 @@
 {
     "data": [
         {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "IFTTT webhook",
                     "id": "1588947610767",
-                    "last_triggered": "2020-05-08T15:24:55.264364+00:00"
+                    "last_triggered": "2020-05-16T03:36:07.604894+00:00"
                 },
                 "context": {
-                    "id": "6526c3ee3a7d4b2d9b1a3009db99f98f",
+                    "id": "76fe0b16bfa244c5b059900d5816a4ee",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.ifttt_webhook",
-                "last_changed": "2020-05-12T08:47:58.335686+00:00",
-                "last_updated": "2020-05-12T08:47:58.335686+00:00",
+                "last_changed": "2020-05-17T09:14:14.025992+00:00",
+                "last_updated": "2020-05-17T09:14:14.025992+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Update BOM Icons",
-                    "last_triggered": "2020-05-12T08:40:12.594483+00:00"
+                    "last_triggered": "2020-05-17T09:14:38.315331+00:00"
                 },
                 "context": {
-                    "id": "a1ac4a31044049bc9eb6473fe2153a19",
+                    "id": "e3922c1851a742f89e87bd788142cb9a",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.update_bom_icons",
-                "last_changed": "2020-05-12T08:47:58.338495+00:00",
-                "last_updated": "2020-05-12T08:47:58.338495+00:00",
+                "last_changed": "2020-05-17T09:14:14.027028+00:00",
+                "last_updated": "2020-05-17T09:14:38.315705+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Raspbian Updated",
                     "id": "raspbian_latest",
-                    "last_triggered": "2020-05-12T06:30:08.814323+00:00"
+                    "last_triggered": "2020-05-16T07:44:07.773281+00:00"
                 },
                 "context": {
-                    "id": "7738c89f9184488984acd7cc27258fe9",
+                    "id": "e5802961f64b45cab6dd653f1f3c4131",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.raspbian_updated",
-                "last_changed": "2020-05-12T08:47:58.339487+00:00",
-                "last_updated": "2020-05-12T08:47:58.339487+00:00",
+                "last_changed": "2020-05-17T09:14:14.027987+00:00",
+                "last_updated": "2020-05-17T09:14:14.027987+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
-            "state": {
-                "attributes": {
-                    "editable": true,
-                    "friendly_name": "Mohan Gupta",
-                    "gps_accuracy": 65,
-                    "id": "mohan_gupta",
-                    "latitude": -37.96788347796719,
-                    "longitude": 145.2585306796604,
-                    "source": "person.mohan_gupta",
-                    "user_id": "e448bf45727e44f996c590d74b5c95e2"
-                },
-                "context": {
-                    "id": "dc864390df104d8a9262e992a86f97e0",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "person.mohan_gupta",
-                "last_changed": "2020-05-12T08:47:58.349055+00:00",
-                "last_updated": "2020-05-12T08:47:58.349055+00:00",
-                "state": "not_home"
-            }
-        },
-        {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
-            "state": {
-                "attributes": {
-                    "editable": false,
-                    "friendly_name": "daikin.fan_mode",
-                    "initial": 0,
-                    "maximum": 4,
-                    "minimum": 0,
-                    "step": 1
-                },
-                "context": {
-                    "id": "d6276c888a1f4775a19c9468848785a7",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "counter.daikin_fan_mode",
-                "last_changed": "2020-05-12T08:47:58.355141+00:00",
-                "last_updated": "2020-05-12T08:47:58.355141+00:00",
-                "state": "0"
-            }
-        },
-        {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
             "state": {
                 "attributes": {
                     "editable": false,
@@ -114,18 +68,18 @@
                     ]
                 },
                 "context": {
-                    "id": "4c746d26990542108ca247b02cea6099",
+                    "id": "9cf5e01bfdcd40b4a81d8184d3bae741",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "input_select.obs_scenes",
-                "last_changed": "2020-05-12T08:47:58.357321+00:00",
-                "last_updated": "2020-05-12T08:47:58.357321+00:00",
+                "last_changed": "2020-05-17T09:14:14.070184+00:00",
+                "last_updated": "2020-05-17T09:14:14.070184+00:00",
                 "state": "UNAVAILABLE"
             }
         },
         {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
             "state": {
                 "attributes": {
                     "editable": false,
@@ -133,113 +87,203 @@
                     "icon": "mdi:gate"
                 },
                 "context": {
-                    "id": "03380bdd88504d6eb93efbef41991e0d",
+                    "id": "ddca24d1eb094998b917f69b0514760e",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "input_boolean.garage_door",
-                "last_changed": "2020-05-12T08:47:58.358806+00:00",
-                "last_updated": "2020-05-12T08:47:58.358806+00:00",
+                "last_changed": "2020-05-17T09:14:14.071031+00:00",
+                "last_updated": "2020-05-17T09:14:14.071031+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
+            "state": {
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "daikin.fan_mode",
+                    "initial": 0,
+                    "maximum": 4,
+                    "minimum": 0,
+                    "step": 1
+                },
+                "context": {
+                    "id": "9e9157b4943649818acead1c20f97f0d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "counter.daikin_fan_mode",
+                "last_changed": "2020-05-17T09:14:14.071698+00:00",
+                "last_updated": "2020-05-17T09:14:14.071698+00:00",
+                "state": "0"
+            }
+        },
+        {
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Mohan Gupta",
+                    "gps_accuracy": 65,
+                    "id": "mohan_gupta",
+                    "latitude": -37.96777657693585,
+                    "longitude": 145.258664095309,
+                    "source": "device_tracker.aruna_s_ipad",
+                    "user_id": "e448bf45727e44f996c590d74b5c95e2"
+                },
+                "context": {
+                    "id": "341e45b4ad484226a91a74f488031ca6",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.mohan_gupta",
+                "last_changed": "2020-05-17T09:14:14.076963+00:00",
+                "last_updated": "2020-05-17T09:14:36.699361+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
+            "state": {
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "Rob Start of Day Count",
+                    "initial": 0,
+                    "maximum": 1000000,
+                    "minimum": -1,
+                    "step": 1
+                },
+                "context": {
+                    "id": "7cfdb21ff9b04be38b6482385ab71bd8",
+                    "parent_id": null,
+                    "user_id": "6e3286cb71ef492185630581bf6191f7"
+                },
+                "entity_id": "counter.start_of_day_count",
+                "last_changed": "2020-05-17T09:29:23.242180+00:00",
+                "last_updated": "2020-05-17T09:29:23.242180+00:00",
+                "state": "100"
+            }
+        },
+        {
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
                     "friendly_name": "Aruna",
                     "id": "aruna",
-                    "source": "person.aruna",
                     "user_id": "81725a2e476a44048b242c3e4cc1977f"
                 },
                 "context": {
-                    "id": "468b9a4d2dfd4c7fbc0efba3ad8de42e",
+                    "id": "65877f10cd524684a8822c0c1f947a5f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.aruna",
-                "last_changed": "2020-05-12T08:47:58.812796+00:00",
-                "last_updated": "2020-05-12T08:47:58.812796+00:00",
+                "last_changed": "2020-05-17T09:14:14.447473+00:00",
+                "last_updated": "2020-05-17T09:14:36.701482+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Aruna Gupta\u2019s iPhone",
                     "source_type": "gps"
                 },
                 "context": {
-                    "id": "82f1c7544d7948449adaaa4d14995915",
+                    "id": "d75c08c64a424eefb4d8cebb66910ad1",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.aruna_guptas_iphone",
-                "last_changed": "2020-05-12T08:48:04.732934+00:00",
-                "last_updated": "2020-05-12T08:48:04.732934+00:00",
+                "last_changed": "2020-05-17T09:14:25.646095+00:00",
+                "last_updated": "2020-05-17T09:14:25.646095+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
             "state": {
                 "attributes": {
-                    "altitude": 53.95855712890625,
+                    "altitude": 54.47451019287109,
                     "battery_level": 100,
                     "friendly_name": "Aruna's iPad",
                     "gps_accuracy": 65,
-                    "latitude": -37.96788347796719,
-                    "longitude": 145.2585306796604,
+                    "latitude": -37.96777657693585,
+                    "longitude": 145.258664095309,
                     "source_type": "gps",
                     "vertical_accuracy": 10
                 },
                 "context": {
-                    "id": "1889db8c23ce4bdebdb1d9d2fd621184",
+                    "id": "2f70432164044d2d9349c5c5fcf2c6de",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.aruna_s_ipad",
-                "last_changed": "2020-05-12T08:48:04.735128+00:00",
-                "last_updated": "2020-05-12T08:48:04.735128+00:00",
+                "last_changed": "2020-05-17T09:14:25.648384+00:00",
+                "last_updated": "2020-05-17T09:14:25.648384+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Aruna Gupta\u2019s iPhone",
                     "source_type": "gps"
                 },
                 "context": {
-                    "id": "b184cd6ebc6c455382d14981b0821fd4",
+                    "id": "537d002b7b2c4a878d55fcd93e89ba63",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.aruna_guptas_iphone_2",
-                "last_changed": "2020-05-12T08:48:04.736404+00:00",
-                "last_updated": "2020-05-12T08:48:04.736404+00:00",
+                "last_changed": "2020-05-17T09:14:25.652929+00:00",
+                "last_updated": "2020-05-17T09:14:25.652929+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2020-05-12T08:48:17.117409+00:00",
+            "last_seen": "2020-05-17T09:29:37.010171+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Aruna Gupta\u2019s iPhone",
                     "source_type": "gps"
                 },
                 "context": {
-                    "id": "733a9b8b25cb482a8ccb3501e53481d1",
+                    "id": "7a13cb2defd44a8dbd2cfd7c73d1b6af",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.aruna_guptas_iphone_3",
-                "last_changed": "2020-05-12T08:48:04.746876+00:00",
-                "last_updated": "2020-05-12T08:48:04.746876+00:00",
+                "last_changed": "2020-05-17T09:14:25.654629+00:00",
+                "last_updated": "2020-05-17T09:14:25.654629+00:00",
                 "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2020-05-17T08:49:32.448281+00:00",
+            "state": {
+                "attributes": {
+                    "editable": false,
+                    "friendly_name": "Start of Day VIX",
+                    "initial": null,
+                    "max": 1000000.0,
+                    "min": 0.0,
+                    "mode": "slider",
+                    "step": 1.0
+                },
+                "context": {
+                    "id": "1b4cd6490864445d8ad84b7a2c9a8f70",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_number.start_of_day_vix",
+                "last_changed": "2020-05-17T08:17:56.976038+00:00",
+                "last_updated": "2020-05-17T08:17:56.976038+00:00",
+                "state": "10.0"
             }
         }
     ],

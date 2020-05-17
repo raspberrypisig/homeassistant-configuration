@@ -23,21 +23,9 @@ def setup_platform(hass, config, add_entities, discovery_info=None):
     """Set up certificate expiry sensor."""
     name = config.get(CONF_NAME)
     add_entities([MohanSensor(name)], True)
-    
-
-'''
-async def async_setup_entry(hass, entry, async_add_entities):
-    """Add cert-expiry entry."""
-    name = entry.data[CONF_NAME]
-
-    async_add_entities(
-        [MohanSensor(name)], False,
-    )
-    return True
-'''
 
 class MohanSensor(Entity):
-    """Implementation of the certificate expiry sensor."""
+    """Implementation of the mohan sensor."""
 
     def __init__(self, name):
         """Initialize the sensor."""
@@ -54,12 +42,12 @@ class MohanSensor(Entity):
         """Return a unique id for the sensor."""
         return self._name
 
-        
+    '''
     @property
     def unit_of_measurement(self):
         """Return the unit this state is expressed in."""
         return TEMP_CELSIUS
-    
+    '''
 
     @property
     def state(self):
@@ -69,16 +57,15 @@ class MohanSensor(Entity):
     @property
     def icon(self):
         """Icon to use in the frontend, if any."""
-        return "mdi:certificate"
+        return "mdi:rocket"
 
-    '''
-    async def async_update(self):
-        """Fetch the certificate information."""
-        pass
-    '''
-'''
+
     @property
     def device_state_attributes(self):
         """Return additional sensor state attributes."""
-        return {"is_valid": self._valid, "error": str(self._error)}
-'''
+        return {
+            "property1": "value1", 
+            "property2": "value2"
+        }
+
+

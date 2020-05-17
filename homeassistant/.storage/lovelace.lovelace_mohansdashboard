@@ -304,10 +304,6 @@
                     "badges": [],
                     "cards": [
                         {
-                            "entity": "sensor.season",
-                            "type": "entity"
-                        },
-                        {
                             "card": {
                                 "content": "This card will show only when the current season is **AUTUMN**",
                                 "type": "markdown"

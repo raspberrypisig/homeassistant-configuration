@@ -148,6 +148,17 @@
                     ],
                     "path": "radar",
                     "title": "radar"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "sensor.mohan_sensor",
+                            "type": "entity"
+                        }
+                    ],
+                    "path": "mohansensor",
+                    "title": "MOHANSENSOR"
                 }
             ]
         }

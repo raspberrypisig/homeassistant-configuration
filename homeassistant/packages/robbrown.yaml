@@ -1,0 +1,21 @@
+#input_number:
+#  start_of_day_vix:
+#    name: Start of Day VIX
+#    min: 0
+#    max: 1000000
+
+counter:
+  start_of_day_count:
+    name: Rob Start of Day Count
+    minimum: 0
+    maximum: 1000000
+    
+sensor:
+  - platform: template
+    sensors:
+      important_sensor:
+        friendly_name: Rob Important Sensor
+        value_template: 500
+      relative_sensor:
+        friendly_name: Rob Relative Sensor
+        value_template: "{{ (states.sensor.important_sensor.state | int) - (states.counter.start_of_day_count.state |  int)  }}"

@@ -468,6 +468,13 @@
             "reason": "No longer maintained",
             "removal_type": "blacklist",
             "repository": "sinclairpaul/ha_purple_theme"
+        },
+        {
+            "acknowledged": false,
+            "link": null,
+            "reason": "Archived",
+            "removal_type": "blacklist",
+            "repository": "DSorlov/hasl-platform"
         }
     ],
     "key": "hacs.removed",

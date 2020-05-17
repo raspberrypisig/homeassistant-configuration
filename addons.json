@@ -826,7 +826,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "uuid": "5af6a8319a73412c989096c47a5207cf",
-      "access_token": "6cbfd5d6c699a3512c32bf309c6084fa792a8d9b669bc72d77167f4f84499e6ea3455f0166936e4342a828ae4b1be70137a400e2703f4a5b"
+      "access_token": "8e018f102e5d93b36c5a3ac35f2395f772b70e4b710b91716cbf2209e738236c52a09e9f5961c828f441fad13a17fb6d92c41b82659452ef"
     },
     "core_configurator": {
       "options": {},
@@ -837,7 +837,7 @@
       "protected": true,
       "ingress_panel": true,
       "ingress_token": "jYaywrKFMVszycER2LaMdv-6auHcn-cXiynz4Qj66kc",
-      "access_token": "ef43d48a67bd8e445082186b796b82f4fcd7e55a157f2c7c876ffaa54642c60d352a5ee9835e229385b9f83e981dab22870ccbf71ab9d08d"
+      "access_token": "958f33e6cedc6fb387ff3897dabf5fc8a748f3b04749d90044c2538b913597d54bd08e9cbaebbb8c708904877fc014655d83dd925af67abc"
     },
     "15ef4d2f_esphome": {
       "options": {
@@ -850,7 +850,7 @@
       "ingress_token": "ZErsY8Kvq7SR9--Xy5vqhWqE7Gz7UO2DC21c4n6G4Gc",
       "uuid": "eb373975c2a342eab9de7985d4c34596",
       "auto_update": false,
-      "access_token": "aea5a5bd9be4d368f5c2477df59a884262d3db50de5b5a008c65cbb0dd4796d626a5a5d9e0dcd5a0b701b87764960507b9ba6b07a4eb29be"
+      "access_token": "022fc92e9ac8951d59cc7db0d0581d3a905df2928c95df16827f6e56e2b451a2fb47f129e200bd87072021eb164aa1de2faee92515aa337e"
     },
     "a0d7b954_grafana": {
       "options": {},
@@ -939,7 +939,7 @@
       "auto_update": false,
       "ingress_panel": false,
       "protected": true,
-      "access_token": "1b38e0a4954c58c2da8ffaf9300fbfd07eb8166cb9fd9933d35e6ab02b0e6cf80a3e268e3505574f29275388db4b06d4de5ffb2aa1e62490"
+      "access_token": "f9f93696d7286ae1139be44a403d2b6ad35342a0ccca9562b5853aa71aecac7d98c5929d5ac528bb3ef533b6d227fad755f16464ae0a197d"
     },
     "a0d7b954_nodered": {
       "options": {
@@ -968,7 +968,7 @@
       "uuid": "5d281a2dea5a4ca98a986e7e2e3512df",
       "auto_update": false,
       "protected": true,
-      "access_token": "91a2585a90d9a4d63e8a08e7a2f5f76d4d8f3d650cdd8b163d560e902a15895d4e6c013734ef8f1d0b23606afb16792f1304727c404e8882"
+      "access_token": "1ce3f1d478b402b5b5e4d0089e96ced7031506271e42cdc58e18dd6037fb8fb513dfe2654f3f2fb9ac24565845b833d40a880df8f6b2cee7"
     },
     "a0d7b954_jupyterlablite": {
       "options": {},

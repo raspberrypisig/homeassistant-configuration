@@ -1,0 +1,6 @@
+sensor:
+  - platform: alpha_vantage
+    api_key: 1VHZJKCGFNX9RN6J
+    symbols:
+      - symbol: VIX
+        name: VIX

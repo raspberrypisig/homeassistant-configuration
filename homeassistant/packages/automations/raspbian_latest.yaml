@@ -10,7 +10,9 @@ automation:
         value_template: "{{ not is_state ('sensor.lastest_raspbian_release', 'Unavailable') }}"
       
     action:
-    - data:
-        message: Raspbian has been updated. See details [here](http://downloads.raspberrypi.org/raspbian/release_notes.txt)
+    - data_template:
+        message: >
+          Raspbian has been updated. See details [here](http://downloads.raspberrypi.org/raspbian/release_notes.txt).
+          State changed from {{ trigger.from_state.state }} to {{ trigger.to_state.state }}
         title: Raspbian Updated
       service: persistent_notification.create
