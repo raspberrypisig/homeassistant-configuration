@@ -24,9 +24,9 @@
                     "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-50",
+                "icon": "mdi:battery-60",
                 "name": "Battery Level",
-                "state": 50,
+                "state": 67,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -35,10 +35,10 @@
             "28d179582af95bd5137361bc6477610c53d40c91474626e97a8fb1126392b96a_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 50
+                    "Battery Level": 67
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-50",
+                "icon": "mdi:battery-60",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -129,7 +129,7 @@
                 "attributes": {},
                 "icon": "mdi:hiking",
                 "name": "Distance",
-                "state": 96,
+                "state": 942,
                 "type": "sensor",
                 "unique_id": "pedometer_distance",
                 "unit_of_measurement": "m",
@@ -162,7 +162,7 @@
                 "attributes": {},
                 "icon": "mdi:walk",
                 "name": "Steps",
-                "state": 161,
+                "state": 1489,
                 "type": "sensor",
                 "unique_id": "pedometer_steps",
                 "unit_of_measurement": "steps",
@@ -269,9 +269,9 @@
                     "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery",
+                "icon": "mdi:battery-90",
                 "name": "Battery Level",
-                "state": 100,
+                "state": 92,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -280,10 +280,10 @@
             "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 100
+                    "Battery Level": 92
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery",
+                "icon": "mdi:battery-90",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -330,21 +330,21 @@
                     "Inland Water": "N/A",
                     "Locality": "Endeavour Hills",
                     "Location": [
-                        -37.9679069,
-                        145.2585907
+                        -37.9676704,
+                        145.2588959
                     ],
-                    "Name": "9 Eildon Road",
+                    "Name": "16 Eildon Road",
                     "Ocean": "N/A",
                     "Postal Code": "3802",
                     "Sub Administrative Area": "Melbourne",
                     "Sub Locality": "N/A",
-                    "Sub Thoroughfare": "9",
+                    "Sub Thoroughfare": "16",
                     "Thoroughfare": "Eildon Road",
                     "Time Zone": "Australia/Melbourne"
                 },
                 "icon": "mdi:map",
                 "name": "Geocoded Location",
-                "state": "9 Eildon Road\nEndeavour Hills VIC 3802\nAustralia",
+                "state": "16 Eildon Road\nEndeavour Hills VIC 3802\nAustralia",
                 "type": "sensor",
                 "unique_id": "geocoded_location",
                 "webhook_id": "b268191379573f14d367c2e39f25076b5651f1c2739cefcc116cb62b559770e1"
